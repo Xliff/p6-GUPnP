@@ -13,6 +13,14 @@ class GUPnP::ServiceIntrospection {
 
   has GUPnPServiceIntrospection $!si;
 
+  my %attributes = (
+    scpd => G_TYPE_POINTER;
+  );
+
+  method attributes ($key) {
+    %attributes{$key}:exists ?? %attributes{$key} !! nextsame;
+  }
+
   submethod BUILD (:$introspection) {
     self.setGUPnPServiceIntrospection($introspection) if $introspection;
   }
