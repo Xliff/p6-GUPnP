@@ -31,3 +31,9 @@ sub gupnp_acl_is_allowed_finish (GUPnPAcl $self, GAsyncResult $res, CArray[Point
   is native(gupnp)
   is export
 { * }
+
+sub gupnp_acl_get_type ()
+  returns GType
+  is native (gupnp)
+  is export
+{ * }

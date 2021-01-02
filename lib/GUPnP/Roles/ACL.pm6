@@ -96,6 +96,12 @@ role GUPnP::Roles::ACL {
     $rv;
   }
 
+  method acl_get_type {
+    state ($n, $t);
+
+    unstable_get_type( ::?CLASS.^name, &gnupnp_acl_get_type, $n, $t );
+  }
+
 }
 
 our subset GUPnPAclAncestry is export of Mu
@@ -131,6 +137,10 @@ class GUPnP::ACL {
     my $o = self.bless( :$acl );
     $o.ref if $ref;
     $o;
+  }
+
+  method get_type (GUPnP::ACL:U: ) {
+    GUPnP::ACL.acl_get_type;
   }
 
 }
