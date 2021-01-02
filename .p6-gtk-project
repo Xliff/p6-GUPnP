@@ -1,0 +1,3 @@
+prefix=GUPnP
+modules=GUPnP::Raw::Types
+backups=backup,google-backup,azure-backup
