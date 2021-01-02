@@ -1,0 +1,36 @@
+{
+    "depends": [
+        "p6-GSSDP"
+    ],
+    "description": "Perl6 library bindings for Gnome's GUPnP library",
+    "version": "r0.1",
+    "meta-version": "0",
+    "license": "GPL-3.0",
+    "source-url": "https://github.com/Xliff/p6-GUPnP",
+    "provides": {
+      "GUPnP::Raw::Definitions"             :  "lib/GUPnP/Raw/Definitions.pm6"            ,
+      "GUPnP::Raw::ACL"                     :  "lib/GUPnP/Raw/ACL.pm6"                    ,
+      "GUPnP::Raw::ResourceFactory"         :  "lib/GUPnP/Raw/ResourceFactory.pm6"        ,
+      "GUPnP::Raw::ServiceIntrospection"    :  "lib/GUPnP/Raw/ServiceIntrospection.pm6"   ,
+      "GUPnP::Raw::ServiceProxy"            :  "lib/GUPnP/Raw/ServiceProxy.pm6"           ,
+      "GUPnP::Raw::Exports"                 :  "lib/GUPnP/Raw/Exports.pm6"                ,
+      "GUPnP::Raw::Types"                   :  "lib/GUPnP/Raw/Types.pm6"                  ,
+      "GUPnP::ResourceFactory"              :  "lib/GUPnP/ResourceFactory.pm6"            ,
+      "GUPnP::Roles::ACL"                   :  "lib/GUPnP/Roles/ACL.pm6"                  ,
+      "GUPnP::Roles::Signals::ServiceProxy" :  "lib/GUPnP/Roles/Signals/ServiceProxy.pm6" ,
+      "GUPnP::ServiceIntrospection"         :  "lib/GUPnP/ServiceIntrospection.pm6"       ,
+      "GUPnP::ServiceProxy"                 :  "lib/GUPnP/ServiceProxy.pm6"               
+    },
+    "name": "p6-VTE",
+    "perl": "6.c",
+    "test-depends": ["Test::META"],
+    "build-depends": [
+        "Text::Table::Simple",
+        "Dependency::Sort",
+        "Color",
+        "RandomColor",
+        "File::Find"
+    ],
+    "support": {"source": null},
+    "authors": ["clifton.wood@gmail.com"]
+}
