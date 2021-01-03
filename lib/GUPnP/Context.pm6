@@ -211,10 +211,6 @@ class GUPnP::Context is GSSDP::Client {
     gupnp_context_get_default_language($!pc);
   }
 
-  method get_port {
-    gupnp_context_get_port($!pc);
-  }
-
   method get_server (:$raw = False) {
     my $s = gupnp_context_get_server($!pc);
 

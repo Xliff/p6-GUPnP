@@ -39,11 +39,12 @@ sub gupnp_context_get_default_language (GUPnPContext $context)
   is export
 { * }
 
-sub gupnp_context_get_port (GUPnPContext $context)
-  returns guint
-  is native(gupnp)
-  is export
-{ * }
+# DEPRECATED - this definition will be removed in a future commit.
+# sub gupnp_context_get_port (GUPnPContext $context)
+#   returns guint
+#   is native(gupnp)
+#   is export
+# { * }
 
 sub gupnp_context_get_server (GUPnPContext $context)
   returns SoupServer
