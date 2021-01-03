@@ -177,7 +177,7 @@ class GUPnP::DeviceInfo {
         my $o = $gv.object;
         return Nil unless $o;
 
-        $o = cast(SOUPUri, $o);
+        $o = cast(SoupURI, $o);
         return $o if $raw;
 
         SOUP::URI.new($o, :!ref);
