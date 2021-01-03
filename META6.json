@@ -10,6 +10,7 @@
     "provides": {
       "GUPnP::Raw::Definitions"             :  "lib/GUPnP/Raw/Definitions.pm6"            ,
       "GUPnP::Raw::ACL"                     :  "lib/GUPnP/Raw/ACL.pm6"                    ,
+      "GUPnP::Raw::Context"                 :  "lib/GUPnP/Raw/Context.pm6"                ,
       "GUPnP::Raw::ResourceFactory"         :  "lib/GUPnP/Raw/ResourceFactory.pm6"        ,
       "GUPnP::Raw::ServiceIntrospection"    :  "lib/GUPnP/Raw/ServiceIntrospection.pm6"   ,
       "GUPnP::Raw::ServiceProxy"            :  "lib/GUPnP/Raw/ServiceProxy.pm6"           ,
@@ -19,7 +20,8 @@
       "GUPnP::Roles::ACL"                   :  "lib/GUPnP/Roles/ACL.pm6"                  ,
       "GUPnP::Roles::Signals::ServiceProxy" :  "lib/GUPnP/Roles/Signals/ServiceProxy.pm6" ,
       "GUPnP::ServiceIntrospection"         :  "lib/GUPnP/ServiceIntrospection.pm6"       ,
-      "GUPnP::ServiceProxy"                 :  "lib/GUPnP/ServiceProxy.pm6"               
+      "GUPnP::ServiceProxy"                 :  "lib/GUPnP/ServiceProxy.pm6"               ,
+      "GUPnP::Context"                      :  "lib/GUPnP/Context.pm6"                    
     },
     "name": "p6-VTE",
     "perl": "6.c",

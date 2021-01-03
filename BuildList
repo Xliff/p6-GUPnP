@@ -8,6 +8,7 @@ GIO::Raw::Subs
 GLib::GList
 GLib::Raw::Definitions
 GLib::Raw::Enums
+GLib::Raw::Exceptions
 GLib::Raw::Exports
 GLib::Raw::Object
 GLib::Raw::Struct_Subs
@@ -16,11 +17,14 @@ GLib::Raw::Subs
 GLib::Roles::ListData
 GLib::Roles::Object
 GLib::Roles::Pointers
+GSSDP::Client
 GSSDP::Raw::Definitions
 GSSDP::Raw::Exports
 NativeCall
+SOUP::Raw::Definitions
 GUPnP::Raw::Definitions
 GUPnP::Raw::ACL
+GUPnP::Raw::Context
 GUPnP::Raw::ResourceFactory
 GUPnP::Raw::ServiceIntrospection
 GUPnP::Raw::ServiceProxy
@@ -31,3 +35,4 @@ GUPnP::Roles::ACL
 GUPnP::Roles::Signals::ServiceProxy
 GUPnP::ServiceIntrospection
 GUPnP::ServiceProxy
+GUPnP::Context
