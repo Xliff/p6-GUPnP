@@ -12,6 +12,15 @@ unit package GUPnP::Raw::Definitions;
 # Forced compilation counter;
 constant forced = 0;
 
+class GUPnPAcl                  is repr<CPointer> is export does GLib::Roles::Pointers { }
+class GUPnPContext              is repr<CPointer> is export does GLib::Roles::Pointers { }
+class GUPnPDevice               is repr<CPointer> is export does GLib::Roles::Pointers { }
+class GUPnPDeviceInfo           is repr<CPointer> is export does GLib::Roles::Pointers { }
+class GUPnPResourceFactory      is repr<CPointer> is export does GLib::Roles::Pointers { }
+class GUPnPRootDevice           is repr<CPointer> is export does GLib::Roles::Pointers { }
+class GUPnPServiceIntrospection is repr<CPointer> is export does GLib::Roles::Pointers { }
+class GUPnPServiceProxy         is repr<CPointer> is export does GLib::Roles::Pointers { }
+
 constant gupnp is export = 'gupnp-1.2',v0;
 
 our enum GUPnPControlErrorEnum is export (
