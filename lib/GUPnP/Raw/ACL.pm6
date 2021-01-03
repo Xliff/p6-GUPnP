@@ -15,18 +15,39 @@ sub gupnp_acl_can_sync (GUPnPAcl $self)
   is export
 { * }
 
-sub gupnp_acl_is_allowed (GUPnPAcl $self, _GUPnPDevice $device, _GUPnPService $service, Str $path, Str $address, Str $agent)
+sub gupnp_acl_is_allowed (
+  GUPnPAcl     $self,
+  GUPnPDevice  $device,
+  GUPnPService $service,
+  Str          $path,
+  Str          $address,
+  Str          $agent
+)
   returns uint32
   is native(gupnp)
   is export
 { * }
 
-sub gupnp_acl_is_allowed_async (GUPnPAcl $self, _GUPnPDevice $device, _GUPnPService $service, Str $path, Str $address, Str $agent, GCancellable $cancellable, GAsyncReadyCallback $callback, gpointer $user_data)
+sub gupnp_acl_is_allowed_async (
+  GUPnPAcl     $self,
+  GUPnPDevice  $device,
+  GUPnPService $service,
+  Str          $path,
+  Str          $address,
+  Str          $agent,
+  GCancellable $cancellable,
+               &callback (GUPnPAcl, GAsyncResult, gpointer),
+  gpointer     $user_data
+)
   is native(gupnp)
   is export
 { * }
 
-sub gupnp_acl_is_allowed_finish (GUPnPAcl $self, GAsyncResult $res, CArray[Pointer[GError]] $error)
+sub gupnp_acl_is_allowed_finish (
+  GUPnPAcl                $self,
+  GAsyncResult            $res,
+  CArray[Pointer[GError]] $error
+)
   returns uint32
   is native(gupnp)
   is export
