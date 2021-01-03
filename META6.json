@@ -1,7 +1,7 @@
 {
     "depends": [
         "p6-GSSDP",
-	"LibXML"
+	      "LibXML"
     ],
     "description": "Perl6 library bindings for Gnome's GUPnP library",
     "version": "r0.1",
@@ -22,9 +22,12 @@
       "GUPnP::Roles::Signals::ServiceProxy" :  "lib/GUPnP/Roles/Signals/ServiceProxy.pm6" ,
       "GUPnP::ServiceIntrospection"         :  "lib/GUPnP/ServiceIntrospection.pm6"       ,
       "GUPnP::ServiceProxy"                 :  "lib/GUPnP/ServiceProxy.pm6"               ,
-      "GUPnP::Context"                      :  "lib/GUPnP/Context.pm6"                    
+      "GUPnP::Context"                      :  "lib/GUPnP/Context.pm6"
     },
-    "name": "p6-VTE",
+    "resources": [
+      "lib/libgnupnp-helper.so"
+    ],
+    "name": "p6-GUPnP",
     "perl": "6.c",
     "test-depends": ["Test::META"],
     "build-depends": [
