@@ -248,6 +248,12 @@ class GUPnP::ServiceProxy is GUPnP::ServiceInfo {
     so gupnp_service_proxy_get_subscribed($!sp);
   }
 
+  method get_type {
+    state ($n, $t);
+
+    unstable_get_type( self.^name, &gupnp_service_proxy_get_type, $n, $t );
+  }
+
   method remove_notify (
     Str()    $variable,
              &callback,

@@ -41,6 +41,12 @@ sub gupnp_service_proxy_action_get_result_list (
   is export
 { * }
 
+sub gupnp_service_proxy_get_type ()
+  returns GType
+  is native(gupnp-helper)
+  is export
+{ * }
+
 sub gupnp_service_proxy_action_get_type ()
   returns GType
   is native(gupnp)
