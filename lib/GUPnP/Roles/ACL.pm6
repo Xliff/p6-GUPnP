@@ -21,20 +21,20 @@ role GUPnP::Roles::ACL {
   }
 
   method gupnp_acl_is_allowed (
-    Str()        $path,
-    Str()        $address,
-    GUPnPDevice  :$device  = GUPnPDevice,
-    GUPnPService :$service = GUPnPService,
-    Str()        :$agent   = Str
+    Str()         $path,
+    Str()         $address,
+    GUPnPDevice() :$device  = GUPnPDevice,
+    GUPnPService  :$service = GUPnPService,
+    Str()         :$agent   = Str
   ) {
     samewith($device, $service, $path, $address, $agent);
   }
   method gupnp_acl_is_allowed (
-    GUPnPDevice  $device,
-    GUPnPService $service,
-    Str()        $path,
-    Str()        $address,
-    Str()        $agent
+    GUPnPDevice() $device,
+    GUPnPService  $service,
+    Str()         $path,
+    Str()         $address,
+    Str()         $agent
   ) {
     so gupnp_acl_is_allowed($!acl, $device, $service, $path, $address, $agent);
   }
@@ -47,7 +47,7 @@ role GUPnP::Roles::ACL {
     Str()          $address,
                    &callback,
     gpointer       $user_data    = gpointer
-    GUPnPDevice    :$device      = GUPnPDevice,
+    GUPnPDevice()  :$device      = GUPnPDevice,
     GUPnPService   :$service     = GUPnPService,
     Str()          :$agent       = Str,
     GCancellable() :$cancellable = GCancellable
@@ -64,7 +64,7 @@ role GUPnP::Roles::ACL {
     );
   }
   method gupnp_acl_is_allowed_async (
-    GUPnPDevice    $device,
+    GUPnPDevice()  $device,
     GUPnPService   $service,
     Str()          $path,
     Str()          $address,
