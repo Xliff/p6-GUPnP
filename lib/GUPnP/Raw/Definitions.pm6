@@ -19,8 +19,10 @@ class GUPnPDeviceInfo           is repr<CPointer> is export does GLib::Roles::Po
 class GUPnPResourceFactory      is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPRootDevice           is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPService              is repr<CPointer> is export does GLib::Roles::Pointers { }
+class GUPnPServiceInfo          is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPServiceIntrospection is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPServiceProxy         is repr<CPointer> is export does GLib::Roles::Pointers { }
+class GUPnPServiceProxyAction   is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPXMLDoc               is repr<CPointer> is export does GLib::Roles::Pointers { }
 
 constant gupnp is export = 'gupnp-1.2',v0;
