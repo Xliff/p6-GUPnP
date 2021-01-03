@@ -14,6 +14,7 @@ constant forced = 0;
 
 class GUPnPAcl                  is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPContext              is repr<CPointer> is export does GLib::Roles::Pointers { }
+class GUPnPContextManager       is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPControlPoint         is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPDevice               is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPDeviceProxy          is repr<CPointer> is export does GLib::Roles::Pointers { }
