@@ -21,6 +21,7 @@ class GUPnPRootDevice           is repr<CPointer> is export does GLib::Roles::Po
 class GUPnPService              is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPServiceIntrospection is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPServiceProxy         is repr<CPointer> is export does GLib::Roles::Pointers { }
+class GUPnPXMLDoc               is repr<CPointer> is export does GLib::Roles::Pointers { }
 
 constant gupnp is export = 'gupnp-1.2',v0;
 
