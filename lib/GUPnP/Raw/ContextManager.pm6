@@ -18,8 +18,8 @@ sub gupnp_context_manager_create (guint $port)
 
 sub gupnp_context_manager_create_full (
   GSSDPUDAVersion $uda_version,
-  GSocketFamily $family,
-  guint $port
+  GSocketFamily   $family,
+  guint           $port
 )
   returns GUPnPContextManager
   is native(gupnp)
@@ -52,7 +52,7 @@ sub gupnp_context_manager_get_white_list (GUPnPContextManager $manager)
 
 sub gupnp_context_manager_manage_control_point (
   GUPnPContextManager $manager,
-  GUPnPControlPoint $control_point
+  GUPnPControlPoint   $control_point
 )
   is native(gupnp)
   is export
@@ -60,7 +60,7 @@ sub gupnp_context_manager_manage_control_point (
 
 sub gupnp_context_manager_manage_root_device (
   GUPnPContextManager $manager,
-  GUPnPRootDevice $root_device
+  GUPnPRootDevice     $root_device
 )
   is native(gupnp)
   is export
