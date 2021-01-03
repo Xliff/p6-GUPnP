@@ -8,10 +8,9 @@ use GLib::Roles::Object;
 use GUPnP::Roles::Signals::ServiceProxy;
 
 our GUPnPServiceProxyAncestry is export of Mu
-  where GUPnPServiceProxy | GObject;
+  where GUPnPServiceProxy | GUPnPServiceInfo;
 
-class GUPnP::ServiceProxy {
-  also does GLib::Roles::Object;
+class GUPnP::ServiceProxy is GUPnP::ServiceInfo {
   also does GUPnP::Roles::Signals::ServiceProxy;
 
   has GUPnPSericeProxy $!sp;
@@ -25,7 +24,7 @@ class GUPnP::ServiceProxy {
 
     $!sp = do {
       when GUPnpServiceProxy {
-        $to-parent = cast(GObject, $_);
+        $to-parent = cast(GUPnPServiceInfo, $_);
         $_;
       }
 
@@ -34,7 +33,7 @@ class GUPnP::ServiceProxy {
         cast(GUPnpServiceProxy, $_);
       }
     }
-    self!setObject($to-parent);s
+    self!setGUPnPServiceInfo($to-parent);
   }
 
   method GUPnP::Raw::Definitions::GUPnpServiceProxy
