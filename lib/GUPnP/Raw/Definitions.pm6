@@ -18,6 +18,7 @@ class GUPnPDevice               is repr<CPointer> is export does GLib::Roles::Po
 class GUPnPDeviceInfo           is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPResourceFactory      is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPRootDevice           is repr<CPointer> is export does GLib::Roles::Pointers { }
+class GUPnPService              is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPServiceIntrospection is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPServiceProxy         is repr<CPointer> is export does GLib::Roles::Pointers { }
 
