@@ -3,6 +3,8 @@ use v6.c;
 use NativeCall;
 
 use GLib::Raw::Definitions;
+use GLib::Raw::Structs;
+use GIO::Raw::Definitions;
 use GUPnP::Raw::Definitions;
 
 unit package GUPnP::Raw::ACL;
@@ -55,6 +57,6 @@ sub gupnp_acl_is_allowed_finish (
 
 sub gupnp_acl_get_type ()
   returns GType
-  is native (gupnp)
+  is native(gupnp)
   is export
 { * }
