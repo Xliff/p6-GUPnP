@@ -1,7 +1,9 @@
 use v6.c;
 
 use Method::Also;
+use NativeCall;
 
+use SOUP::Raw::Definitions;
 use GUPnP::Raw::Types;
 use GUPnP::Raw::DeviceInfo;
 
@@ -40,7 +42,7 @@ class GUPnP::DeviceInfo {
     is also<GUPnPDeviceInfo>
   { $!di }
 
-  method new (GUPnPDeviceInfoAncestry $device-info, :$!ref = True) {
+  method new (GUPnPDeviceInfoAncestry $device-info, :$ref = True) {
     return Nil unless $device-info;
 
     my $o = self.bless( :$device-info );
@@ -88,7 +90,7 @@ class GUPnP::DeviceInfo {
   }
 
   # Type: GUPnPXMLDoc
-  method document is rw  {
+  method document (:$raw = False) is rw  {
     my $gv = GLib::Value.new( GUPnP::XMLDoc.get-type );
     Proxy.new(
       FETCH => sub ($) {
@@ -127,7 +129,7 @@ class GUPnP::DeviceInfo {
   }
 
   # Type: GUPnPResourceFactory
-  method resource-factory is rw  is also<resource_factory> {
+  method resource-factory (:$raw = False) is rw is also<resource_factory> {
     my $gv = GLib::Value.new( GUPnP::ResourceFactory.get-type );
     Proxy.new(
       FETCH => sub ($) {
@@ -166,7 +168,7 @@ class GUPnP::DeviceInfo {
   }
 
   # Type: SoupURI
-  method url-base is rw  is also<url_base> {
+  method url-base (:$raw = False) is rw is also<url_base> {
     my $gv = GLib::Value.new( SOUP::URI.get-type );
     Proxy.new(
       FETCH => sub ($) {
@@ -241,11 +243,11 @@ class GUPnP::DeviceInfo {
           $mime_type           is rw,
           $depth               is rw,
           $width               is rw,
-          $height              is rw
+          $height              is rw,
           :$all                =  False
   ) {
-    my ($rd, $rw, $rh) =
-      ($requested_width, $requested_width, $requested_height);Int()
+    my gint ($rd, $rw, $rh) =
+      ($requested_width, $requested_width, $requested_height);
     my $p = $prefer_bigger.so.Int;
     (my $mt = CArray[Str].new)[0] = Str;
     my gint ($d, $w, $h)          = 0 xx 3;
@@ -256,7 +258,7 @@ class GUPnP::DeviceInfo {
       $rd,
       $rw,
       $rh,
-      $pb,
+      $p,
       $mt,
       $d,
       $w,
