@@ -1,12 +1,14 @@
 use v6.c;
 
+use NativeCall;
+
 use GUPnP::Raw::Types;
 use GUPnP::Raw::RootDevice;
 
 use GUPnP::Device;
 
 our subset GUPnPRootDeviceAncestry is export of Mu
-  where GUPnPRootDevice | GUPnPRootDeviceAncestry;
+  where GUPnPRootDevice | GUPnPDeviceAncestry;
 
 class GUPnP::RootDevice is GUPnP::Device {
   has GUPnPRootDevice $!rd;
@@ -15,7 +17,7 @@ class GUPnP::RootDevice is GUPnP::Device {
     self.setGUPnPRootDevice($root) if $root;
   }
 
-  method setGUPnPRootDevice (GUPnPRootAncestry $_) {
+  method setGUPnPRootDevice (GUPnPRootDeviceAncestry $_) {
     my $to-parent;
 
     $!rd = do {
@@ -24,9 +26,9 @@ class GUPnP::RootDevice is GUPnP::Device {
         $_;
       }
 
-      defaualt {
+      default {
         $to-parent = $_;
-        cast(GUPnpRootDevice, $_);
+        cast(GUPnPRootDevice, $_);
       }
     }
     self.setGUPnPDevice($to-parent);
@@ -42,8 +44,7 @@ class GUPnP::RootDevice is GUPnP::Device {
     $o.ref if $ref;
     $o;
   }
-
-  method new (
+  multi method new (
     Str()                   $description_path,
     Str()                   $description_dir,
     CArray[Pointer[GError]] $error            = gerror
