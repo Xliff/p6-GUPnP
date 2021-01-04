@@ -52,3 +52,9 @@ class GUPnP::DeviceProxy is GUPnP::DeviceInfo {
   }
 
 }
+
+sub gupnp_device_proxy_get_type ()
+  returns GType
+  is export
+  is native(gupnp-helper)
+{ * }
