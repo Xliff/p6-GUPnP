@@ -1,19 +1,24 @@
 use v6.c;
 
+use NativeCall;
+
 use GUPnP::Raw::Types;
 use GUPnP::Raw::ServiceProxy;
+use GUPnP::Raw::ServiceProxyAction;
+
+use GUPnP::ServiceInfo;
 
 use GLib::Roles::Object;
 
 use GUPnP::Roles::Signals::ServiceProxy;
 
-our GUPnPServiceProxyAncestry is export of Mu
+our subset GUPnPServiceProxyAncestry is export of Mu
   where GUPnPServiceProxy | GUPnPServiceInfo;
 
 class GUPnP::ServiceProxy is GUPnP::ServiceInfo {
   also does GUPnP::Roles::Signals::ServiceProxy;
 
-  has GUPnPSericeProxy $!sp;
+  has GUPnPServiceProxy $!sp;
 
   submethod BUILD (:$proxy) {
     self.setGUPnPServiceProxy($proxy) if $proxy;
@@ -23,20 +28,20 @@ class GUPnP::ServiceProxy is GUPnP::ServiceInfo {
     my $to-parent;
 
     $!sp = do {
-      when GUPnpServiceProxy {
+      when GUPnPServiceProxy {
         $to-parent = cast(GUPnPServiceInfo, $_);
         $_;
       }
 
-      default{
+      default {
         $to-parent = $_;
-        cast(GUPnpServiceProxy, $_);
+        cast(GUPnPServiceProxy, $_);
       }
     }
-    self!setGUPnPServiceInfo($to-parent);
+    self.setGUPnPServiceInfo($to-parent);
   }
 
-  method GUPnP::Raw::Definitions::GUPnpServiceProxy
+  method GUPnP::Raw::Definitions::GUPnPServiceProxy
   { $!sp }
 
   method new (GUPnPServiceProxyAncestry $proxy, :$ref = True) {
@@ -67,7 +72,7 @@ class GUPnP::ServiceProxy is GUPnP::ServiceInfo {
   # Is originally:
   # GUPnPServiceProxy, gpointer, gpointer --> void
   method subscription-lost {
-    self.connect-subscription-lost($!w);
+    self.connect-subscription-lost($!sp);
   }
 
   method add_notify (
@@ -131,7 +136,7 @@ class GUPnP::ServiceProxy is GUPnP::ServiceInfo {
       $action,
       $in_names,
       $in_values,
-      $callback,
+      &callback,
       $user_data
     );
   }
@@ -271,7 +276,7 @@ class GUPnP::ServiceProxy is GUPnP::ServiceInfo {
              &callback,
     gpointer $user_data = gpointer
   ) {
-    so gupnp_service_proxy_remove_raw_notify($!sp, $callback, $user_data);
+    so gupnp_service_proxy_remove_raw_notify($!sp, &callback, $user_data);
   }
 
 
@@ -279,26 +284,26 @@ class GUPnP::ServiceProxy is GUPnP::ServiceInfo {
   { * }
 
   multi method send_action_list (
-    Str $action,
-        @names,
-        @values,
-        :$glist  = False,
-        :$raw    = False
+    Str() $action,
+          @names,
+          @values,
+          :$glist  = False,
+          :$raw    = False
   ) {
     samewith(
-      $actions,
+      $action,
       GLib::GList.new(@names),
       GLib::GList.new(@values),
       :$glist,
-      :$taw
+      :$raw
     );
   }
   multi method send_action_list (
-    Str()                   $action,
-    GList()                 $in_names,
-    GList()                 $in_values,
-                            :$glist     = False
-                            :$raw       = False
+    Str()   $action,
+    GList() $in_names,
+    GList() $in_values,
+            :$glist     = False,
+            :$raw       = False
   ) {
     my ($on, $ot) = GList.new xx 2;
     (my $ov       = CArray[Pointer[GList]].new)[0] = Pointer[GList];
@@ -314,7 +319,7 @@ class GUPnP::ServiceProxy is GUPnP::ServiceInfo {
     GList()                 $out_types,
     CArray[Pointer[GList]]  $out_values,
     CArray[Pointer[GError]] $error       = gerror,
-                            :$glist      = False
+                            :$glist      = False,
                             :$raw        = False
   ) {
     clear_error;
@@ -340,108 +345,9 @@ class GUPnP::ServiceProxy is GUPnP::ServiceInfo {
   }
 }
 
-my $serviceProxyReturnHash = True;
-class GUPnPServiceProxyAction is repr<CPointer> is export does GLib::Roles::Pointers {
-
-  method hashByDefault (GUPnPServiceProxyAction:U: $b) is rw {
-    $serviceProxyReturnHash
-  }
-
-  multi method new_from_list (Str() $action, @names, @values) {
-    my ($n, $v) = ( GLib::GList.new(@names), GLib::GList.new(@values) );
-    samewith($action, $n, $v);
-  }
-  multi method new_from_list (
-    Str()   $action,
-    GList() $in_names,
-    GList() $in_values
-  ) {
-    gupnp_service_proxy_action_new_from_list($action, $in_names, $in_values);
-  }
-
-  method get_type {
-    unstable_get_type(
-      self.^name,
-      &gupnp_service_proxy_action_get_type,
-      $n,
-      $t
-    );
-  }
-
-  method ref {
-    gupnp_service_proxy_action_ref(self);
-    self;
-  }
-
-  method unref {
-    gupnp_service_proxy_action_unref(self);
-  }
-
-  method get_result (:$list is copy, :$hash is copy) {
-    die 'Cannot use both :list and :hash with .get_result!'
-      unless $hash && $list ^^ $hash;
-    $hash //= $returnHash unless $list;
-
-    return self.get_result_hash if $hash;
-    self.get_result_list;
-  }
-
-  multi method get_result_hash (CArray[Pointer[GError]] $error = gerror) {
-    my $h  = GHashTable.new;
-    my $rv = callwith($h, $error);
-
-    $rv ?? $rv[0] !! Nil;
-  }
-  multi method get_result_hash (
-    GHashTable()            $out_hash,
-    CArray[Pointer[GError]] $error     = gerror,
-                            :$raw      = False
-  ) {
-      my $rv = so gupnp_service_proxy_action_get_result_hash(
-        self,
-        $out_hash,
-        $error
-      );
-
-      $out_hash ??
-        ( $raw ?? $out_hash !! GLib::HashTable.new($!pa, :!ref) )
-        !!
-        Nil;
-
-      $rv;
-    }
-  }
-
-  multi method get_result_list (:$glist, :$raw) {
-    my ($on, $ot) = GList.new xx 2;
-    (my $ov       = CArray[Pointer[GList]].new)[0] = Pointer[GList];
-    my $rv        = callwith($on, $ot, $ov, :$glist, :$raw);
-
-    $rv ?? $rv.skip(1) !! Nil;
-  }
-  multi method get_result_list (
-    GList()                 $out_names,
-    GList()                 $out_types,
-    CArray[Pointer[GList]]  $out_values,
-    CArray[Pointer[GError]] $error       = gerror
-                            :$glist      = False,
-                            :$raw        = False
-  ) {
-    clear_error;
-    my $rv = so gupnp_service_proxy_action_get_result_list(
-      $!sp,
-      $out_names,
-      $out_types,
-      $out_values,
-      $error
-    );
-    set_error($error);
-
-    handle-out-ntv($rv, $out_names, $out_types, $out_values, $glist, $raw);
-  }
-}
-
-sub handle-out-ntv ($rv, $on is copy, $ot is copy, $ov is copy, $glist, $raw) {
+sub handle-out-ntv ($rv, $on is copy, $ot is copy, $ov is copy, $glist, $raw)
+  is export
+{
   $ov = ppr($ov);
   return ($rv, $on, $ot, $ov) if $glist && $raw;
 
