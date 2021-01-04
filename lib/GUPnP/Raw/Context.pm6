@@ -1,6 +1,9 @@
 use v6.c;
 
+use NativeCall;
+
 use GLib::Raw::Definitions;
+use GLib::Raw::Structs;
 use SOUP::Raw::Definitions;
 use GUPnP::Raw::Definitions;
 
@@ -34,7 +37,7 @@ sub gupnp_context_get_acl (GUPnPContext $context)
 { * }
 
 sub gupnp_context_get_default_language (GUPnPContext $context)
-  returns char
+  returns Str
   is native(gupnp)
   is export
 { * }
@@ -96,7 +99,7 @@ sub gupnp_context_remove_server_handler (GUPnPContext $context, Str $path)
 { * }
 
 sub gupnp_context_rewrite_uri (GUPnPContext $context, Str $uri)
-  returns char
+  returns Str
   is native(gupnp)
   is export
 { * }
@@ -121,5 +124,11 @@ sub gupnp_context_set_subscription_timeout (
 
 sub gupnp_context_unhost_path (GUPnPContext $context, Str $server_path)
   is native(gupnp)
+  is export
+{ * }
+
+sub gupnp_context_get_type ()
+  returns GType
+  is native(gupnp-helper)
   is export
 { * }
