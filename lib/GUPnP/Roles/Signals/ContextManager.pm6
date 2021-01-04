@@ -16,7 +16,7 @@ role GUPnP::Roles::Signals::ContextManager {
     my $hid;
     %!signals-cm{$signal} //= do {
       my \𝒮 = Supplier.new;
-      $hid = g-connect-context-unavailable($obj, $signal,
+      $hid = g-connect-context($obj, $signal,
         -> $, $c, $ud {
           CATCH {
             default { 𝒮.note($_) }

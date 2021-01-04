@@ -33,7 +33,7 @@ role GUPnP::Roles::Signals::ControlPoint {
   }
 
   # GUPnPControlPoint, GUPnPServiceProxy, gpointer
-  method connect-service-proxy-unavailable (
+  method connect-service-proxy (
     $obj,
     $signal,
     &handler?
@@ -61,7 +61,7 @@ role GUPnP::Roles::Signals::ControlPoint {
 
 
 # GUPnPControlPoint, GUPnPDeviceProxy, gpointer
-sub g-connect-service-proxy(
+sub g-connect-device-proxy(
   Pointer $app,
   Str     $name,
           &handler (GUPnPControlPoint, GUPnPDeviceProxy, Pointer),
