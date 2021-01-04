@@ -3,6 +3,8 @@ use v6.c;
 use NativeCall;
 
 use GLib::Raw::Definitions;
+use GLib::Raw::Structs;
+use GIO::Raw::Definitions;
 use GUPnP::Raw::Definitions;
 
 unit package GUPnP::Raw::ServiceProxy;
@@ -84,8 +86,12 @@ sub gupnp_service_proxy_add_notify (
   GUPnPServiceProxy $proxy,
   Str               $variable,
   GType             $type,
-  &callback (GUPnpServiceProxy, GUPnpServiceProxyAction, gpointer),
-  gpointer $user_data
+                    &callback (
+                      GUPnPServiceProxy,
+                      GUPnPServiceProxyAction,
+                      gpointer
+                    ),
+  gpointer          $user_data
 )
   returns uint32
   is native(gupnp)
@@ -97,8 +103,8 @@ sub gupnp_service_proxy_add_notify_full (
   Str                $variable,
   GType              $type,
                      &callback (
-                       GUPnpServiceProxy,
-                       GUPnpServiceProxyAction,
+                       GUPnPServiceProxy,
+                       GUPnPServiceProxyAction,
                        gpointer
                      ),
   gpointer           $user_data,
@@ -112,8 +118,8 @@ sub gupnp_service_proxy_add_notify_full (
 sub gupnp_service_proxy_add_raw_notify (
   GUPnPServiceProxy $proxy,
                     &callback (
-                      GUPnpServiceProxy,
-                      GUPnpServiceProxyAction,
+                      GUPnPServiceProxy,
+                      GUPnPServiceProxyAction,
                       gpointer
                     ),
   gpointer          $user_data,
@@ -141,7 +147,7 @@ sub gupnp_service_proxy_begin_action_list (
   Str               $action,
   GList             $in_names,
   GList             $in_values,
-                    &callback (GUPnpServiceProxy, Str, GValue, gpointer),
+                    &callback (GUPnPServiceProxy, Str, GValue, gpointer),
   gpointer          $user_data
 )
   returns GUPnPServiceProxyAction
@@ -257,8 +263,8 @@ sub gupnp_service_proxy_remove_notify (
   GUPnPServiceProxy $proxy,
   Str               $variable,
                     &callback (
-                      GUPnpServiceProxy,
-                      GUPnpServiceProxyAction,
+                      GUPnPServiceProxy,
+                      GUPnPServiceProxyAction,
                       gpointer
                     ),
   gpointer          $user_data
@@ -271,8 +277,8 @@ sub gupnp_service_proxy_remove_notify (
 sub gupnp_service_proxy_remove_raw_notify (
   GUPnPServiceProxy $proxy,
                     &callback (
-                      GUPnpServiceProxy,
-                      GUPnpServiceProxyAction,
+                      GUPnPServiceProxy,
+                      GUPnPServiceProxyAction,
                       gpointer
                     ),
   gpointer          $user_data
@@ -321,7 +327,7 @@ sub gupnp_service_proxy_send_action_list (
 
 sub gupnp_service_proxy_set_subscribed (
   GUPnPServiceProxy $proxy,
-  gboolean $subscribed
+  gboolean          $subscribed
 )
   is native(gupnp)
   is export

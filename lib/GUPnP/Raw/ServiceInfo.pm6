@@ -1,9 +1,11 @@
 use v6.c;
 
-use NatoveCall;
+use NativeCall;
 
 use GLib::Raw::Definitions;
-use SOUP::Raw::Structs;
+use GLib::Raw::Structs;
+use GIO::Raw::Definitions;
+use SOUP::Raw::Definitions;
 use GUPnP::Raw::Definitions;
 
 unit package GUPnP::Raw::ServiceInfo;
@@ -96,7 +98,7 @@ sub gupnp_service_info_get_url_base (GUPnPServiceInfo $info)
 sub gupnp_service_info_introspect_async (
   GUPnPServiceInfo $info,
   GCancellable     $cancellable,
-                   &callback (GuPnPServiceInfo, GAsyncResult, gpointer),
+                   &callback (GUPnPServiceInfo, GAsyncResult, gpointer),
   gpointer         $user_data
 )
   is native(gupnp)

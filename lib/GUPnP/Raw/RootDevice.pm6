@@ -3,6 +3,7 @@ use v6.c;
 use NativeCall;
 
 use GLib::Raw::Definitions;
+use GLib::Raw::Structs;
 use GSSDP::Raw::Definitions;
 use GUPnP::Raw::Definitions;
 

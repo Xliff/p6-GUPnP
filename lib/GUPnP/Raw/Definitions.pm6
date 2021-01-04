@@ -4,13 +4,14 @@ use NativeCall;
 
 use GLib::Raw::Definitions;
 use GLib::Raw::Structs;
+use GLib::Raw::Subs;
 
 use GLib::Roles::Pointers;
 
 unit package GUPnP::Raw::Definitions;
 
 # Forced compilation counter;
-constant forced = 0;
+constant forced = 1;
 
 class GUPnPAcl                  is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPContext              is repr<CPointer> is export does GLib::Roles::Pointers { }

@@ -3,7 +3,8 @@ use v6.c;
 use NativeCall;
 
 use GLib::Raw::Definitions;
-use GSSDP::Raw::Defitions;
+use GIO::Raw::Enums;
+use GSSDP::Raw::Definitions;
 use GUPnP::Raw::Definitions;
 
 unit package GUPnP::Raw::ContextManager;

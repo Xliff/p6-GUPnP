@@ -1,6 +1,7 @@
 use v6.c;
 
 use GLib::Raw::Definitions;
+use GLib::Raw::Structs;
 use GUPnP::Raw::Definitions;
 
 unit package GUPnP::Raw::ControlPoint;
@@ -38,7 +39,7 @@ sub gupnp_control_point_new (GUPnPContext $context, Str $target)
 { * }
 
 sub gupnp_control_point_new_full (
-  GUPnPContext         $context, 
+  GUPnPContext         $context,
   GUPnPResourceFactory $factory,
   Str                  $target
 )

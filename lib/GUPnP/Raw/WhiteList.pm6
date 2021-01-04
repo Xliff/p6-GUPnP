@@ -1,6 +1,9 @@
 use v6.c;
 
+use NativeCall;
+
 use GLib::Raw::Definitions;
+use GLib::Raw::Structs;
 use GUPnP::Raw::Definitions;
 
 unit package GUPnP::Raw::WhiteList;
@@ -13,7 +16,10 @@ sub gupnp_white_list_add_entry (GUPnPWhiteList $white_list, Str $entry)
   is export
 { * }
 
-sub gupnp_white_list_add_entryv (GUPnPWhiteList $white_list, Str $entries)
+sub gupnp_white_list_add_entryv (
+  GUPnPWhiteList $white_list,
+  CArray[Str]    $entries
+)
   is native(gupnp)
   is export
 { * }
