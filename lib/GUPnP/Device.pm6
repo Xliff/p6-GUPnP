@@ -6,35 +6,38 @@ use GUPnP::Raw::Types;
 
 use GUPnP::DeviceInfo;
 
+our subset GUPnPDeviceAncestry is export of Mu
+  where GUPnPDevice | GUPnPDeviceInfoAncestry;
+
 class GUPnP::Device is GUPnP::DeviceInfo {
   has GUPnPDevice $!d;
 
   submethod BUILD (:$device) {
-    self.setGPnPDevice($device) if $device;
+    self.setGUPnPDevice($device) if $device;
   }
 
-  method setGPnPDevice (GPnPDeviceAncestry $_) {
+  method setGUPnPDevice (GUPnPDeviceAncestry $_) {
     my $to-parent;
 
     $!d = do {
-      when GPnPDevice {
-        $to-parent = cast(GPnPDeviceInfo, $_);
+      when GUPnPDevice {
+        $to-parent = cast(GUPnPDeviceInfo, $_);
         $_;
       }
 
       default {
         $to-parent = $_;
-        cast(GPnPDevice, $_);
+        cast(GUPnPDevice, $_);
       }
     }
-    self.setGPnPDeviceInfo($to-parent);
+    self.setGUPnPDeviceInfo($to-parent);
   }
 
-  method GUPnP::Raw::Definitions::GPnPDevice
-    is also<GPnPDevice>
+  method GUPnP::Raw::Definitions::GUPnPDevice
+    is also<GUPnPDevice>
   { $!d }
 
-  method new (GPnPDeviceAncestry $device, :$ref = True) {
+  method new (GUPnPDeviceAncestry $device, :$ref = True) {
     return Nil unless $device;
 
     my $o = self.bless( :$device );
