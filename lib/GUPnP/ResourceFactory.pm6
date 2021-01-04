@@ -47,7 +47,7 @@ class GUPnP::ResourceFactory {
     $o.ref if $ref;
     $o;
   }
-  method new {
+  multi method new {
     my $factory = gupnp_resource_factory_new();
 
     $factory ?? self.bless( :$factory ) !! Nil;
