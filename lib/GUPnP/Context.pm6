@@ -1,7 +1,10 @@
 use v6.c;
 
+use NativeCall;
+
 use GUPnP::Raw::Types;
 use GUPnP::Raw::Context;
+use SOUP::Raw::Definitions;
 
 use GSSDP::Client;
 
@@ -9,13 +12,13 @@ our subset GUPnPContextAncestry is export of Mu
   where GUPnPContext | GSSDPClientAncestry;
 
 class GUPnP::Context is GSSDP::Client {
-  has GUPnPContext $!pc;
+  has GUPnPContext $!pc is implementor;
 
   submethod BUILD (:$context) {
     self.setGUPnPContext($context) if $context;
   }
 
-  method setGUPnpContext(GUPnPContextAncestry $_) {
+  method setGUPnPContext(GUPnPContextAncestry $_) {
     my $to-parent;
     $!pc = do {
       when GUPnPContext {
@@ -25,7 +28,7 @@ class GUPnP::Context is GSSDP::Client {
 
       default {
         $to-parent = $_;
-        cast(GUPnpContext, $_);
+        cast(GUPnPContext, $_);
       }
     }
     self.setGSSDPClient($to-parent);
@@ -59,6 +62,13 @@ class GUPnP::Context is GSSDP::Client {
     my       $context = gupnp_context_new($iface, $p, $error);
 
     $context ?? self.bless( :$context ) !! Nil;
+  }
+  multi method new (
+    GCancellable()          $cancellable      =  GCancellable,
+    CArray[Pointer[GError]] $error            =  gerror,
+                            :init(:$initable) is required
+  ) {
+    self.construct('context', $cancellable, $error);
   }
 
 
@@ -118,7 +128,7 @@ class GUPnP::Context is GSSDP::Client {
   }
 
   # Type: SoupServer
-  method server is rw  {
+  method server (:$raw = False) is rw  {
     my $gv = GLib::Value.new( SOUP::Server.get-type );
     Proxy.new(
       FETCH => sub ($) {
@@ -218,6 +228,12 @@ class GUPnP::Context is GSSDP::Client {
       ( $raw ?? $s !! SOUP::Server.new($s) )
       !!
       Nil;
+  }
+
+  method get_type {
+    state ($n, $t);
+
+    unstable_get_type( self.^name, &gupnp_context_get_type, $n, $t );
   }
 
   method get_session (:$raw = False) {
