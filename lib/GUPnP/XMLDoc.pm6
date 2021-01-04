@@ -1,7 +1,10 @@
 use v6.c;
 
+use NativeCall;
+
 use GUPnP::Raw::Types;
 use GUPnP::Raw::XMLDoc;
+use LibXML::Raw;
 
 use LibXML::Document;
 
@@ -26,7 +29,7 @@ class GUPnP::XMLDoc {
     my $to-parent;
 
     $!xd = do {
-      where GUPnpXMLDoc {
+      when GUPnPXMLDoc {
         $to-parent = cast(GObject, $_);
         $_;
       }
@@ -41,7 +44,7 @@ class GUPnP::XMLDoc {
 
   method GUPnP::Raw::Definitions::XMLDoc
   { $!xd }
-  
+
   multi method new (GUPnPXMLDocAncestry $xml-doc, :$ref = True) {
     return Nil unless $xml-doc;
 
@@ -61,7 +64,7 @@ class GUPnP::XMLDoc {
     Str()                   $path,
     CArray[Pointer[GError]] $error = gerror
   ) {
-    gupnp_xml_doc_new_from_path($path, $error);
+    my $xml-doc = gupnp_xml_doc_new_from_path($path, $error);
 
     $xml-doc ?? self.bless( :$xml-doc ) !! Nil;
   }
