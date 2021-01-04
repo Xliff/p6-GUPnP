@@ -8,6 +8,9 @@ use GLib::GList;
 use GLib::Roles::ListData;
 use GLib::Roles::Object;
 
+our subset GUPnPServiceIntrospectionAncestry is export of Mu
+  where GUPnPServiceIntrospection | GObject;
+
 class GUPnP::ServiceIntrospection {
   also does GLib::Roles::Object;
 
@@ -69,7 +72,7 @@ class GUPnP::ServiceIntrospection {
     $rl = GLib::GList.new($rl) but GLib::Roles::ListData[Str];
     return $rl if $glist;
 
-    $l.Array;
+    $rl.Array;
   }
 
   method list_actions (:$glist = False, :$raw = False) {
@@ -82,7 +85,7 @@ class GUPnP::ServiceIntrospection {
       but GLib::Roles::ListData[GUPnPServiceActionInfo];
     return $rl if $glist;
 
-    $l.Array;
+    $rl.Array;
   }
 
   method list_state_variable_names (:$glist = False, :$raw = False) {
@@ -94,7 +97,7 @@ class GUPnP::ServiceIntrospection {
     $rl = GLib::GList.new($rl) but GLib::Roles::ListData[Str];
     return $rl if $glist;
 
-    $l.Array;
+    $rl.Array;
   }
 
   method list_state_variables (:$glist = False, :$raw = False) {
@@ -107,7 +110,7 @@ class GUPnP::ServiceIntrospection {
       but GLib::Roles::ListData[GUPnPServiceStateVariableInfo];
     return $rl if $glist;
 
-    $l.Array;
+    $rl.Array;
   }
 
 }

@@ -1,14 +1,49 @@
 use v6.c;
 
+use NativeCall;
+
 use GUPnP::Raw::Types;
+use SOUP::Raw::Definitions;
 use GUPnP::Raw::ServiceInfo;
 
 use GLib::Roles::Object;
 
+our subset GUPnPServiceInfoAncestry is export of Mu
+  where GUPnPServiceInfo | GObject;
+
 class GUPnP::ServiceInfo {
-  also does GLib:Roles::Object;
+  also does GLib::Roles::Object;
 
   has GUPnPServiceInfo $!si;
+
+  submethod BUILD (:$service-info) {
+    self.setGUPnPServiceInfo($service-info) if $service-info;
+  }
+
+  method setGUPnPServiceInfo (GUPnPServiceInfoAncestry $_) {
+    my $to-parent;
+
+    $!si = do {
+      when GUPnPServiceInfo {
+        $to-parent = cast(GObject, $_);
+        $_;
+      }
+
+      default {
+        $to-parent = $_;
+        cast(GUPnPServiceInfo, $_);
+      }
+    }
+    self!setObject($to-parent);
+  }
+
+  method new (GUPnPServiceInfoAncestry $service-info, :$ref = True) {
+    return Nil unless $service-info;
+
+    my $o = self.bless( :$service-info );
+    $o.ref if $ref;
+    $o;
+  }
 
   # Type: GUPnPContext
   method context (:$raw = False) is rw  {
@@ -188,7 +223,7 @@ class GUPnP::ServiceInfo {
 
   multi method introspect_async (
                    &callback,
-    gpointer       $user_data    = gpointer
+    gpointer       $user_data    = gpointer,
     GCancellable() :$cancellable = GCancellable
   ) {
     samewith(
