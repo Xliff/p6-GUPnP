@@ -1,5 +1,7 @@
 use v6.c;
 
+use NativeCall;
+
 use GUPnP::Raw::Types;
 use GUPnP::Raw::ACL;
 
@@ -20,21 +22,21 @@ role GUPnP::Roles::ACL {
     so gupnp_acl_can_sync($!acl);
   }
 
-  method gupnp_acl_is_allowed (
-    Str()         $path,
-    Str()         $address,
-    GUPnPDevice() :$device  = GUPnPDevice,
-    GUPnPService  :$service = GUPnPService,
-    Str()         :$agent   = Str
+  multi method gupnp_acl_is_allowed (
+    Str()          $path,
+    Str()          $address,
+    GUPnPDevice()  :$device  = GUPnPDevice,
+    GUPnPService() :$service = GUPnPService,
+    Str()          :$agent   = Str
   ) {
     samewith($device, $service, $path, $address, $agent);
   }
-  method gupnp_acl_is_allowed (
-    GUPnPDevice() $device,
-    GUPnPService  $service,
-    Str()         $path,
-    Str()         $address,
-    Str()         $agent
+  multi method gupnp_acl_is_allowed (
+    GUPnPDevice()  $device,
+    GUPnPService() $service,
+    Str()          $path,
+    Str()          $address,
+    Str()          $agent
   ) {
     so gupnp_acl_is_allowed($!acl, $device, $service, $path, $address, $agent);
   }
@@ -42,13 +44,13 @@ role GUPnP::Roles::ACL {
   proto method gupnp_acl_is_allowed_async (|)
   { * }
 
-  method gupnp_acl_is_allowed_async (
+  multi method gupnp_acl_is_allowed_async (
     Str()          $path,
     Str()          $address,
                    &callback,
-    gpointer       $user_data    = gpointer
+    gpointer       $user_data    = gpointer,
     GUPnPDevice()  :$device      = GUPnPDevice,
-    GUPnPService   :$service     = GUPnPService,
+    GUPnPService() :$service     = GUPnPService,
     Str()          :$agent       = Str,
     GCancellable() :$cancellable = GCancellable
   ) {
@@ -63,9 +65,9 @@ role GUPnP::Roles::ACL {
       $user_data
     );
   }
-  method gupnp_acl_is_allowed_async (
+  multi method gupnp_acl_is_allowed_async (
     GUPnPDevice()  $device,
-    GUPnPService   $service,
+    GUPnPService() $service,
     Str()          $path,
     Str()          $address,
     Str()          $agent,
@@ -87,7 +89,7 @@ role GUPnP::Roles::ACL {
   }
 
   method gupnp_acl_is_allowed_finish (
-    GAsyncResult()         $res,
+    GAsyncResult()          $res,
     CArray[Pointer[GError]] $error = gerror
   ) {
     clear_error;
@@ -99,13 +101,15 @@ role GUPnP::Roles::ACL {
   method acl_get_type {
     state ($n, $t);
 
-    unstable_get_type( ::?CLASS.^name, &gnupnp_acl_get_type, $n, $t );
+    unstable_get_type( ::?CLASS.^name, &gupnp_acl_get_type, $n, $t );
   }
 
 }
 
-our subset GUPnPAclAncestry is export of Mu
-  where GUPnPACLAncestry | GObject;
+use GLib::Roles::Object;
+
+our subset GUPnPACLAncestry is export of Mu
+  where GUPnPAcl | GObject;
 
 class GUPnP::ACL {
   also does GLib::Roles::Object;
@@ -115,7 +119,7 @@ class GUPnP::ACL {
     self.setGUPnPAcl($acl) if $acl;
   }
 
-  method setGUPnPAcl (GUPnPAclAncestry $_) {
+  method setGUPnPAcl (GUPnPACLAncestry $_) {
     my $to-parent;
     $!acl = do {
       when GUPnPAcl {
@@ -131,7 +135,7 @@ class GUPnP::ACL {
     self!setObject($to-parent);
   }
 
-  multi method new (GUPnPAclAncestry $acl, :$ref = True) {
+  multi method new (GUPnPACLAncestry $acl, :$ref = True) {
     return Nil unless $acl;
 
     my $o = self.bless( :$acl );
