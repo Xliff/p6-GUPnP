@@ -13,7 +13,7 @@ our subset GUPnPContextManagerAncestry is export of Mu
 class GUPnP::ContextManager {
   also does GLib::Roles::Object;
 
-  has GUPnPContexManager $!cm;
+  has GUPnPContextManager $!cm;
 
   submethod BUILD (:$context-manager) {
     self.setGUPnPContextManager($context-manager) if $context-manager;
