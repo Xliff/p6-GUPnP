@@ -1,5 +1,7 @@
 use v6.c;
 
+use NativeCall;
+
 use GUPnP::Raw::Types;
 use GUPnP::Raw::WhiteList;
 
@@ -17,7 +19,7 @@ class GUPnP::WhiteList {
     self.setGUPnPWhiteList($whitelist) if $whitelist;
   }
 
-  method setGUPnPWhiteList (GUPnPWhitelistAncestry $_) {
+  method setGUPnPWhiteList (GUPnPWhiteListAncestry $_) {
     my $to-parent;
 
     $!wl = do {
