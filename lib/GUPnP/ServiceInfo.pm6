@@ -1,5 +1,7 @@
 use v6.c;
 
+use Method::Also;
+
 use NativeCall;
 
 use GUPnP::Raw::Types;
@@ -36,6 +38,10 @@ class GUPnP::ServiceInfo {
     }
     self!setObject($to-parent);
   }
+
+  method GUPnP::Raw::Definitions::GUPnPServiceInfo
+    is also<GUPnPServiceInfo>
+  { $!si }
 
   method new (GUPnPServiceInfoAncestry $service-info, :$ref = True) {
     return Nil unless $service-info;
@@ -85,7 +91,7 @@ class GUPnP::ServiceInfo {
   }
 
   # Type: gchar
-  method service-type is rw  {
+  method service-type is rw  is also<service_type> {
     my $gv = GLib::Value.new( G_TYPE_STRING );
     Proxy.new(
       FETCH => sub ($) {
@@ -117,7 +123,7 @@ class GUPnP::ServiceInfo {
   }
 
   # Type: SoupURI
-  method url-base (:$raw = False) is rw  {
+  method url-base (:$raw = False) is rw  is also<url_base> {
     my $gv = GLib::Value.new( SOUP::URI.get-type );
     Proxy.new(
       FETCH => sub ($) {
@@ -139,7 +145,7 @@ class GUPnP::ServiceInfo {
     );
   }
 
-  method get_context (:$raw = False) {
+  method get_context (:$raw = False) is also<get-context> {
     my $c = gupnp_service_info_get_context($!si);
 
     $c ??
@@ -148,26 +154,29 @@ class GUPnP::ServiceInfo {
       Nil;
   }
 
-  method get_control_url {
+  method get_control_url is also<get-control-url> {
     gupnp_service_info_get_control_url($!si);
   }
 
-  method get_event_subscription_url {
+  method get_event_subscription_url is also<get-event-subscription-url> {
     gupnp_service_info_get_event_subscription_url($!si);
   }
 
-  method get_id {
+  method get_id is also<get-id> {
     gupnp_service_info_get_id($!si);
   }
 
   method get_introspection_async (
              &callback,
     gpointer $user_data = gpointer
-  ) {
+  )
+    is also<get-introspection-async>
+  {
     gupnp_service_info_get_introspection_async($!si, &callback, $user_data);
   }
 
   proto method get_introspection_async_full (|)
+      is also<get-introspection-async-full>
   { * }
 
   multi method get_introspection_async_full (
@@ -190,23 +199,23 @@ class GUPnP::ServiceInfo {
     );
   }
 
-  method get_location {
+  method get_location is also<get-location> {
     gupnp_service_info_get_location($!si);
   }
 
-  method get_scpd_url {
+  method get_scpd_url is also<get-scpd-url> {
     gupnp_service_info_get_scpd_url($!si);
   }
 
-  method get_service_type {
+  method get_service_type is also<get-service-type> {
     gupnp_service_info_get_service_type($!si);
   }
 
-  method get_udn {
+  method get_udn is also<get-udn> {
     gupnp_service_info_get_udn($!si);
   }
 
-  method get_url_base (:$raw = False) {
+  method get_url_base (:$raw = False) is also<get-url-base> {
     my $su = gupnp_service_info_get_url_base($!si);
 
     $su ??
@@ -219,6 +228,7 @@ class GUPnP::ServiceInfo {
   }
 
   proto method introspect_async (|)
+      is also<introspect-async>
   { * }
 
   multi method introspect_async (
@@ -249,7 +259,7 @@ class GUPnP::ServiceInfo {
     GAsyncResult()          $res,
     CArray[Pointer[GError]] $error = gerror,
                             :$raw  = False
-  ) {
+  ) is also<introspect-finish> {
     clear_error;
     my $si = gupnp_service_info_introspect_finish($!si, $res, $error);
     set_error($error);
