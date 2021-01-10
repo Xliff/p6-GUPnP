@@ -1,5 +1,7 @@
 use v6.c;
 
+use Method::Also;
+
 use NativeCall;
 
 use GUPnP::Raw::Types;
@@ -42,6 +44,7 @@ class GUPnP::ServiceProxy is GUPnP::ServiceInfo {
   }
 
   method GUPnP::Raw::Definitions::GUPnPServiceProxy
+    is also<GUPnPServiceProxy>
   { $!sp }
 
   method new (GUPnPServiceProxyAncestry $proxy, :$ref = True) {
@@ -71,7 +74,7 @@ class GUPnP::ServiceProxy is GUPnP::ServiceInfo {
 
   # Is originally:
   # GUPnPServiceProxy, gpointer, gpointer --> void
-  method subscription-lost {
+  method subscription-lost is also<subscription_lost> {
     self.connect-subscription-lost($!sp);
   }
 
@@ -80,7 +83,9 @@ class GUPnP::ServiceProxy is GUPnP::ServiceInfo {
     GType    $type,
              &callback,
     gpointer $user_data = gpointer
-  ) {
+  )
+    is also<add-notify>
+  {
     my GType $t = $type;
 
     so gupnp_service_proxy_add_notify(
@@ -98,7 +103,9 @@ class GUPnP::ServiceProxy is GUPnP::ServiceInfo {
              &callback,
     gpointer $user_data = gpointer,
              &notify    = Callable
-  ) {
+  )
+    is also<add-notify-full>
+  {
     my GType $t = $type;
 
     so gupnp_service_proxy_add_notify_full(
@@ -115,7 +122,9 @@ class GUPnP::ServiceProxy is GUPnP::ServiceInfo {
              &callback,
     gpointer $user_data,
              &notify
-  ) {
+  )
+    is also<add-raw-notify>
+  {
     so gupnp_service_proxy_add_raw_notify(
       $!sp,
       &callback,
@@ -130,7 +139,9 @@ class GUPnP::ServiceProxy is GUPnP::ServiceInfo {
     GList()  $in_values,
              &callback,
     gpointer $user_data = gpointer
-  ) {
+  )
+    is also<begin-action-list>
+  {
     gupnp_service_proxy_begin_action_list(
       $!sp,
       $action,
@@ -145,7 +156,9 @@ class GUPnP::ServiceProxy is GUPnP::ServiceInfo {
     GUPnPServiceProxyAction() $action,
     GCancellable()            $cancellable = GCancellable,
     CArray[Pointer[GError]]   $error       = gerror
-  ) {
+  )
+    is also<call-action>
+  {
     clear_error;
     my $spa = gupnp_service_proxy_call_action(
       $!sp,
@@ -158,6 +171,7 @@ class GUPnP::ServiceProxy is GUPnP::ServiceInfo {
   }
 
   proto method call_action_async (|)
+      is also<call-action-async>
   { * }
 
   multi method call_action_async (
@@ -186,14 +200,18 @@ class GUPnP::ServiceProxy is GUPnP::ServiceInfo {
   method call_action_finish (
     GAsyncResult()          $result,
     CArray[Pointer[GError]] $error   = gerror
-  ) {
+  )
+    is also<call-action-finish>
+  {
     clear_error;
     my $spa = gupnp_service_proxy_call_action_finish($!sp, $result, $error);
     set_error($error);
     $spa;
   }
 
-  method cancel_action (GUPnPServiceProxyAction $action) {
+  method cancel_action (GUPnPServiceProxyAction $action)
+    is also<cancel-action>
+  {
     gupnp_service_proxy_cancel_action($!sp, $action);
   }
 
@@ -201,7 +219,9 @@ class GUPnP::ServiceProxy is GUPnP::ServiceInfo {
     GUPnPServiceProxyAction $action,
     GHashTable()            $hash,
     CArray[Pointer[GError]] $error = gerror
-  ) {
+  )
+    is also<end-action-hash>
+  {
     clear_error;
     my $rv = so gupnp_service_proxy_end_action_hash(
       $!sp,
@@ -214,6 +234,7 @@ class GUPnP::ServiceProxy is GUPnP::ServiceInfo {
   }
 
   proto method end_action_list (|)
+      is also<end-action-list>
   { * }
 
   multi method end_action_list (
@@ -249,11 +270,11 @@ class GUPnP::ServiceProxy is GUPnP::ServiceInfo {
     handle-out-ntv($rv, $out_names, $out_types, $out_values, $glist, $raw);
   }
 
-  method get_subscribed {
+  method get_subscribed is also<get-subscribed> {
     so gupnp_service_proxy_get_subscribed($!sp);
   }
 
-  method get_type {
+  method get_type is also<get-type> {
     state ($n, $t);
 
     unstable_get_type( self.^name, &gupnp_service_proxy_get_type, $n, $t );
@@ -263,7 +284,9 @@ class GUPnP::ServiceProxy is GUPnP::ServiceInfo {
     Str()    $variable,
              &callback,
     gpointer $user_data = gpointer
-  ) {
+  )
+    is also<remove-notify>
+  {
     so gupnp_service_proxy_remove_notify(
       $!sp,
       $variable,
@@ -275,12 +298,15 @@ class GUPnP::ServiceProxy is GUPnP::ServiceInfo {
   method remove_raw_notify (
              &callback,
     gpointer $user_data = gpointer
-  ) {
+  )
+    is also<remove-raw-notify>
+  {
     so gupnp_service_proxy_remove_raw_notify($!sp, &callback, $user_data);
   }
 
 
   proto method send_action_list (|)
+      is also<send-action-list>
   { * }
 
   multi method send_action_list (
@@ -338,28 +364,9 @@ class GUPnP::ServiceProxy is GUPnP::ServiceInfo {
     handle-out-ntv($rv, $out_names, $out_types, $out_values, $glist, $raw);
   }
 
-  method set_subscribed (Int() $subscribed) {
+  method set_subscribed (Int() $subscribed) is also<set-subscribed> {
     my gboolean $s = $subscribed.so.Int;
 
     gupnp_service_proxy_set_subscribed($!sp, $s);
   }
-}
-
-sub handle-out-ntv ($rv, $on is copy, $ot is copy, $ov is copy, $glist, $raw)
-  is export
-{
-  $ov = ppr($ov);
-  return ($rv, $on, $ot, $ov) if $glist && $raw;
-
-  $on = GLib::GList.new($on) but GLib::Roles::ListData[Str];
-  $ot = GLib::GList.new($ot) but GLib::Roles::ListData[GType];
-  $ov = GLib::GList.new($ov) but GLib::Roles::ListData[GValue];
-  return ($rv, $on, $ot, $ov) if $glist;
-
-  (
-    $rv,
-    $on.Array,
-    $ot.Array,
-    $raw ?? $ov.Array !! $ov.Array.map({ GLib::GValue.new($_) })
-  );
 }
