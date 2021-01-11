@@ -6,7 +6,11 @@ use GUPnP::Raw::Types;
 use GUPnP::Raw::Context;
 use SOUP::Raw::Definitions;
 
+use SOUP::Server;
+use SOUP::Session;
 use GSSDP::Client;
+
+use GUPnP::Roles::ACL;
 
 our subset GUPnPContextAncestry is export of Mu
   where GUPnPContext | GSSDPClientAncestry;
@@ -36,6 +40,20 @@ class GUPnP::Context is GSSDP::Client {
 
   method GUPnP::Raw::Definitions::GUPnPContext
   { $!pc }
+
+  my %attributes = (
+    acl                  => ['object', GUPnPAcl, GUPnP::ACL.get-type],
+    default-language     => G_TYPE_STRING,
+    port                 => G_TYPE_UINT,
+    server               => ['object', SoupServer, SOUP::Server.get-type],
+    session              => ['object', SoupSession, SOUP::Sessino.get-type],
+    subscription-timeout => G_TYPE_UINT
+  );
+  
+  method attributes ($key) {
+    nextsame unless %attributes{$key}:exists;
+    %attributes{$key};
+  } 
 
   multi method new (GUPnPContextAncestry $context, :$ref = True) {
     return Nil unless $context;
