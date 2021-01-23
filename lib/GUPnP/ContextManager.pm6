@@ -5,13 +5,18 @@ use Method::Also;
 use GUPnP::Raw::Types;
 use GUPnP::Raw::ContextManager;
 
+use GLib::Value;
+use GUPnP::WhiteList;
+
 use GLib::Roles::Object;
+use GUPnP::Roles::Signals::ContextManager;
 
 our subset GUPnPContextManagerAncestry is export of Mu
   where GUPnPContextManager | GObject;
 
 class GUPnP::ContextManager {
   also does GLib::Roles::Object;
+  also does GUPnP::Roles::Signals::ContextManager;
 
   has GUPnPContextManager $!cm;
 
@@ -36,8 +41,9 @@ class GUPnP::ContextManager {
     self!setObject($to-parent);
   }
 
-  method create is also<new> {
-    my $context-manager = gupnp_context_manager_create($!cm);
+  method create (Int() $port = 0) is also<new> {
+    my guint $p               = $port;
+    my       $context-manager = gupnp_context_manager_create($p);
 
     $context-manager ?? self.bless( :$context-manager ) !! Nil;
   }
@@ -88,7 +94,7 @@ class GUPnP::ContextManager {
         my $o = $gv.object;
         return Nil unless $o;
 
-        $o = cast(GUPnPWhiteList, $_);
+        $o = cast(GUPnPWhiteList, $o);
         return $o if $raw;
 
         GUPnP::WhiteList.new($o, :!ref);
@@ -115,8 +121,14 @@ class GUPnP::ContextManager {
     gupnp_context_manager_get_port($!cm);
   }
 
-  method get_socket_family is also<get-socket-family> {
-    gupnp_context_manager_get_socket_family($!cm);
+  method get_socket_family
+    is also<
+      get-socket-family
+      socket_family
+      socket-family
+    >
+  {
+    GSocketFamilyEnum( gupnp_context_manager_get_socket_family($!cm) );
   }
 
   method get_uda_version is also<get-uda-version> {
