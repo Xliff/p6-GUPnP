@@ -27,6 +27,8 @@ need SOUP::Raw::Definitions;
 need SOUP::Raw::Enums;
 need GSSDP::Raw::Definitions;
 need GUPnP::Raw::Definitions;
+need GUPnP::Raw::Enums;
+need GUPnP::Raw::Structs;
 need GUPnP::Raw::Subs;
 
 BEGIN {

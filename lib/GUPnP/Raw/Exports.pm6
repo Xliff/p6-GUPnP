@@ -7,6 +7,8 @@ our @gupnp-exports is export;
 BEGIN {
   @gupnp-exports = <
     GUPnP::Raw::Definitions
+    GUPnP::Raw::Enums
+    GUPnP::Raw::Structs
     GUPnP::Raw::Subs
   >;
 }
