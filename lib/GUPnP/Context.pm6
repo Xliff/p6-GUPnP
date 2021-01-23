@@ -1,5 +1,7 @@
 use v6.c;
 
+use Method::Also;
+
 use NativeCall;
 
 use GUPnP::Raw::Types;
@@ -18,12 +20,21 @@ our subset GUPnPContextAncestry is export of Mu
 class GUPnP::Context is GSSDP::Client {
   has GUPnPContext $!pc is implementor;
 
-  submethod BUILD (:$context) {
+  # cw: ALL Initables require :$object!
+  submethod BUILD (:$context is copy, :$initable-object) {
+    $context //= $initable-object if $initable-object;
+
+    say "GUPnP::Context - CONTEXT = { $context // '<<NIL>>' } / OBJECT = { $initable-object // '<<NIL>>' }"
+      if $DEBUG;
+
     self.setGUPnPContext($context) if $context;
   }
 
   method setGUPnPContext(GUPnPContextAncestry $_) {
     my $to-parent;
+
+    return if $!pc;
+
     $!pc = do {
       when GUPnPContext {
         $to-parent = cast(GSSDPClient, $_);
@@ -35,25 +46,32 @@ class GUPnP::Context is GSSDP::Client {
         cast(GUPnPContext, $_);
       }
     }
+    say "{ self.^name }: Parent = { $to-parent // '<<NIL>>' }";
     self.setGSSDPClient($to-parent);
   }
 
   method GUPnP::Raw::Definitions::GUPnPContext
+      is also<GUPnPContext>
   { $!pc }
 
   my %attributes = (
-    acl                  => ['object', GUPnPAcl, GUPnP::ACL.get-type],
+    acl                  => [ 'object', GUPnPAcl,    GUPnP::ACL.get-type ],
     default-language     => G_TYPE_STRING,
     port                 => G_TYPE_UINT,
-    server               => ['object', SoupServer, SOUP::Server.get-type],
-    session              => ['object', SoupSession, SOUP::Sessino.get-type],
+    server               => [ 'object', SoupServer,  SOUP::Server.get-type ],
+    session              => [ 'object', SoupSession, SOUP::Session.get-type ],
     subscription-timeout => G_TYPE_UINT
   );
-  
+
   method attributes ($key) {
+    say "K0: $key";
     nextsame unless %attributes{$key}:exists;
+    say "K1: $key";
     %attributes{$key};
-  } 
+  }
+
+  proto method new (|)
+  { * }
 
   multi method new (GUPnPContextAncestry $context, :$ref = True) {
     return Nil unless $context;
@@ -63,17 +81,15 @@ class GUPnP::Context is GSSDP::Client {
     $o;
   }
   multi method new (
-    Int()                   $port,
-    CArray[Pointer[GError]] $error = gerror
+    CArray[Pointer[GError]] $error = gerror,
+    Str()                   :$iface = Str,
+    Int()                   :$port,
   ) {
-    my guint $p       = $port;
-    my       $context = gupnp_context_new(Str, $p, $error);
-
-    $context ?? self.bless( :$context ) !! Nil;
+    samewith($iface, $port, $error);
   }
   multi method new (
-    Str()                   $iface = Str,
-    Int()                   $port  = 0,
+    Str                     $iface = Str,
+    Int                     $port  = 0,
     CArray[Pointer[GError]] $error = gerror
   ) {
     my guint $p       = $port;
@@ -89,6 +105,20 @@ class GUPnP::Context is GSSDP::Client {
     self.construct('context', $cancellable, $error);
   }
 
+  # Override
+  multi method new_object_with_properties (
+    *@args,
+    :$RAW = False,
+    :$TYPE,
+    :pairs(:$p) is required
+  ) {
+    nextwith(@args, :$RAW, TYPE => self.get-type, :pairs);
+  }
+  # Override
+  multi method new_object_with_properties (:$RAW = False, :$TYPE, *%props) {
+    say 'Called!!!';
+    nextwith(|%props, :$RAW, TYPE => self.get-type);
+  }
 
   # Type: GUPnPAcl
   method acl (:$raw = False) is rw  {
@@ -114,7 +144,7 @@ class GUPnP::Context is GSSDP::Client {
   }
 
   # Type: gchar
-  method default-language is rw  {
+  method default-language is rw  is also<default_language> {
     my $gv = GLib::Value.new( G_TYPE_STRING );
     Proxy.new(
       FETCH => sub ($) {
@@ -192,7 +222,7 @@ class GUPnP::Context is GSSDP::Client {
   }
 
   # Type: guint
-  method subscription-timeout is rw  {
+  method subscription-timeout is rw  is also<subscription_timeout> {
     my $gv = GLib::Value.new( G_TYPE_UINT );
     Proxy.new(
       FETCH => sub ($) {
@@ -213,7 +243,9 @@ class GUPnP::Context is GSSDP::Client {
              &callback,
     gpointer $user_data,
              &destroy    = Callable
-  ) {
+  )
+    is also<add-server-handler>
+  {
     my gboolean $u = $use_acl.so.Int;
 
     gupnp_context_add_server_handler(
@@ -226,7 +258,7 @@ class GUPnP::Context is GSSDP::Client {
     );
   }
 
-  method get_acl (:$raw = False) {
+  method get_acl (:$raw = False) is also<get-acl> {
     my $a = gupnp_context_get_acl($!pc);
 
     $a ??
@@ -235,11 +267,11 @@ class GUPnP::Context is GSSDP::Client {
       Nil;
   }
 
-  method get_default_language {
+  method get_default_language is also<get-default-language> {
     gupnp_context_get_default_language($!pc);
   }
 
-  method get_server (:$raw = False) {
+  method get_server (:$raw = False) is also<get-server> {
     my $s = gupnp_context_get_server($!pc);
 
     $s ??
@@ -248,13 +280,13 @@ class GUPnP::Context is GSSDP::Client {
       Nil;
   }
 
-  method get_type {
+  method get_type is also<get-type> {
     state ($n, $t);
 
     unstable_get_type( self.^name, &gupnp_context_get_type, $n, $t );
   }
 
-  method get_session (:$raw = False) {
+  method get_session (:$raw = False) is also<get-session> {
     my $sess = gupnp_context_get_session($!pc);
 
     $sess ??
@@ -263,11 +295,11 @@ class GUPnP::Context is GSSDP::Client {
       Nil;
   }
 
-  method get_subscription_timeout {
+  method get_subscription_timeout is also<get-subscription-timeout> {
     gupnp_context_get_subscription_timeout($!pc);
   }
 
-  method host_path (Str() $local_path, Str() $server_path) {
+  method host_path (Str() $local_path, Str() $server_path) is also<host-path> {
     gupnp_context_host_path($!pc, $local_path, $server_path);
   }
 
@@ -275,7 +307,9 @@ class GUPnP::Context is GSSDP::Client {
     Str()    $local_path,
     Str()    $server_path,
     GRegex() $user_agent
-  ) {
+  )
+    is also<host-path-for-agent>
+  {
     so gupnp_context_host_path_for_agent(
       $!pc,
       $local_path,
@@ -284,29 +318,31 @@ class GUPnP::Context is GSSDP::Client {
     );
   }
 
-  method remove_server_handler (Str() $path) {
+  method remove_server_handler (Str() $path) is also<remove-server-handler> {
     gupnp_context_remove_server_handler($!pc, $path);
   }
 
-  method rewrite_uri (Str() $uri) {
+  method rewrite_uri (Str() $uri) is also<rewrite-uri> {
     gupnp_context_rewrite_uri($!pc, $uri);
   }
 
-  method set_acl (GUPnPAcl() $acl) {
+  method set_acl (GUPnPAcl() $acl) is also<set-acl> {
     gupnp_context_set_acl($!pc, $acl);
   }
 
-  method set_default_language (Str() $language) {
+  method set_default_language (Str() $language) is also<set-default-language> {
     gupnp_context_set_default_language($!pc, $language);
   }
 
-  method set_subscription_timeout (Int() $timeout) {
+  method set_subscription_timeout (Int() $timeout)
+    is also<set-subscription-timeout>
+  {
     my guint $t = $timeout;
 
     gupnp_context_set_subscription_timeout($!pc, $t);
   }
 
-  method unhost_path (Str() $server_path) {
+  method unhost_path (Str() $server_path) is also<unhost-path> {
     gupnp_context_unhost_path($!pc, $server_path);
   }
 }
