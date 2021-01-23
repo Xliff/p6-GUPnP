@@ -40,7 +40,7 @@ class GUPnP::ControlPoint is GSSDP::ResourceBrowser {
 
   method GUPnP::Raw::Definitions::GUPnPControlPoint
     is also<GUPnPControlPoint>
-  { * }
+  { $!cp }
 
   method new (GUPnPContext() $context, Str() $target) {
     my $control-point = gupnp_control_point_new($context, $target);
