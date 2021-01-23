@@ -12,43 +12,10 @@ use SOUP::Message;
 use SOUP::Session;
 
 sub create-context ($p = 0) {
-  use NativeCall;
-
-  my $c = GUPnP::Context.new_initable(
+  GUPnP::Context.new_initable(
     host-ip      => '127.0.0.1',
     msearch-port => $p
-  );
-
-  say "Context is a { $c.objectType.name }";
-
-  # sub g_initable_context_new(
-  #   GType,
-  #   GCancellable,
-  #   CArray[Pointer[GError]],
-  #   Str, Str,
-  #   Str, guint,
-  #   Str
-  # )
-  #   returns GUPnPContext
-  #   is export
-  #   is native(gio)
-  #   is symbol('g_initable_new')
-  # { * }
-  #
-  # my $c = GUPnP::Context.new(
-  #   g_initable_context_new(
-  #     GUPnP::Context.get-type,
-  #     GCancellable,
-  #     gerror,
-  #     'host-ip',      '127.0.0.1',
-  #     'msearch-port', $p,
-  #     Str
-  #   )
-  # );
-  # $c.init;
-  # say $ERROR.message if $ERROR;
-  # say "CONTEXT PORT = { $c.port }";
-  $c;
+  )
 }
 
 sub compare-carray ($ca1, $ca2, $l, :$start1 = 0, :$start2 = 0) {
