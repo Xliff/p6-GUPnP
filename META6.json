@@ -20,6 +20,7 @@
       "GUPnP::Raw::ServiceInfo"               :  "lib/GUPnP/Raw/ServiceInfo.pm6"              ,
       "GUPnP::Raw::ServiceIntrospection"      :  "lib/GUPnP/Raw/ServiceIntrospection.pm6"     ,
       "GUPnP::Raw::ServiceProxy"              :  "lib/GUPnP/Raw/ServiceProxy.pm6"             ,
+      "GUPnP::Raw::Subs"                      :  "lib/GUPnP/Raw/Subs.pm6"                     ,
       "GUPnP::Raw::ServiceProxyAction"        :  "lib/GUPnP/Raw/ServiceProxyAction.pm6"       ,
       "GUPnP::Raw::Exports"                   :  "lib/GUPnP/Raw/Exports.pm6"                  ,
       "GUPnP::Raw::Types"                     :  "lib/GUPnP/Raw/Types.pm6"                    ,
