@@ -1,5 +1,7 @@
 use v6.c;
 
+use Method::Also;
+
 use GUPnP::Raw::Types;
 use GUPnP::Raw::ResourceFactory;
 
@@ -35,9 +37,11 @@ class GUPnP::ResourceFactory {
   }
 
   method GUPnP::Raw::Definitions::GUPnPResourceFactory
+      is also<GUPnPResourceFactory>
   { $!rf }
 
   proto method new (|)
+
   { * }
 
   multi method new (GUPnPResourceFactoryAncestry $factory, :$ref = True) {
@@ -53,14 +57,16 @@ class GUPnP::ResourceFactory {
     $factory ?? self.bless( :$factory ) !! Nil;
   }
 
-  method get_default {
+  method get_default is also<get-default> {
     my $factory = gupnp_resource_factory_get_default();
 
     $factory ?? self.bless( :$factory ) !! Nil;
   }
 
 
-  method register_resource_proxy_type (Str() $upnp_type, Int() $type) {
+  method register_resource_proxy_type (Str() $upnp_type, Int() $type)
+    is also<register-resource-proxy-type>
+  {
     my GType $t = $type;
 
     gupnp_resource_factory_register_resource_proxy_type(
@@ -70,17 +76,23 @@ class GUPnP::ResourceFactory {
     );
   }
 
-  method register_resource_type (Str() $upnp_type, Int() $type) {
+  method register_resource_type (Str() $upnp_type, Int() $type)
+    is also<register-resource-type>
+  {
     my GType $t = $type;
 
     gupnp_resource_factory_register_resource_type($!rf, $upnp_type, $t);
   }
 
-  method unregister_resource_proxy_type (Str() $upnp_type) {
+  method unregister_resource_proxy_type (Str() $upnp_type)
+    is also<unregister-resource-proxy-type>
+  {
     so gupnp_resource_factory_unregister_resource_proxy_type($!rf, $upnp_type);
   }
 
-  method unregister_resource_type (Str() $upnp_type) {
+  method unregister_resource_type (Str() $upnp_type) 
+    is also<unregister-resource-type>
+  {
     so gupnp_resource_factory_unregister_resource_type($!rf, $upnp_type);
   }
 
