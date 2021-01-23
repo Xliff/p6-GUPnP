@@ -46,7 +46,6 @@ class GUPnP::Context is GSSDP::Client {
         cast(GUPnPContext, $_);
       }
     }
-    say "{ self.^name }: Parent = { $to-parent // '<<NIL>>' }";
     self.setGSSDPClient($to-parent);
   }
 
@@ -64,9 +63,7 @@ class GUPnP::Context is GSSDP::Client {
   );
 
   method attributes ($key) {
-    say "K0: $key";
     nextsame unless %attributes{$key}:exists;
-    say "K1: $key";
     %attributes{$key};
   }
 
@@ -116,7 +113,6 @@ class GUPnP::Context is GSSDP::Client {
   }
   # Override
   multi method new_object_with_properties (:$RAW = False, :$TYPE, *%props) {
-    say 'Called!!!';
     nextwith(|%props, :$RAW, TYPE => self.get-type);
   }
 
