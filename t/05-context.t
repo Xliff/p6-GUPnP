@@ -47,18 +47,26 @@ sub request-range-and-compare (
   $s.queue-message($message, -> *@a { $l.quit });
   $l.run;
 
+  my $rb = $message.response-body;
   is $message.status-code,          SOUP_STATUS_PARTIAL_CONTENT,              'Message status-code is SOUP_STATUS_PARTIAL_CONTENT';
-  is $message.response-body.length, $want-length,                             'Message response body is the proper size';
+  is $rb.length,                    $want-length,                             'Message response body is the proper size';
 
+  my ($gs, $ge, $gl);
   my $rh = $message.response-headers;
-  my $gl = $rh.content-length;
+  $gl = $rh.content-length;
   is $gl,                           $want-length,                             'Size of message response headers is correct';
 
-  my ($gs, $ge, $gl2) = $rh.content-range;
+  ($gs, $ge, $gl) = $rh.content-range;
   is $gs,                           $ws,                                      'Start value of message headers is correct';
-  is $ge,                           $we,                                      'End value of message headers is correct';
 
-  ok compare-carray($f.get-contents, $rh.data, $want-length, start1 => $ws),  'Data comparison is successful';\
+  # cw: Special case handling for raku deficiency (negative native numbers)
+  if $we > -1 {
+    is $ge,                           $we,                                    'End value of message headers is correct';
+  } else {
+    is $ge,                           4095,                                   'End value of message headers is correct';
+  }
+
+  ok compare-carray($f.get-contents, $rb.data, $want-length, start1 => $ws),  'Data comparison is successful';
   $message.unref;
   $message = SOUP::Message.new('GET', $u).ref;
 }
