@@ -72,3 +72,9 @@ sub gupnp_white_list_set_enabled (GUPnPWhiteList $white_list, gboolean $enable)
   is native(gupnp)
   is export
 { * }
+
+sub gupnp_white_list_get_type ()
+  returns GType
+  is export
+  is native(gupnp)
+{ * }

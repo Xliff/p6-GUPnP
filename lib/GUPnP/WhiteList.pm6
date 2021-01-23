@@ -1,5 +1,7 @@
 use v6.c;
 
+use Method::Also;
+
 use NativeCall;
 
 use GUPnP::Raw::Types;
@@ -36,25 +38,38 @@ class GUPnP::WhiteList {
     self!setObject($to-parent);
   }
 
-  method new {
+  multi method new (GUPnPWhiteListAncestry $whitelist, :$ref = True) {
+    return Nil unless $whitelist;
+
+    my $o = self.bless( :$whitelist );
+    $o.ref if $ref;
+    $o;
+  }
+  multi method new {
     my $whitelist = gupnp_white_list_new();
 
     $whitelist ?? self.bless( :$whitelist ) !! Nil;
   }
 
-  method add_entry (Str() $entry) {
+  method enabled is rw {
+    Proxy.new:
+      FETCH => -> $           { self.get_enabled    },
+      STORE => -> $, Int() \e { self.set_enabled(e) };
+  }
+
+  method add_entry (Str() $entry) is also<add-entry> {
     gupnp_white_list_add_entry($!wl, $entry);
   }
 
-  method add_entries (@entries) {
+  method add_entries (@entries) is also<add-entries> {
     samewith( resolve-gstrv(@entries) );
   }
 
-  method add_entryv (CArray[Str] $entries) {
+  method add_entryv (CArray[Str] $entries) is also<add-entryv> {
     gupnp_white_list_add_entryv($!wl, $entries);
   }
 
-  method check_context (GUPnPContext() $context) {
+  method check_context (GUPnPContext() $context) is also<check-context> {
     so gupnp_white_list_check_context($!wl, $context);
   }
 
@@ -62,11 +77,16 @@ class GUPnP::WhiteList {
     gupnp_white_list_clear($!wl);
   }
 
-  method get_enabled {
+  method get_enabled is also<get-enabled> {
     so gupnp_white_list_get_enabled($!wl);
   }
 
-  method get_entries (:$glist = False, :$raw = False) {
+  method get_entries (:$glist = False, :$raw = False)
+    is also<
+      get-entries
+      entries
+    >
+  {
     my $el = gupnp_white_list_get_entries($!wl);
 
     return Nil unless $el;
@@ -77,15 +97,21 @@ class GUPnP::WhiteList {
     $el.Array;
   }
 
-  method is_empty {
+  method get_type is also<get-type> {
+    state ($n, $t);
+
+    unstable_get_type( self.^name, &gupnp_white_list_get_type, $n, $t );
+  }
+
+  method is_empty is also<is-empty> {
     so gupnp_white_list_is_empty($!wl);
   }
 
-  method remove_entry (Str() $entry) {
+  method remove_entry (Str() $entry) is also<remove-entry> {
     gupnp_white_list_remove_entry($!wl, $entry);
   }
 
-  method set_enabled (Int() $enable) {
+  method set_enabled (Int() $enable) is also<set-enabled> {
     my gboolean $e = $enable.so.Int;
 
     gupnp_white_list_set_enabled($!wl, $enable);
