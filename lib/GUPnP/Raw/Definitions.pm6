@@ -35,11 +35,14 @@ class GUPnPServiceProxyAction   is repr<CPointer> is export does GLib::Roles::Po
 class GUPnPXMLDoc               is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPWhiteList            is repr<CPointer> is export does GLib::Roles::Pointers { }
 
-class GUPnPDIDLLiteDescriptor   is repr<CPointer> is export does GLib::Roles::Pointers { }
+class GUPnPDIDLLiteContainer    is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPDIDLLiteContributor  is repr<CPointer> is export does GLib::Roles::Pointers { }
+class GUPnpDIDLLiteCreateClass  is repr<CPointer> is export does GLib::Roles::Pointers { }
+class GUPnPDIDLLiteDescriptor   is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPDIDLLiteItem         is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPDIDLLiteObject       is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPDIDLLiteResource     is repr<CPointer> is export does GLib::Roles::Pointers { }
+class GUPnPDIDLLiteWriter       is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPProtocolInfo         is repr<CPointer> is export does GLib::Roles::Pointers { }
 
 constant gupnp        is export = 'gupnp-1.2',v0;
