@@ -6,6 +6,9 @@ use LibXML::Raw;
 use GUPnP::Raw::Types;
 use GUPnP::Raw::DidlLiteResource;
 
+use GLib::Value;
+use GUPnP::ProtocolInfo;
+
 use GLib::Roles::Object;
 
 our subset GUPnPDIDLLiteResourceAncestry is export of Mu
