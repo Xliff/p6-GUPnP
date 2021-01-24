@@ -17,7 +17,7 @@ class GUPnP::DidlLiteContributor {
   has GUPnPDIDLLiteContributor $!dlc;
 
   submethod BUILD (:$contributor) {
-    self.setGUPnPDidlLiteContributor($contributor) if $contributor;
+    self.setGUPnPDIDLLiteContributor($contributor) if $contributor;
   }
 
   method setGUPnPDIDLLiteContributor (GUPnPDIDLLiteContributorAncestry $_) {
@@ -41,10 +41,10 @@ class GUPnP::DidlLiteContributor {
     is also<GUPnPDIDLLiteContributor>
   { $!dlc }
 
-  method new (GUPnPDIDLLiteContributorAncestry $object, :$ref = True) {
-    return Nil unless $object;
+  method new (GUPnPDIDLLiteContributorAncestry $contributor, :$ref = True) {
+    return Nil unless $contributor;
 
-    my $o = self.bless( :$object );
+    my $o = self.bless( :$contributor );
     $o.ref if $ref;
     $o;
   }
