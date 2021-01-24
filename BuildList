@@ -26,6 +26,7 @@ GSSDP::ResourceBrowser
 LibXML::Document
 LibXML::Raw
 Method::Also
+NativeCall
 SOUP::Raw::Definitions
 SOUP::Raw::Enums
 SOUP::Raw::Exports
@@ -37,6 +38,13 @@ GUPnP::Raw::Context
 GUPnP::Raw::ContextManager
 GUPnP::Raw::ControlPoint
 GUPnP::Raw::DeviceInfo
+GUPnP::Raw::DidlLiteContainer
+GUPnP::Raw::DidlLiteContributor
+GUPnP::Raw::DidlLiteDescriptor
+GUPnP::Raw::Enums
+GUPnP::Raw::DidlLiteObject
+GUPnP::Raw::DidlLiteResource
+GUPnP::Raw::DidlLiteWriter
 GUPnP::Raw::ResourceFactory
 GUPnP::Raw::RootDevice
 GUPnP::Raw::ServiceInfo
@@ -44,6 +52,7 @@ GUPnP::Raw::ServiceIntrospection
 GUPnP::Raw::ServiceProxy
 GUPnP::Raw::Subs
 GUPnP::Raw::ServiceProxyAction
+GUPnP::Raw::Structs
 GUPnP::Raw::Exports
 GUPnP::Raw::Types
 GUPnP::Raw::WhiteList
@@ -64,5 +73,16 @@ GUPnP::ContextManager
 GUPnP::ControlPoint
 GUPnP::DeviceInfo
 GUPnP::DeviceProxy
+GUPnP::DidlLiteContributor
+GUPnP::DidlLiteDescriptor
+GUPnP::DidlLiteResource
+GUPnP::Raw::DidlLiteCreateClass
+GUPnP::Raw::ProtocolInfo
 GUPnP::Device
+GUPnP::DidlLiteCreateClass
+GUPnP::DidlLiteObject
+GUPnP::ProtocolInfo
 GUPnP::RootDevice
+GUPnP::DidlLiteContainer
+GUPnP::DidlLiteItem
+GUPnP::DidlLiteWriter
