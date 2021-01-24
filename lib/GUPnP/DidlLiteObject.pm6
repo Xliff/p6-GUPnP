@@ -479,33 +479,33 @@ class GUPnP::DidlLiteObject {
   { * }
 
   multi method apply_fragments (
-    Int() $current_size,
-    Int() $new_size
+    @current-fragments,
+    @new-fragments
   ) {
-    samewith($, $current_size, $, $new_size);
+    samewith(
+      ArrayToCArray(Str, @current-fragments),
+      @current-fragments.elems,
+      ArrayToCArray(Str, @new-fragments),
+      @new-fragments.elems
+    );
   }
   multi method apply_fragments (
-          $current_fragments is rw,
-    Int() $current_size,
-          $new_fragments     is rw,
-    Int() $new_size
+    CArray[Str] $current_fragments,
+    Int()       $current_size,
+    CArray[Str] $new_fragments,
+    Int()       $new_size
   ) {
     my gint ($cs, $ns) = ($current_size, $new_size);
-    my ($cf, $nf)      = CArray[Str].new xx 2;
-    ($cf[0], $nf[0])   = Str xx 2;
 
-    my $r = GUPnPDIDLLiteFragmentResultEnum(
+    GUPnPDIDLLiteFragmentResultEnum(
       gupnp_didl_lite_object_apply_fragments(
         $!dlo,
-        $cf,
+        $current_fragments,
         $current_size,
-        $nf,
+        $new_fragments,
         $new_size
       )
     );
-
-    ($current_fragments, $new_fragments) = ( ppr($cf), ppr($nf) );
-    ($r, $current_fragments, $new_fragments);
   }
 
   method get_album is also<get-album> {
@@ -524,8 +524,17 @@ class GUPnP::DidlLiteObject {
     gupnp_didl_lite_object_get_artist($!dlo);
   }
 
-  method get_artists is also<get-artists> {
-    gupnp_didl_lite_object_get_artists($!dlo);
+  method get_artists (:$glist = False, :$raw = False) is also<get-artists> {
+    my $cl = gupnp_didl_lite_object_get_artists($!dlo);
+
+    return Nil unless $cl;
+    return $cl if     $glist && $raw;
+
+    $cl = GLib::GList.new($cl)
+      but GLib::Roles::ListData[GUPnPDIDLLiteContributor];
+
+    $raw ?? $cl.Array
+         !! $cl.Array.map({ GUPnP::DidlLiteContributor.new($_, :!ref) });
   }
 
   method get_artists_xml_string is also<get-artists-xml-string> {
