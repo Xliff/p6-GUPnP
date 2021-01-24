@@ -7,7 +7,7 @@ use GUPnP::Raw::DidlLiteContainer;
 
 use GLib::GList;
 use GLib::Value;
-#use GUPnP::DidlLiteCreateClass;
+use GUPnP::DidlLiteCreateClass;
 use GUPnP::DidlLiteObject;
 
 our subset GUPnPDIDLLiteContainerAncestry is export of Mu
@@ -199,7 +199,7 @@ class GUPnP::DidlLiteContainer is GUPnP::DidlLiteObject {
     return $sl if     $glist && $raw;
 
     $sl = GLib::GList.new($sl)
-      but GLib::Roles::ListData[GUPnpDIDLLiteCreateClass];
+      but GLib::Roles::ListData[GUPnPDIDLLiteCreateClass];
     return $sl if $glist;
 
     $raw ?? $sl.Array
