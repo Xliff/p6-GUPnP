@@ -208,7 +208,13 @@ class GUPnP::DeviceInfo {
     gupnp_device_info_get_device_type($!di);
   }
 
-  method get_friendly_name is also<get-friendly-name> {
+  method get_friendly_name
+    is also<
+      get-friendly-name
+      friendly_name
+      friendly-name
+    >
+  {
     gupnp_device_info_get_friendly_name($!di);
   }
 
@@ -272,31 +278,72 @@ class GUPnP::DeviceInfo {
     gupnp_device_info_get_location($!di);
   }
 
-  method get_manufacturer is also<get-manufacturer> {
+  method get_manufacturer
+    is also<
+      get-manufacturer
+      manufacturer
+    >
+  {
     gupnp_device_info_get_manufacturer($!di);
   }
 
-  method get_manufacturer_url is also<get-manufacturer-url> {
+  method get_manufacturer_url
+    is also<
+      get-manufacturer-url
+      manufacturer_url
+      manufacturer-url
+    >
+  {
     gupnp_device_info_get_manufacturer_url($!di);
   }
 
-  method get_model_description is also<get-model-description> {
+  method get_model_description
+    is also<
+      get-model-description
+      model_description
+      model-description
+    >
+  {
     gupnp_device_info_get_model_description($!di);
   }
 
-  method get_model_name is also<get-model-name> {
+  method get_model_name
+    is also<
+      get-model-name
+      model_name
+      model-name
+    >
+  {
     gupnp_device_info_get_model_name($!di);
   }
 
-  method get_model_number is also<get-model-number> {
+  method get_model_number
+    is also<
+      get-model-number
+      model_number
+      model-number
+    >
+  {
     gupnp_device_info_get_model_number($!di);
   }
 
-  method get_model_url is also<get-model-url> {
+  method get_model_url
+    is also<
+      get-model-url
+      model_url
+      model-url
+    >
+  {
     gupnp_device_info_get_model_url($!di);
   }
 
-  method get_presentation_url is also<get-presentation-url> {
+  method get_presentation_url
+    is also<
+      get-presentation-url
+      presentation_url
+      presentation-url
+    >
+  {
     gupnp_device_info_get_presentation_url($!di);
   }
 
@@ -304,7 +351,13 @@ class GUPnP::DeviceInfo {
     gupnp_device_info_get_resource_factory($!di);
   }
 
-  method get_serial_number is also<get-serial-number> {
+  method get_serial_number
+    is also<
+      get-serial-number
+      serial_number
+      serial-number
+    >
+  {
     gupnp_device_info_get_serial_number($!di);
   }
 
