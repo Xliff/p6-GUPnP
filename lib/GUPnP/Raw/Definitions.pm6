@@ -43,9 +43,10 @@ class GUPnPDIDLLiteObject       is repr<CPointer> is export does GLib::Roles::Po
 class GUPnPDIDLLiteResource     is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPDIDLLiteWriter       is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPProtocolInfo         is repr<CPointer> is export does GLib::Roles::Pointers { }
+class GUPnPSearchCriteriaParser is repr<CPointer> is export does GLib::Roles::Pointers { }
 
 constant gupnp        is export = 'gupnp-1.2',v0;
-constant gupnp-av     is export = 'gupnp-av-1.0',v0;
+constant gupnp-av     is export = 'gupnp-av-1.0',v2;
 
 BEGIN {
   constant gupnp-helper is export = do {
