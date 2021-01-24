@@ -15,7 +15,7 @@ use GLib::Roles::Object;
 our subset GUPnPDIDLLiteWriterAncestry is export of Mu
   where GUPnPDIDLLiteWriter | GObject;
 
-class GUPnP::Raw::Writer {
+class GUPnP::DidlLiteWriter {
   also does GLib::Roles::Object;
 
   has GUPnPDIDLLiteWriter $!dlw;
@@ -45,6 +45,9 @@ class GUPnP::Raw::Writer {
     is also<GUPnPDIDLLiteWriter>
   { $!dlw }
 
+  proto method new (|)
+  { * }
+
   multi method new (GUPnPDIDLLiteWriterAncestry $writer, :$ref = True) {
     return Nil unless $writer;
 
@@ -52,7 +55,7 @@ class GUPnP::Raw::Writer {
     $o.ref if $ref;
     $o;
   }
-  multi method new (Str() $language) {
+  multi method new (Str() $language = Str) {
     my $writer = gupnp_didl_lite_writer_new($language);
 
     $writer ?? self.bless( :$writer ) !! Nil;
@@ -112,10 +115,10 @@ class GUPnP::Raw::Writer {
   }
 
   method add_item (:$raw = False) is also<add-item> {
-    my $w = gupnp_didl_lite_writer_add_item($!dlw);
+    my $i = gupnp_didl_lite_writer_add_item($!dlw);
 
-    $w ??
-      ( $raw ?? $w !! GUPnP::DidLiteWriter.new($w, :!ref) )
+    $i ??
+      ( $raw ?? $i !! GUPnP::DidlLiteItem.new($i, :!ref) )
       !!
       Nil;
   }
