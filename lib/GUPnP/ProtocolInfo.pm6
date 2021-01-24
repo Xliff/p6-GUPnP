@@ -41,6 +41,9 @@ class GUPnP::ProtocolInfo {
     is also<GUPnPProtocolInfo>
   { $!pi }
 
+  proto method new (|)
+  { * }
+
   multi method new (GUPnPProtocolInfoAncestry $protocol, :$ref = True) {
     return Nil unless $protocol;
 
@@ -71,7 +74,7 @@ class GUPnP::ProtocolInfo {
   }
 
   # Type: GUPnPDLNAConversion
-  method dlna-conversion is rw  {
+  method dlna-conversion is rw is also<dlna_conversion> {
     my $gv = GLib::Value.new( GLib::Value.gtypeFromEnum(GUPnPDLNAConversion) );
     Proxy.new(
       FETCH => sub ($) {
@@ -88,7 +91,7 @@ class GUPnP::ProtocolInfo {
   }
 
   # Type: GUPnPDLNAFlags
-  method dlna-flags is rw  {
+  method dlna-flags is rw is also<dlna_flags> {
     my $gv = GLib::Value.new( GLib::Value.gtypeFromEnum(GUPnPDLNAFlags) );
     Proxy.new(
       FETCH => sub ($) {
@@ -105,7 +108,7 @@ class GUPnP::ProtocolInfo {
   }
 
   # Type: GUPnPDLNAOperation
-  method dlna-operation is rw  {
+  method dlna-operation is rw is also<dlna_operation> {
     my $gv = GLib::Value.new( GLib::Value.gtypeFromEnum(GUPnPDLNAOperation) );
     Proxy.new(
       FETCH => sub ($) {
@@ -122,7 +125,7 @@ class GUPnP::ProtocolInfo {
   }
 
   # Type: gchar
-  method dlna-profile is rw  {
+  method dlna-profile is rw is also<dlna_profile> {
     my $gv = GLib::Value.new( G_TYPE_STRING );
     Proxy.new(
       FETCH => sub ($) {
@@ -139,7 +142,7 @@ class GUPnP::ProtocolInfo {
   }
 
   # Type: gchar
-  method mime-type is rw  {
+  method mime-type is rw is also<mime_type> {
     my $gv = GLib::Value.new( G_TYPE_STRING );
     Proxy.new(
       FETCH => sub ($) {
@@ -173,7 +176,7 @@ class GUPnP::ProtocolInfo {
   }
 
   # Type: GStrv
-  method play-speeds (:$raw = False) is rw  {
+  method play-speeds (:$raw = False) is rw is also<play_speeds> {
     my $gv = GLib::Value.new( G_TYPE_POINTER );
     Proxy.new(
       FETCH => sub ($) {
