@@ -37,7 +37,6 @@ class GUPnPWhiteList            is repr<CPointer> is export does GLib::Roles::Po
 
 class GUPnPDIDLLiteContainer    is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPDIDLLiteContributor  is repr<CPointer> is export does GLib::Roles::Pointers { }
-class GUPnpDIDLLiteCreateClass  is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPDIDLLiteDescriptor   is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPDIDLLiteItem         is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPDIDLLiteObject       is repr<CPointer> is export does GLib::Roles::Pointers { }

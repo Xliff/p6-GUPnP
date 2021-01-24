@@ -3,6 +3,7 @@ use v6.c;
 use Method::Also;
 
 use GLib::Raw::Definitions;
+use GLib::Raw::Object;
 use GLib::Raw::Structs;
 use GUPnP::Raw::Definitions;
 use GUPnP::Raw::Enums;
@@ -100,4 +101,9 @@ class GUPnPServiceStateVariableInfo is repr<CStruct> is export does GLib::Roles:
     $avl.Array;
   }
 
+}
+
+class GUPnPDIDLLiteCreateClass is repr<CStruct> is export does GLib::Roles::Pointers {
+  HAS GObject  $.parent;
+  has gpointer $!priv;
 }
