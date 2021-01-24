@@ -4,13 +4,16 @@ use Method::Also;
 
 use LibXML::Raw;
 use GUPnP::Raw::Types;
-use GUPnP::Raw::Writer;
+use GUPnP::Raw::DidlLiteWriter;
 
 use GUPnP::DidlLiteContainer;
 use GUPnP::DidlLiteDescriptor;
 use GUPnP::DidlLiteItem;
 
 use GLib::Roles::Object;
+
+our subset GUPnPDIDLLiteWriterAncestry is export of Mu
+  where GUPnPDIDLLiteWriter | GObject;
 
 class GUPnP::Raw::Writer {
   also does GLib::Roles::Object;
@@ -49,8 +52,8 @@ class GUPnP::Raw::Writer {
     $o.ref if $ref;
     $o;
   }
-  multi method new {
-    my $writer = gupnp_didl_lite_writer_new();
+  multi method new (Str() $language) {
+    my $writer = gupnp_didl_lite_writer_new($language);
 
     $writer ?? self.bless( :$writer ) !! Nil;
   }
@@ -91,7 +94,7 @@ class GUPnP::Raw::Writer {
   }
 
   method add_container (:$raw = False) is also<add-container> {
-    gupnp_didl_lite_writer_add_container($!dlw);
+    my $c = gupnp_didl_lite_writer_add_container($!dlw);
 
     $c ??
       ( $raw ?? $c !! GUPnP::DidlLiteContainer.new($c, :!ref) )
