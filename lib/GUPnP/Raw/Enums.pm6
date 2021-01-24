@@ -1,6 +1,7 @@
 use v6.c;
 
 use GLib::Raw::Definitions;
+use GLib::Raw::Enums;
 
 unit package GUPnP::Raw::Enums;
 
@@ -126,6 +127,22 @@ our enum GUPnPProtocolErrorEnum is export <
   GUPNP_PROTOCOL_ERROR_INVALID_SYNTAX
   GUPNP_PROTOCOL_ERROR_OTHER
 >;
+
+constant GUPnPSearchCriteriaOp is export := guint32;
+our enum GUPnPSearchCriteriaOpEnum (
+  # G_TYPE_STRING
+  GUPNP_SEARCH_CRITERIA_OP_EQ               => G_TOKEN_LAST + 1,
+  GUPNP_SEARCH_CRITERIA_OP_NEQ              => G_TOKEN_LAST + 2,
+  GUPNP_SEARCH_CRITERIA_OP_LESS             => G_TOKEN_LAST + 3,
+  GUPNP_SEARCH_CRITERIA_OP_LEQ              => G_TOKEN_LAST + 4,
+  GUPNP_SEARCH_CRITERIA_OP_GREATER          => G_TOKEN_LAST + 5,
+  GUPNP_SEARCH_CRITERIA_OP_GEQ              => G_TOKEN_LAST + 6,
+  GUPNP_SEARCH_CRITERIA_OP_CONTAINS         => G_TOKEN_LAST + 7,
+  GUPNP_SEARCH_CRITERIA_OP_DOES_NOT_CONTAIN => G_TOKEN_LAST + 8,
+  GUPNP_SEARCH_CRITERIA_OP_DERIVED_FROM     => G_TOKEN_LAST + 9,
+  # G_TYPE_BOOLEAN
+  GUPNP_SEARCH_CRITERIA_OP_EXISTS           => G_TOKEN_LAST + 10
+);
 
 constant GUPnPSearchCriteriaParserError is export := guint32;
 our enum GUPnPSearchCriteriaParserErrorEnum is export <
