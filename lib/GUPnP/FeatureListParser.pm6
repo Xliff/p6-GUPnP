@@ -82,7 +82,7 @@ class GUPnP::FeatureListParser {
       $glist,
       $raw,
       GUPnPFeature,
-      GUPnp::Feature
+      GUPnP::Feature
     );
   }
 
@@ -93,13 +93,13 @@ class GUPnP::FeatureListParser {
 
 sub gupnp_feature_list_parser_get_type ()
   returns GType
-  is native(gupnp)
+  is native(gupnp-av)
   is export
 { * }
 
 sub gupnp_feature_list_parser_new ()
   returns GUPnPFeatureListParser
-  is native(gupnp)
+  is native(gupnp-av)
   is export
 { * }
 
@@ -109,6 +109,6 @@ sub gupnp_feature_list_parser_parse_text (
   CArray[Pointer[GError]] $error
 )
   returns GList
-  is native(gupnp)
+  is native(gupnp-av)
   is export
 { * }
