@@ -42,6 +42,8 @@ class GUPnPDIDLLiteItem         is repr<CPointer> is export does GLib::Roles::Po
 class GUPnPDIDLLiteObject       is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPDIDLLiteResource     is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPDIDLLiteWriter       is repr<CPointer> is export does GLib::Roles::Pointers { }
+class GUPnPFeature              is repr<CPointer> is export does GLib::Roles::Pointers { }
+class GUPnPFeatureListParser    is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPProtocolInfo         is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPSearchCriteriaParser is repr<CPointer> is export does GLib::Roles::Pointers { }
 
