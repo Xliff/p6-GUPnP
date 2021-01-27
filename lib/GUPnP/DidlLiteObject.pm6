@@ -7,6 +7,7 @@ use LibXML::Raw;
 use GUPnP::Raw::Types;
 use GUPnP::Raw::DidlLiteObject;
 
+use GLib::GList;
 use GUPnP::DidlLiteContributor;
 use GUPnP::DidlLiteDescriptor;
 use GUPnP::DidlLiteResource;
@@ -619,15 +620,13 @@ class GUPnP::DidlLiteObject {
   {
     my $dl = gupnp_didl_lite_object_get_descriptors($!dlo);
 
-    return Nil unless $dl;
-    return $dl if     $glist && $raw;
-
-    $dl = GLib::GList.new($dl)
-      but GLib::Roles::ListData[GUPnPDIDLLiteDescriptor];
-    return $dl if     $glist;
-
-    $raw ?? $dl.Array
-         !! $dl.Array.map({ GUPnP::DidlLiteDescriptor.new($_, :!ref) });
+    returnGList(
+      $dl,
+      $glist,
+      $raw,
+      GUPnPDIDLLiteDescriptor,
+      GUPnP::DidlLiteDescriptor
+    );
   }
 
   method get_dlna_managed is also<get-dlna-managed> {
@@ -655,13 +654,7 @@ class GUPnP::DidlLiteObject {
   {
     my $pl = gupnp_didl_lite_object_get_properties($!dlo, $name);
 
-    return Nil unless $pl;
-    return $pl if     $glist && $raw;
-
-    $pl = GLib::GList.new($pl) but GLib::Roles::ListData[xmlNode];
-    return $pl if     $glist;
-
-    $pl.Array;
+    returnGist($pl, $glist, $raw, xmlNode);
   }
 
   method get_pv_namespace is also<get-pv-namespace> {
@@ -671,15 +664,13 @@ class GUPnP::DidlLiteObject {
   method get_resources (:$glist = False, :$raw = False) is also<get-resources> {
     my $rl = gupnp_didl_lite_object_get_resources($!dlo);
 
-    return Nil unless $rl;
-    return $rl if     $glist && $raw;
-
-    $rl = GLib::GList.new($rl)
-      but GLib::Roles::ListData[GUPnPDIDLLiteResource];
-    return $rl if     $glist;
-
-    $raw ?? $rl.Array
-         !! $rl.Array.map({ GUPnP::DidlLiteResource.new($_, :!ref) });
+    returnGList(
+      $rl,
+      $glist,
+      $raw,
+      GUPnPDIDLLiteResource,
+      GUPnP::DidlLiteResource
+    );
   }
 
   method get_restricted is also<get-restricted> {
