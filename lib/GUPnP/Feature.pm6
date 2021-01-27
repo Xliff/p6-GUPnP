@@ -11,7 +11,7 @@ use GLib::Roles::Object;
 subset GUPnPFeatureAncestry is export of Mu
   where GUPnPFeature | GObject;
 
-class GUPnP::Feaure {
+class GUPnP::Feature {
   also does GLib::Roles::Object;
 
   has GUPnPFeature $!f;
@@ -126,24 +126,24 @@ class GUPnP::Feaure {
 
 sub gupnp_feature_get_name (GUPnPFeature $feature)
   returns Str
-  is native(gupnp)
+  is native(gupnp-av)
   is export
 { * }
 
 sub gupnp_feature_get_object_ids (GUPnPFeature $feature)
   returns Str
-  is native(gupnp)
+  is native(gupnp-av)
   is export
 { * }
 
 sub gupnp_feature_get_type ()
   returns GType
-  is native(gupnp)
+  is native(gupnp-av)
   is export
 { * }
 
 sub gupnp_feature_get_version (GUPnPFeature $feature)
   returns Str
-  is native(gupnp)
+  is native(gupnp-av)
   is export
 { * }
