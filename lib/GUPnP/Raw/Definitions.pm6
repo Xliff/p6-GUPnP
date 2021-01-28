@@ -35,6 +35,7 @@ class GUPnPServiceProxyAction   is repr<CPointer> is export does GLib::Roles::Po
 class GUPnPXMLDoc               is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPWhiteList            is repr<CPointer> is export does GLib::Roles::Pointers { }
 
+class GUPnPCDSLastChangeEntry   is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPDIDLLiteContainer    is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPDIDLLiteContributor  is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPDIDLLiteDescriptor   is repr<CPointer> is export does GLib::Roles::Pointers { }
@@ -44,6 +45,8 @@ class GUPnPDIDLLiteResource     is repr<CPointer> is export does GLib::Roles::Po
 class GUPnPDIDLLiteWriter       is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPFeature              is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPFeatureListParser    is repr<CPointer> is export does GLib::Roles::Pointers { }
+class GUPnPLastChangeParser     is repr<CPointer> is export does GLib::Roles::Pointers { }
+class GUPnPMediaCollection      is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPProtocolInfo         is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPSearchCriteriaParser is repr<CPointer> is export does GLib::Roles::Pointers { }
 
