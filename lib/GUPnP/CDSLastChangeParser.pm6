@@ -98,10 +98,10 @@ class GUPnP::LastChangeEntry {
   has GUPnPCDSLastChangeEntry $!lce;
 
   submethod BUILD (:$entry) {
-    self.setGUPnPCDSLastChageEntry($entry) if $entry;
+    self.setGUPnPCDSLastChangeEntry($entry) if $entry;
   }
 
-  method setGUPnPCDSLastChageEntry (GUPnPCDSLastChangeEntryAncestry $_) {
+  method setGUPnPCDSLastChangeEntry (GUPnPCDSLastChangeEntryAncestry $_) {
     my $to-parent;
 
     $!lce = do {
@@ -118,8 +118,8 @@ class GUPnP::LastChangeEntry {
     self.setGUPnPDIDLLiteObject($to-parent);
   }
 
-  method GUPnP::Raw::Definitions::GUPnPCDSLastChageEntry
-    is also<GUPnPCDSLastChageEntry>
+  method GUPnP::Raw::Definitions::GUPnPCDSLastChangeEntry
+    is also<GUPnPCDSLastChangeEntry>
   { $!lce }
 
   method new (GUPnPCDSLastChangeEntryAncestry $entry, :$ref = True) {
