@@ -107,3 +107,8 @@ class GUPnPDIDLLiteCreateClass is repr<CStruct> is export does GLib::Roles::Poin
   HAS GObject  $.parent;
   has gpointer $!priv;
 }
+
+class GUPnPCDSLastChangeParser is repr<CStruct> is export does GLib::Roles::Pointers {
+  HAS GObject  $.parent;
+  has gpointer $!priv;
+}
