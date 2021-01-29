@@ -112,6 +112,13 @@ our enum GUPnPDLNAOperationEnum is export (
   GUPNP_DLNA_OPERATION_TIMESEEK => 0x10,
 );
 
+constant GUPnPDLNAValueState is export := guint32;
+our enum GUPnPDLNAValueStateEnum is export <
+  GUPNP_DLNA_VALUE_STATE_SET
+  GUPNP_DLNA_VALUE_STATE_UNSET
+  GUPNP_DLNA_VALUE_STATE_UNSUPPORTED
+>;
+
 constant GUPnPOCMFlags is export := guint32;
 our enum GUPnPOCMFlagsEnum is export (
   GUPNP_OCM_FLAGS_NONE               =>  0x0,
