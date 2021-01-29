@@ -50,6 +50,7 @@ class GUPnPMediaCollection      is repr<CPointer> is export does GLib::Roles::Po
 class GUPnPProtocolInfo         is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPSearchCriteriaParser is repr<CPointer> is export does GLib::Roles::Pointers { }
 
+class GUPnPDLNAAudioInformation is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPDLNAInformation      is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPDLNAProfile          is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPDLNAProfileGuesser   is repr<CPointer> is export does GLib::Roles::Pointers { }

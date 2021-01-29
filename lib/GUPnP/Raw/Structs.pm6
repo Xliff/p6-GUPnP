@@ -21,8 +21,11 @@ class GUPnPServiceActionArgInfo     is repr<CStruct> is export does GLib::Roles:
   method related-state-variable { $!related_state_variable }
 
   method direction-str {
-    GUPnPServiceActionArgDirectionEnum($!direction) ==
-      GUPNP_SERVICE_ACTION_ARG_DIRECTION_IN ?? 'in' !! 'out'
+    (
+      GUPnPServiceActionArgDirectionEnum($!direction)
+        eq
+      GUPNP_SERVICE_ACTION_ARG_DIRECTION_IN
+    ) ?? 'in' !! 'out';
   }
 
 }
@@ -103,12 +106,67 @@ class GUPnPServiceStateVariableInfo is repr<CStruct> is export does GLib::Roles:
 
 }
 
-class GUPnPDIDLLiteCreateClass is repr<CStruct> is export does GLib::Roles::Pointers {
+class GUPnPDIDLLiteCreateClass is repr<CStruct>   is export does GLib::Roles::Pointers {
   HAS GObject  $.parent;
   has gpointer $!priv;
 }
 
-class GUPnPCDSLastChangeParser is repr<CStruct> is export does GLib::Roles::Pointers {
+class GUPnPCDSLastChangeParser is repr<CStruct>   is export does GLib::Roles::Pointers {
   HAS GObject  $.parent;
   has gpointer $!priv;
+}
+
+class GUPnPDLNABoolValue     is repr<CStruct> { ... }
+class GUPnPDLNAFractionValue is repr<CStruct> { ... }
+class GUPnPDLNAIntValue      is repr<CStruct> { ... }
+class GUPnPDLNAStringValue   is repr<CStruct> { ... }
+
+role GUPnPValue {
+
+  method unset {
+    given self.WHAT {
+      when GUPnPDLNAFractionValue {
+        ( .numerator, .demominator ) = 0 xx 2;
+        proceed;
+      }
+
+      when GUPnPDLNAStringValue                     { .value = Str; proceed }
+      when GUPnPDLNABoolValue   | GUPnPDLNAIntValue { .value = 0;   proceed }
+
+      default { self.state = GUPNP_DLNA_VALUE_STATE_UNSET }
+    }
+  }
+
+  method unsupported {
+    self.unset;
+    self.state = GUPNP_DLNA_VALUE_STATE_UNSUPPORTED
+  }
+
+}
+
+
+class GUPnPDLNABoolValue       is export does GUPnPValue does GLib::Roles::Pointers {
+  has gboolean            $.value is rw;
+  has GUPnPDLNAValueState $.state is rw;
+}
+
+class GUPnPDLNAFractionValue   is export does GUPnPValue does GLib::Roles::Pointers {
+  has gint                $.numerator   is rw;
+  has gint                $.denominator is rw;
+  has GUPnPDLNAValueState $.state       is rw;
+}
+
+class GUPnPDLNAIntValue        is export does GUPnPValue does GLib::Roles::Pointers {
+  has gint                $.value   is rw;
+  has GUPnPDLNAValueState $.state   is rw;
+}
+
+class GUPnPDLNAStringValue     is export does GUPnPValue does GLib::Roles::Pointers {
+  has Str                 $!value;
+  has GUPnPDLNAValueState $.state is rw;
+
+  method value is rw {
+    Proxy.new: FETCH => -> $           { $!value      },
+               STORE => -> $, Str() \s { $!value := s };
+  }
 }
