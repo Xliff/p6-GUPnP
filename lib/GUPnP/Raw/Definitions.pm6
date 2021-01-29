@@ -54,6 +54,7 @@ class GUPnPDLNAInformation      is repr<CPointer> is export does GLib::Roles::Po
 class GUPnPDLNAProfile          is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPDLNAProfileGuesser   is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPDLNARestriction      is repr<CPointer> is export does GLib::Roles::Pointers { }
+class GUPnPDLNAValueList        is repr<CPointer> is export does GLib::Roles::Pointers { }
 
 constant gupnp        is export = 'gupnp-1.2',v0;
 constant gupnp-av     is export = 'gupnp-av-1.0',v2;
