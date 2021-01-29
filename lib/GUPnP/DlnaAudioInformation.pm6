@@ -10,7 +10,6 @@ use GLib::Roles::Object;
 our subset GUPnPDLNAAudioInformationAncestry is export of Mu
   where GUPnPDLNAAudioInformation | GObject;
 
-
 class GUPnP::DlnaAudioInformation {
   also does GLib::Roles::Object;
 
