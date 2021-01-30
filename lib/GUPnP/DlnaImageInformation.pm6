@@ -48,15 +48,30 @@ class GUPnP::DlnaImageInformation {
     $o;
   }
 
-  method get_depth is also<get-depth> {
+  method get_depth
+    is also<
+      get-depth
+      depth
+    >
+  {
     gupnp_dlna_image_information_get_depth($!ii);
   }
 
-  method get_height is also<get-height> {
+  method get_height
+    is also<
+      get-height
+      height
+    >
+  {
     gupnp_dlna_image_information_get_height($!ii);
   }
 
-  method get_mime is also<get-mime> {
+  method get_mime
+    is also<
+      get-mime
+      mime
+    >
+  {
     gupnp_dlna_image_information_get_mime($!ii);
   }
 
@@ -71,7 +86,12 @@ class GUPnP::DlnaImageInformation {
     );
   }
 
-  method get_width is also<get-width> {
+  method get_width
+    is also<
+      get-width
+      width
+    >
+  {
     gupnp_dlna_image_information_get_width($!ii);
   }
 

@@ -48,47 +48,105 @@ class GUPnP::DlnaAudioInformation {
     $o;
   }
 
-  method get_bitrate is also<get-bitrate> {
+  method get_bitrate
+    is also<
+      get-bitrate
+      bitrate
+    >
+  {
     gupnp_dlna_audio_information_get_bitrate($!ai);
   }
 
-  method get_channels is also<get-channels> {
+  method get_channels
+    is also<
+      get-channels
+      channels
+    >
+  {
     gupnp_dlna_audio_information_get_channels($!ai);
   }
 
-  method get_depth is also<get-depth> {
+  method get_depth
+    is also<
+      get-depth
+      depth
+    >
+  {
     gupnp_dlna_audio_information_get_depth($!ai);
   }
 
-  method get_layer is also<get-layer> {
+  method get_layer
+    is also<
+      get-layer
+      layer
+    >
+  {
     gupnp_dlna_audio_information_get_layer($!ai);
   }
 
-  method get_level is also<get-level> {
+  method get_level
+    is also<
+      get-level
+      level
+    >
+  {
     gupnp_dlna_audio_information_get_level($!ai);
   }
 
-  method get_mime is also<get-mime> {
+  method get_mime
+    is also<
+      get-mime
+      mime
+    >
+  {
     gupnp_dlna_audio_information_get_mime($!ai);
   }
 
-  method get_mpeg_audio_version is also<get-mpeg-audio-version> {
+  method get_mpeg_audio_version
+    is also<
+      get-mpeg-audio-version
+      mpeg_audio_version
+      mpeg-audio-version
+    >
+  {
     gupnp_dlna_audio_information_get_mpeg_audio_version($!ai);
   }
 
-  method get_mpeg_version is also<get-mpeg-version> {
+  method get_mpeg_version
+    is also<
+      get-mpeg-version
+      mpeg_version
+      mpeg-version
+    >
+  {
     gupnp_dlna_audio_information_get_mpeg_version($!ai);
   }
 
-  method get_profile is also<get-profile> {
+  method get_profile
+    is also<
+      get-profile
+      profile
+    >
+  {
     gupnp_dlna_audio_information_get_profile($!ai);
   }
 
-  method get_rate is also<get-rate> {
+  method get_rate
+    is also<
+      get-rate
+      rate
+    >
+  {
     gupnp_dlna_audio_information_get_rate($!ai);
   }
 
-  method get_stream_format is also<get-stream-format> {
+  method get_stream_format
+    is also<
+      get-stream-format
+      stream_format
+      stream-format
+    >
+  {
     gupnp_dlna_audio_information_get_stream_format($!ai);
   }
 
@@ -103,7 +161,13 @@ class GUPnP::DlnaAudioInformation {
     );
   }
 
-  method get_wma_version is also<get-wma-version> {
+  method get_wma_version
+    is also<
+      get-wma-version
+      wma_version
+      wma-version
+    >
+  {
     gupnp_dlna_audio_information_get_wma_version($!ai);
   }
 

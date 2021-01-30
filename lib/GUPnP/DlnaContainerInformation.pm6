@@ -53,19 +53,41 @@ class GUPNP::DlnaContainerInformation {
     $o;
   }
 
-  method get_mime is also<get-mime> {
+  method get_mime
+    is also<
+      get-mime
+      mime
+    >
+  {
     gupnp_dlna_container_information_get_mime($!ci);
   }
 
-  method get_mpeg_version is also<get-mpeg-version> {
+  method get_mpeg_version
+    is also<
+      get-mpeg-version
+      mpeg_version
+      mpeg-version
+    >
+  {
     gupnp_dlna_container_information_get_mpeg_version($!ci);
   }
 
-  method get_packet_size is also<get-packet-size> {
+  method get_packet_size
+    is also<
+      get-packet-size
+      packet_size
+      packet-size
+    >
+  {
     gupnp_dlna_container_information_get_packet_size($!ci);
   }
 
-  method get_profile is also<get-profile> {
+  method get_profile
+    is also<
+      get-profile
+      profile
+    >
+  {
     gupnp_dlna_container_information_get_profile($!ci);
   }
 
@@ -80,7 +102,12 @@ class GUPNP::DlnaContainerInformation {
     );
   }
 
-  method get_variant is also<get-variant> {
+  method get_variant
+    is also<
+      get-variant
+      variant
+    >
+  {
     gupnp_dlna_container_information_get_variant($!ci);
   }
 
