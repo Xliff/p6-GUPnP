@@ -1,0 +1,265 @@
+ === GIO::Raw::Exports === 
+Stage start      :   0.000
+Stage parse      :   5.310
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.002
+Stage mast       :   0.027
+Stage mbc        :   0.014
+Stage moar       :   0.000
+
+GIO::Raw::Exports compile time: 5.5848601
+ === GLib::Raw::Struct_Subs === 
+Stage start      :   0.000
+Stage parse      :   5.068
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.006
+Stage moar       :   0.000
+
+GLib::Raw::Struct_Subs compile time: 5.51617183
+ === GIO::Raw::Definitions === 
+Stage start      :   0.000
+Stage parse      :   5.749
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.002
+Stage mast       :   0.023
+Stage mbc        :   0.002
+Stage moar       :   0.000
+
+GIO::Raw::Definitions compile time: 6.02011763
+ === GLib::Raw::ReturnedValue === 
+Stage start      :   0.000
+Stage parse      :   5.441
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.002
+Stage mast       :   0.013
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GLib::Raw::ReturnedValue compile time: 5.89435511
+ === GLib::Raw::Exceptions === 
+Stage start      :   0.000
+Stage parse      :   5.708
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.002
+Stage mast       :   0.009
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GLib::Raw::Exceptions compile time: 6.0966007
+ === GLib::Raw::Exports === 
+Stage start      :   0.000
+Stage parse      :   5.868
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GLib::Raw::Exports compile time: 6.3117814
+ === GLib::Raw::Object === 
+Stage start      :   0.000
+Stage parse      :   5.940
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GLib::Raw::Object compile time: 6.34979408
+ === GIO::Raw::Enums === 
+Stage start      :   0.000
+Stage parse      :   6.300
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.004
+Stage mast       :   0.036
+Stage mbc        :   0.004
+Stage moar       :   0.000
+
+GIO::Raw::Enums compile time: 6.58106239
+ === GLib::Raw::Definitions === 
+Stage start      :   0.000
+Stage parse      :   6.118
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.002
+Stage mast       :   0.006
+Stage mbc        :   0.003
+Stage moar       :   0.000
+
+GLib::Raw::Definitions compile time: 6.535384
+ === GIO::Raw::Quarks === 
+Stage start      :   0.000
+Stage parse      :   6.647
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.003
+Stage moar       :   0.000
+
+GIO::Raw::Quarks compile time: 6.9117253
+ === GLib::Raw::Subs === 
+Stage start      :   0.000
+Stage parse      :   6.124
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.004
+Stage mbc        :   0.044
+Stage moar       :   0.000
+
+GLib::Raw::Subs compile time: 6.74428384
+ === GLib::Roles::Pointers === 
+Stage start      :   0.000
+Stage parse      :   5.985
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.023
+Stage mbc        :   0.013
+Stage moar       :   0.000
+
+GLib::Roles::Pointers compile time: 6.56497084
+ === GLib::Raw::Structs === 
+Stage start      :   0.000
+Stage parse      :   6.383
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.002
+Stage mast       :   0.005
+Stage mbc        :   0.018
+Stage moar       :   0.000
+
+GLib::Raw::Structs compile time: 6.7879487
+ === GIO::DBus::Raw::Types === 
+Stage start      :   0.000
+Stage parse      :   6.808
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.002
+Stage mast       :   0.011
+Stage mbc        :   0.013
+Stage moar       :   0.000
+
+GIO::DBus::Raw::Types compile time: 7.2279068
+ === GIO::Raw::Structs === 
+Stage start      :   0.000
+Stage parse      :   6.831
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.004
+Stage mbc        :   0.003
+Stage moar       :   0.000
+
+GIO::Raw::Structs compile time: 7.1659947
+ === GIO::Raw::Subs === 
+Stage start      :   0.000
+Stage parse      :   7.162
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.088
+Stage moar       :   0.000
+
+GIO::Raw::Subs compile time: 7.5587269
+ === GLib::Raw::Enums === 
+Stage start      :   0.000
+Stage parse      :   7.057
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.011
+Stage mast       :   0.016
+Stage mbc        :   0.007
+Stage moar       :   0.000
+
+GLib::Raw::Enums compile time: 7.56214123
+ === GLib::Roles::ListData === 
+Stage start      :   0.000
+Stage parse      :   6.802
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.051
+Stage mbc        :   0.003
+Stage moar       :   0.000
+
+GLib::Roles::ListData compile time: 7.3946086
+ === GLib::GList === 
+Stage start      :   0.000
+Stage parse      :   7.372
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.016
+Stage mbc        :   0.055
+Stage moar       :   0.000
+
+GLib::GList compile time: 7.76485445
+ === GLib::Roles::Object === 
+Stage start      :   0.000
+Stage parse      :   7.705
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.002
+Stage mbc        :   0.004
+Stage moar       :   0.000
+
+GLib::Roles::Object compile time: 8.1677354
+ === GUPNP::Raw::Structs === 
+Stage start      :   0.000
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+Could not find GUPNP::Raw::Structs in:
+    file#/home/cbwood/Other_Projects/Method-Also/lib
+    file#/home/cbwood/Projects/p6-GLib/lib
+    file#/home/cbwood/Projects/p6-ATK/lib
+    file#/home/cbwood/Projects/p6-JSON-GLib/lib
+    file#/home/cbwood/Projects/p6-GIR/lib
+    file#/home/cbwood/Projects/p6-SOUP/lib
+    file#/home/cbwood/Projects/p6-GSSDP/lib
+    file#/home/cbwood/Projects/p6-Pango/lib
+    file#/home/cbwood/Projects/p6-GIO/lib
+    file#/home/cbwood/Projects/p6-GDK/lib
+    file#/home/cbwood/Projects/p6-GtkPlus/lib
+    file#/home/cbwood/Projects/p6-WebkitGTK/lib
+    file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+    file#/home/cbwood/Projects/p6-AMTK/lib
+    file#/home/cbwood/Projects/p6-TEPL/lib
+    file#/home/cbwood/Projects/p6-GooCanvas/lib
+    file#/home/cbwood/Projects/p6-Slope/lib
+    file#/home/cbwood/Projects/p6-WNCK/lib
+    file#/home/cbwood/Projects/p6-Clutter/lib
+    file#/home/cbwood/Projects/p6-GtkClutter/lib
+    file#/home/cbwood/Projects/p6-COGL/lib
+    file#/home/cbwood/Projects/p6-GStreamer/lib
+    file#/home/cbwood/Projects/p6-RSVG/lib
+    file#/home/cbwood/Projects/p6-GtkSheet/lib
+    file#/home/cbwood/Projects/p6-VTE/lib
+    file#/home/cbwood/Projects/p6-GUPnP/lib
+    file#/home/cbwood/Projects/p6-GUPnP/bin
+    inst#/home/cbwood/.raku
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+    ap#
+    nqp#
+    perl5#
+at -e:1
+
+GUPNP::Raw::Structs compile time: 4.7760616
+
+Errors detected!
+
+Total compile time: 22.28859331s
