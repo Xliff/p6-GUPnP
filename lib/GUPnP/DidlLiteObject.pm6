@@ -654,7 +654,7 @@ class GUPnP::DidlLiteObject {
   {
     my $pl = gupnp_didl_lite_object_get_properties($!dlo, $name);
 
-    returnGist($pl, $glist, $raw, xmlNode);
+    returnGList($pl, $glist, $raw, xmlNode);
   }
 
   method get_pv_namespace is also<get-pv-namespace> {
