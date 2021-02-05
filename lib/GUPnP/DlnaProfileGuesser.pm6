@@ -120,14 +120,26 @@ class GUPnP::DlnaProfileGuesser {
       Nil;
   }
 
-  method guess_profile_sync (
-    Str()                   $uri,
-    Int()                   $timeout_in_ms,
-    GUPnPDLNAInformation()  $dlna_info,
-    CArray[Pointer[GError]] $error          = gerror,
-                            :$raw           = False
-  )
+  proto method guess_profile_sync (|)
     is also<guess-profile-sync>
+  { * }
+
+  multi method guess_profile_sync (
+    Str()                        $uri,
+    Int()                        $timeout_in_ms,
+    CArray[Pointer[GError]]      $error          = gerror,
+                                 :$raw           = False
+  ) {
+    my $info = CArray[GUPnPDLNAInformation]
+  }
+  multi method guess_profile_sync (
+    Str()                        $uri,
+    Int()                        $timeout_in_ms,
+    CArray[GUPnPDLNAInformation] $dlna_info,
+    CArray[Pointer[GError]]      $error          = gerror,
+                                 :$raw           = False
+  )
+
   {
     my guint $t = $timeout_in_ms;
     my       $p = gupnp_dlna_profile_guesser_guess_profile_sync(
