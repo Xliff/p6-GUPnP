@@ -9,7 +9,7 @@ use GLib::Raw::Definitions;
 use GLib::Raw::Structs;
 use GLib::Raw::Subs;
 use GUPnP::Raw::Definitions;
-use GUPNP::Raw::Structs;
+use GUPnP::Raw::Structs;
 
 unit package GUPnP::Raw::Restriction;
 
