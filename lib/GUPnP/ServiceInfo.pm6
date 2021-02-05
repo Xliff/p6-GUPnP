@@ -60,13 +60,12 @@ class GUPnP::ServiceInfo {
           self.prop_get('context', $gv)
         );
 
-        my $o = $gv.object;
-        return Nil unless $o;
-
-        $o = cast(GUPnPContext, $o);
-        return $o if $raw;
-
-        GUPnP::Context.new($o, :!ref);
+        propReturnObject(
+          $gv.object,
+          $raw,
+          GUPnPContext,
+          GUPnP::Context
+        );
       },
       STORE => -> $,  $val is copy {
         warn 'context is a construct-only attribute'
@@ -131,13 +130,12 @@ class GUPnP::ServiceInfo {
           self.prop_get('url-base', $gv)
         );
 
-        my $o = $gv.object;
-        return Nil unless $o;
-
-        $o = cast(SoupURI, $o);
-        return $o if $raw;
-
-        SOUP::URI.new($o, :!ref);
+        propReturnObject(
+          $gv.object;
+          $raw,
+          SoupURI,
+          SOUP::URI
+        );
       },
       STORE => -> $,  $val is copy {
         warn 'url-base is a construct-only attribute'
@@ -145,6 +143,7 @@ class GUPnP::ServiceInfo {
     );
   }
 
+  # Transfer: none (implies default)
   method get_context (:$raw = False) is also<get-context> {
     my $c = gupnp_service_info_get_context($!si);
 
@@ -219,10 +218,7 @@ class GUPnP::ServiceInfo {
     my $su = gupnp_service_info_get_url_base($!si);
 
     $su ??
-      # cw: -XXX-
-      #     Should NEVER be freed since it is constant. Need a mechanism
-      #     for this too in ALL GObjects... *sigh*
-      ( $raw ?? $su !! SOUP::URI.new($su) )
+      ( $raw ?? $su !! SOUP::URI.new($su, :fixed) )
       !!
       Nil;
   }
@@ -259,7 +255,9 @@ class GUPnP::ServiceInfo {
     GAsyncResult()          $res,
     CArray[Pointer[GError]] $error = gerror,
                             :$raw  = False
-  ) is also<introspect-finish> {
+  )
+    is also<introspect-finish>
+  {
     clear_error;
     my $si = gupnp_service_info_introspect_finish($!si, $res, $error);
     set_error($error);
