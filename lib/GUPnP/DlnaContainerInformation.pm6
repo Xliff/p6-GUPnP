@@ -10,7 +10,7 @@ use GLib::Roles::Object;
 our subset GUPnPDLNAContainerInformationAncestry is export of Mu
   where GUPnPDLNAContainerInformation | GObject;
 
-class GUPNP::DlnaContainerInformation {
+class GUPnP::DlnaContainerInformation {
   also does GLib::Roles::Object;
 
   has GUPnPDLNAContainerInformation $!ci;
