@@ -5,6 +5,7 @@ use NativeCall;
 use GLib::Raw::Definitions;
 use GLib::Raw::Structs;
 use GUPnP::Raw::Definitions;
+use GUPnP::Raw::Structs;
 
 unit package GUPnP::Raw::ServiceIntrospection;
 
