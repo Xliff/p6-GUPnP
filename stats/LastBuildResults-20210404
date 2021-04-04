@@ -1,0 +1,3439 @@
+Dependency Generation
+=====================
+real 0.90
+user 1.40
+sys 0.03
+ === GIO::DBus::Raw::Types ===
+Stage start      :   0.000
+Stage parse      :   2.248
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.002
+Stage mbc        :   0.002
+Stage moar       :   0.000
+ === GIO::Raw::Definitions ===
+Stage start      :   0.000
+Stage parse      :   1.920
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === GIO::Raw::Enums ===
+Stage start      :   0.000
+Stage parse      :   1.987
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.006
+Stage mast       :   0.004
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === GIO::Raw::Exports ===
+Stage start      :   0.000
+Stage parse      :   1.782
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GIO::Raw::Quarks ===
+Stage start      :   0.000
+Stage parse      :   2.143
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.001
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === GIO::Raw::Structs ===
+Stage start      :   0.000
+Stage parse      :   2.127
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.001
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === GIO::Raw::Subs ===
+Stage start      :   0.000
+Stage parse      :   2.136
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.001
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === GLib::GList ===
+Stage start      :   0.000
+Stage parse      :   2.234
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.001
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === GLib::Raw::Definitions ===
+Stage start      :   0.000
+Stage parse      :   1.991
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === GLib::Raw::Enums ===
+Stage start      :   0.000
+Stage parse      :   2.063
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.003
+Stage mast       :   0.007
+Stage mbc        :   0.003
+Stage moar       :   0.000
+ === GLib::Raw::Exceptions ===
+Stage start      :   0.000
+Stage parse      :   1.859
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GLib::Raw::Exports ===
+Stage start      :   0.000
+Stage parse      :   1.903
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.001
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GLib::Raw::Object ===
+Stage start      :   0.000
+Stage parse      :   1.989
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.001
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === GLib::Raw::ReturnedValue ===
+Stage start      :   0.000
+Stage parse      :   1.802
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GLib::Raw::Struct_Subs ===
+Stage start      :   0.000
+Stage parse      :   1.994
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.001
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GLib::Raw::Structs ===
+Stage start      :   0.000
+Stage parse      :   2.097
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.001
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === GLib::Raw::Subs ===
+Stage start      :   0.000
+Stage parse      :   1.995
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.001
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === GLib::Roles::ListData ===
+Stage start      :   0.000
+Stage parse      :   2.100
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.001
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === GLib::Roles::Object ===
+Stage start      :   0.000
+Stage parse      :   2.238
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.001
+Stage mbc        :   0.002
+Stage moar       :   0.000
+ === GLib::Roles::Pointers ===
+Stage start      :   0.000
+Stage parse      :   1.863
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.001
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === GLib::Roles::Signals::Generic ===
+Stage start      :   0.000
+Stage parse      :   2.142
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.001
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === GLib::Roles::StaticClass ===
+Stage start      :   0.000
+Stage parse      :   2.111
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.036
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === GLib::Value ===
+Stage start      :   0.000
+Stage parse      :   2.192
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.001
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === GSSDP::Client ===
+Stage start      :   0.000
+Stage parse      :   2.702
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.001
+Stage mbc        :   0.006
+Stage moar       :   0.000
+ === GSSDP::Raw::Definitions ===
+Stage start      :   0.000
+Stage parse      :   1.972
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.001
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === GSSDP::Raw::Exports ===
+Stage start      :   0.000
+Stage parse      :   1.823
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GSSDP::ResourceBrowser ===
+Stage start      :   0.000
+Stage parse      :   2.797
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.001
+Stage mbc        :   0.005
+Stage moar       :   0.000
+ === LibXML::Document ===
+Stage start      :   0.000
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+Could not find LibXML::Document in:
+    file#/home/cbwood/Other_Projects/Method-Also/lib
+    file#/home/cbwood/Projects/p6-GLib/lib
+    file#/home/cbwood/Projects/p6-ATK/lib
+    file#/home/cbwood/Projects/p6-JSON-GLib/lib
+    file#/home/cbwood/Projects/p6-GIR/lib
+    file#/home/cbwood/Projects/p6-SOUP/lib
+    file#/home/cbwood/Projects/p6-GSSDP/lib
+    file#/home/cbwood/Projects/p6-GUPnP/lib
+    file#/home/cbwood/Projects/p6-Pango/lib
+    file#/home/cbwood/Projects/p6-GIO/lib
+    file#/home/cbwood/Projects/p6-GDK/lib
+    file#/home/cbwood/Projects/p6-GtkPlus/lib
+    file#/home/cbwood/Projects/p6-WebkitGTK/lib
+    file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+    file#/home/cbwood/Projects/p6-AMTK/lib
+    file#/home/cbwood/Projects/p6-TEPL/lib
+    file#/home/cbwood/Projects/p6-GooCanvas/lib
+    file#/home/cbwood/Projects/p6-Slope/lib
+    file#/home/cbwood/Projects/p6-WNCK/lib
+    file#/home/cbwood/Projects/p6-Clutter/lib
+    file#/home/cbwood/Projects/p6-GtkClutter/lib
+    file#/home/cbwood/Projects/p6-COGL/lib
+    file#/home/cbwood/Projects/p6-GStreamer/lib
+    file#/home/cbwood/Projects/p6-RSVG/lib
+    file#/home/cbwood/Projects/p6-GtkSheet/lib
+    file#/home/cbwood/Projects/p6-VTE/lib
+    file#/home/cbwood/Projects/p6-GUPnP/bin
+    inst#/home/cbwood/.raku
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+    ap#
+    nqp#
+    perl5#
+at -e:1
+ === LibXML::Raw ===
+Stage start      :   0.000
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+Could not find LibXML::Raw in:
+    file#/home/cbwood/Other_Projects/Method-Also/lib
+    file#/home/cbwood/Projects/p6-GLib/lib
+    file#/home/cbwood/Projects/p6-ATK/lib
+    file#/home/cbwood/Projects/p6-JSON-GLib/lib
+    file#/home/cbwood/Projects/p6-GIR/lib
+    file#/home/cbwood/Projects/p6-SOUP/lib
+    file#/home/cbwood/Projects/p6-GSSDP/lib
+    file#/home/cbwood/Projects/p6-GUPnP/lib
+    file#/home/cbwood/Projects/p6-Pango/lib
+    file#/home/cbwood/Projects/p6-GIO/lib
+    file#/home/cbwood/Projects/p6-GDK/lib
+    file#/home/cbwood/Projects/p6-GtkPlus/lib
+    file#/home/cbwood/Projects/p6-WebkitGTK/lib
+    file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+    file#/home/cbwood/Projects/p6-AMTK/lib
+    file#/home/cbwood/Projects/p6-TEPL/lib
+    file#/home/cbwood/Projects/p6-GooCanvas/lib
+    file#/home/cbwood/Projects/p6-Slope/lib
+    file#/home/cbwood/Projects/p6-WNCK/lib
+    file#/home/cbwood/Projects/p6-Clutter/lib
+    file#/home/cbwood/Projects/p6-GtkClutter/lib
+    file#/home/cbwood/Projects/p6-COGL/lib
+    file#/home/cbwood/Projects/p6-GStreamer/lib
+    file#/home/cbwood/Projects/p6-RSVG/lib
+    file#/home/cbwood/Projects/p6-GtkSheet/lib
+    file#/home/cbwood/Projects/p6-VTE/lib
+    file#/home/cbwood/Projects/p6-GUPnP/bin
+    inst#/home/cbwood/.raku
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+    ap#
+    nqp#
+    perl5#
+at -e:1
+ === Method::Also ===
+Stage start      :   0.000
+Stage parse      :   1.787
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === NativeCall ===
+Stage start      :   0.000
+Stage parse      :   1.869
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.005
+Stage mast       :   0.001
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === SOUP::Raw::Definitions ===
+Stage start      :   0.000
+Stage parse      :   2.160
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.002
+Stage mbc        :   0.041
+Stage moar       :   0.000
+ === SOUP::Raw::Enums ===
+Stage start      :   0.000
+Stage parse      :   2.017
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === SOUP::Raw::Exports ===
+Stage start      :   0.000
+Stage parse      :   1.806
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === SOUP::Raw::Subs ===
+Stage start      :   0.000
+Stage parse      :   2.208
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.001
+Stage mbc        :   0.019
+Stage moar       :   0.000
+ === SOUP::Server ===
+Stage start      :   0.000
+Stage parse      :   3.143
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.001
+Stage mbc        :   0.005
+Stage moar       :   0.000
+ === SOUP::Session ===
+Stage start      :   0.000
+Stage parse      :   3.137
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.001
+Stage mbc        :   0.005
+Stage moar       :   0.000
+ === GUPnP::Raw::Definitions ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/Definitions.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.786
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.005
+    Stage mast       :   0.045
+    Stage mbc        :   0.010
+Stage parse      :   4.865
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === GUPnP::Raw::ACL ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/ACL.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.509
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.008
+    Stage mast       :   0.038
+    Stage mbc        :   0.007
+Stage parse      :   4.528
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::Raw::Enums ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/Enums.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.607
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.014
+    Stage mast       :   0.110
+    Stage mbc        :   0.017
+Stage parse      :   4.703
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.004
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === GUPnP::Raw::Context ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/Context.pm6
+    Stage start      :   0.000
+    Stage parse      :   3.002
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.014
+    Stage mast       :   0.058
+    Stage mbc        :   0.027
+Stage parse      :   5.111
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::Raw::ContextManager ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/ContextManager.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.523
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.006
+    Stage mast       :   0.044
+    Stage mbc        :   0.027
+Stage parse      :   4.546
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::Raw::ControlPoint ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/ControlPoint.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.494
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.004
+    Stage mast       :   0.038
+    Stage mbc        :   0.012
+Stage parse      :   4.515
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::Raw::DeviceInfo ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DeviceInfo.pm6
+    Stage start      :   0.000
+    Stage parse      :   3.442
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.013
+    Stage mast       :   0.077
+    Stage mbc        :   0.039
+Stage parse      :   5.577
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === GUPnP::Raw::DidlLiteContainer ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DidlLiteContainer.pm6
+    Stage start      :   0.000
+    Stage parse      :   3.096
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.010
+    Stage mast       :   0.064
+    Stage mbc        :   0.026
+Stage parse      :   5.169
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === GUPnP::Raw::DidlLiteContributor ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DidlLiteContributor.pm6
+    Stage start      :   0.000
+    [31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteContributor.pm6 (GUPnP::Raw::DidlLiteContributor)
+    Could not find LibXML::Raw in:
+        file#/home/cbwood/Other_Projects/Method-Also/lib
+        file#/home/cbwood/Projects/p6-GLib/lib
+        file#/home/cbwood/Projects/p6-ATK/lib
+        file#/home/cbwood/Projects/p6-JSON-GLib/lib
+        file#/home/cbwood/Projects/p6-GIR/lib
+        file#/home/cbwood/Projects/p6-SOUP/lib
+        file#/home/cbwood/Projects/p6-GSSDP/lib
+        file#/home/cbwood/Projects/p6-GUPnP/lib
+        file#/home/cbwood/Projects/p6-Pango/lib
+        file#/home/cbwood/Projects/p6-GIO/lib
+        file#/home/cbwood/Projects/p6-GDK/lib
+        file#/home/cbwood/Projects/p6-GtkPlus/lib
+        file#/home/cbwood/Projects/p6-WebkitGTK/lib
+        file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+        file#/home/cbwood/Projects/p6-AMTK/lib
+        file#/home/cbwood/Projects/p6-TEPL/lib
+        file#/home/cbwood/Projects/p6-GooCanvas/lib
+        file#/home/cbwood/Projects/p6-Slope/lib
+        file#/home/cbwood/Projects/p6-WNCK/lib
+        file#/home/cbwood/Projects/p6-Clutter/lib
+        file#/home/cbwood/Projects/p6-GtkClutter/lib
+        file#/home/cbwood/Projects/p6-COGL/lib
+        file#/home/cbwood/Projects/p6-GStreamer/lib
+        file#/home/cbwood/Projects/p6-RSVG/lib
+        file#/home/cbwood/Projects/p6-GtkSheet/lib
+        file#/home/cbwood/Projects/p6-VTE/lib
+        file#/home/cbwood/Projects/p6-GUPnP/bin
+        inst#/home/cbwood/.raku
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+        ap#
+        nqp#
+        perl5#
+    at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteContributor.pm6 (GUPnP::Raw::DidlLiteContributor):5
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+Stage start      :   0.000
+[31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteContributor.pm6 (GUPnP::Raw::DidlLiteContributor)
+Could not find LibXML::Raw in:
+    file#/home/cbwood/Other_Projects/Method-Also/lib
+    file#/home/cbwood/Projects/p6-GLib/lib
+    file#/home/cbwood/Projects/p6-ATK/lib
+    file#/home/cbwood/Projects/p6-JSON-GLib/lib
+    file#/home/cbwood/Projects/p6-GIR/lib
+    file#/home/cbwood/Projects/p6-SOUP/lib
+    file#/home/cbwood/Projects/p6-GSSDP/lib
+    file#/home/cbwood/Projects/p6-GUPnP/lib
+    file#/home/cbwood/Projects/p6-Pango/lib
+    file#/home/cbwood/Projects/p6-GIO/lib
+    file#/home/cbwood/Projects/p6-GDK/lib
+    file#/home/cbwood/Projects/p6-GtkPlus/lib
+    file#/home/cbwood/Projects/p6-WebkitGTK/lib
+    file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+    file#/home/cbwood/Projects/p6-AMTK/lib
+    file#/home/cbwood/Projects/p6-TEPL/lib
+    file#/home/cbwood/Projects/p6-GooCanvas/lib
+    file#/home/cbwood/Projects/p6-Slope/lib
+    file#/home/cbwood/Projects/p6-WNCK/lib
+    file#/home/cbwood/Projects/p6-Clutter/lib
+    file#/home/cbwood/Projects/p6-GtkClutter/lib
+    file#/home/cbwood/Projects/p6-COGL/lib
+    file#/home/cbwood/Projects/p6-GStreamer/lib
+    file#/home/cbwood/Projects/p6-RSVG/lib
+    file#/home/cbwood/Projects/p6-GtkSheet/lib
+    file#/home/cbwood/Projects/p6-VTE/lib
+    file#/home/cbwood/Projects/p6-GUPnP/bin
+    inst#/home/cbwood/.raku
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+    ap#
+    nqp#
+    perl5#
+at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteContributor.pm6 (GUPnP::Raw::DidlLiteContributor):5
+
+at -e:1
+ === GUPnP::Raw::DidlLiteDescriptor ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DidlLiteDescriptor.pm6
+    Stage start      :   0.000
+    [31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteDescriptor.pm6 (GUPnP::Raw::DidlLiteDescriptor)
+    Could not find LibXML::Raw in:
+        file#/home/cbwood/Other_Projects/Method-Also/lib
+        file#/home/cbwood/Projects/p6-GLib/lib
+        file#/home/cbwood/Projects/p6-ATK/lib
+        file#/home/cbwood/Projects/p6-JSON-GLib/lib
+        file#/home/cbwood/Projects/p6-GIR/lib
+        file#/home/cbwood/Projects/p6-SOUP/lib
+        file#/home/cbwood/Projects/p6-GSSDP/lib
+        file#/home/cbwood/Projects/p6-GUPnP/lib
+        file#/home/cbwood/Projects/p6-Pango/lib
+        file#/home/cbwood/Projects/p6-GIO/lib
+        file#/home/cbwood/Projects/p6-GDK/lib
+        file#/home/cbwood/Projects/p6-GtkPlus/lib
+        file#/home/cbwood/Projects/p6-WebkitGTK/lib
+        file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+        file#/home/cbwood/Projects/p6-AMTK/lib
+        file#/home/cbwood/Projects/p6-TEPL/lib
+        file#/home/cbwood/Projects/p6-GooCanvas/lib
+        file#/home/cbwood/Projects/p6-Slope/lib
+        file#/home/cbwood/Projects/p6-WNCK/lib
+        file#/home/cbwood/Projects/p6-Clutter/lib
+        file#/home/cbwood/Projects/p6-GtkClutter/lib
+        file#/home/cbwood/Projects/p6-COGL/lib
+        file#/home/cbwood/Projects/p6-GStreamer/lib
+        file#/home/cbwood/Projects/p6-RSVG/lib
+        file#/home/cbwood/Projects/p6-GtkSheet/lib
+        file#/home/cbwood/Projects/p6-VTE/lib
+        file#/home/cbwood/Projects/p6-GUPnP/bin
+        inst#/home/cbwood/.raku
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+        ap#
+        nqp#
+        perl5#
+    at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteDescriptor.pm6 (GUPnP::Raw::DidlLiteDescriptor):5
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+Stage start      :   0.000
+[31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteDescriptor.pm6 (GUPnP::Raw::DidlLiteDescriptor)
+Could not find LibXML::Raw in:
+    file#/home/cbwood/Other_Projects/Method-Also/lib
+    file#/home/cbwood/Projects/p6-GLib/lib
+    file#/home/cbwood/Projects/p6-ATK/lib
+    file#/home/cbwood/Projects/p6-JSON-GLib/lib
+    file#/home/cbwood/Projects/p6-GIR/lib
+    file#/home/cbwood/Projects/p6-SOUP/lib
+    file#/home/cbwood/Projects/p6-GSSDP/lib
+    file#/home/cbwood/Projects/p6-GUPnP/lib
+    file#/home/cbwood/Projects/p6-Pango/lib
+    file#/home/cbwood/Projects/p6-GIO/lib
+    file#/home/cbwood/Projects/p6-GDK/lib
+    file#/home/cbwood/Projects/p6-GtkPlus/lib
+    file#/home/cbwood/Projects/p6-WebkitGTK/lib
+    file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+    file#/home/cbwood/Projects/p6-AMTK/lib
+    file#/home/cbwood/Projects/p6-TEPL/lib
+    file#/home/cbwood/Projects/p6-GooCanvas/lib
+    file#/home/cbwood/Projects/p6-Slope/lib
+    file#/home/cbwood/Projects/p6-WNCK/lib
+    file#/home/cbwood/Projects/p6-Clutter/lib
+    file#/home/cbwood/Projects/p6-GtkClutter/lib
+    file#/home/cbwood/Projects/p6-COGL/lib
+    file#/home/cbwood/Projects/p6-GStreamer/lib
+    file#/home/cbwood/Projects/p6-RSVG/lib
+    file#/home/cbwood/Projects/p6-GtkSheet/lib
+    file#/home/cbwood/Projects/p6-VTE/lib
+    file#/home/cbwood/Projects/p6-GUPnP/bin
+    inst#/home/cbwood/.raku
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+    ap#
+    nqp#
+    perl5#
+at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteDescriptor.pm6 (GUPnP::Raw::DidlLiteDescriptor):5
+
+at -e:1
+ === GUPnP::Raw::DidlLiteObject ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DidlLiteObject.pm6
+    Stage start      :   0.000
+    [31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteObject.pm6 (GUPnP::Raw::DidlLiteObject)
+    Could not find LibXML::Raw in:
+        file#/home/cbwood/Other_Projects/Method-Also/lib
+        file#/home/cbwood/Projects/p6-GLib/lib
+        file#/home/cbwood/Projects/p6-ATK/lib
+        file#/home/cbwood/Projects/p6-JSON-GLib/lib
+        file#/home/cbwood/Projects/p6-GIR/lib
+        file#/home/cbwood/Projects/p6-SOUP/lib
+        file#/home/cbwood/Projects/p6-GSSDP/lib
+        file#/home/cbwood/Projects/p6-GUPnP/lib
+        file#/home/cbwood/Projects/p6-Pango/lib
+        file#/home/cbwood/Projects/p6-GIO/lib
+        file#/home/cbwood/Projects/p6-GDK/lib
+        file#/home/cbwood/Projects/p6-GtkPlus/lib
+        file#/home/cbwood/Projects/p6-WebkitGTK/lib
+        file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+        file#/home/cbwood/Projects/p6-AMTK/lib
+        file#/home/cbwood/Projects/p6-TEPL/lib
+        file#/home/cbwood/Projects/p6-GooCanvas/lib
+        file#/home/cbwood/Projects/p6-Slope/lib
+        file#/home/cbwood/Projects/p6-WNCK/lib
+        file#/home/cbwood/Projects/p6-Clutter/lib
+        file#/home/cbwood/Projects/p6-GtkClutter/lib
+        file#/home/cbwood/Projects/p6-COGL/lib
+        file#/home/cbwood/Projects/p6-GStreamer/lib
+        file#/home/cbwood/Projects/p6-RSVG/lib
+        file#/home/cbwood/Projects/p6-GtkSheet/lib
+        file#/home/cbwood/Projects/p6-VTE/lib
+        file#/home/cbwood/Projects/p6-GUPnP/bin
+        inst#/home/cbwood/.raku
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+        ap#
+        nqp#
+        perl5#
+    at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteObject.pm6 (GUPnP::Raw::DidlLiteObject):5
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+Stage start      :   0.000
+[31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteObject.pm6 (GUPnP::Raw::DidlLiteObject)
+Could not find LibXML::Raw in:
+    file#/home/cbwood/Other_Projects/Method-Also/lib
+    file#/home/cbwood/Projects/p6-GLib/lib
+    file#/home/cbwood/Projects/p6-ATK/lib
+    file#/home/cbwood/Projects/p6-JSON-GLib/lib
+    file#/home/cbwood/Projects/p6-GIR/lib
+    file#/home/cbwood/Projects/p6-SOUP/lib
+    file#/home/cbwood/Projects/p6-GSSDP/lib
+    file#/home/cbwood/Projects/p6-GUPnP/lib
+    file#/home/cbwood/Projects/p6-Pango/lib
+    file#/home/cbwood/Projects/p6-GIO/lib
+    file#/home/cbwood/Projects/p6-GDK/lib
+    file#/home/cbwood/Projects/p6-GtkPlus/lib
+    file#/home/cbwood/Projects/p6-WebkitGTK/lib
+    file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+    file#/home/cbwood/Projects/p6-AMTK/lib
+    file#/home/cbwood/Projects/p6-TEPL/lib
+    file#/home/cbwood/Projects/p6-GooCanvas/lib
+    file#/home/cbwood/Projects/p6-Slope/lib
+    file#/home/cbwood/Projects/p6-WNCK/lib
+    file#/home/cbwood/Projects/p6-Clutter/lib
+    file#/home/cbwood/Projects/p6-GtkClutter/lib
+    file#/home/cbwood/Projects/p6-COGL/lib
+    file#/home/cbwood/Projects/p6-GStreamer/lib
+    file#/home/cbwood/Projects/p6-RSVG/lib
+    file#/home/cbwood/Projects/p6-GtkSheet/lib
+    file#/home/cbwood/Projects/p6-VTE/lib
+    file#/home/cbwood/Projects/p6-GUPnP/bin
+    inst#/home/cbwood/.raku
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+    ap#
+    nqp#
+    perl5#
+at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteObject.pm6 (GUPnP::Raw::DidlLiteObject):5
+
+at -e:1
+ === GUPnP::Raw::DidlLiteResource ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DidlLiteResource.pm6
+    Stage start      :   0.000
+    [31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteResource.pm6 (GUPnP::Raw::DidlLiteResource)
+    Could not find LibXML::Raw in:
+        file#/home/cbwood/Other_Projects/Method-Also/lib
+        file#/home/cbwood/Projects/p6-GLib/lib
+        file#/home/cbwood/Projects/p6-ATK/lib
+        file#/home/cbwood/Projects/p6-JSON-GLib/lib
+        file#/home/cbwood/Projects/p6-GIR/lib
+        file#/home/cbwood/Projects/p6-SOUP/lib
+        file#/home/cbwood/Projects/p6-GSSDP/lib
+        file#/home/cbwood/Projects/p6-GUPnP/lib
+        file#/home/cbwood/Projects/p6-Pango/lib
+        file#/home/cbwood/Projects/p6-GIO/lib
+        file#/home/cbwood/Projects/p6-GDK/lib
+        file#/home/cbwood/Projects/p6-GtkPlus/lib
+        file#/home/cbwood/Projects/p6-WebkitGTK/lib
+        file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+        file#/home/cbwood/Projects/p6-AMTK/lib
+        file#/home/cbwood/Projects/p6-TEPL/lib
+        file#/home/cbwood/Projects/p6-GooCanvas/lib
+        file#/home/cbwood/Projects/p6-Slope/lib
+        file#/home/cbwood/Projects/p6-WNCK/lib
+        file#/home/cbwood/Projects/p6-Clutter/lib
+        file#/home/cbwood/Projects/p6-GtkClutter/lib
+        file#/home/cbwood/Projects/p6-COGL/lib
+        file#/home/cbwood/Projects/p6-GStreamer/lib
+        file#/home/cbwood/Projects/p6-RSVG/lib
+        file#/home/cbwood/Projects/p6-GtkSheet/lib
+        file#/home/cbwood/Projects/p6-VTE/lib
+        file#/home/cbwood/Projects/p6-GUPnP/bin
+        inst#/home/cbwood/.raku
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+        ap#
+        nqp#
+        perl5#
+    at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteResource.pm6 (GUPnP::Raw::DidlLiteResource):5
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+Stage start      :   0.000
+[31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteResource.pm6 (GUPnP::Raw::DidlLiteResource)
+Could not find LibXML::Raw in:
+    file#/home/cbwood/Other_Projects/Method-Also/lib
+    file#/home/cbwood/Projects/p6-GLib/lib
+    file#/home/cbwood/Projects/p6-ATK/lib
+    file#/home/cbwood/Projects/p6-JSON-GLib/lib
+    file#/home/cbwood/Projects/p6-GIR/lib
+    file#/home/cbwood/Projects/p6-SOUP/lib
+    file#/home/cbwood/Projects/p6-GSSDP/lib
+    file#/home/cbwood/Projects/p6-GUPnP/lib
+    file#/home/cbwood/Projects/p6-Pango/lib
+    file#/home/cbwood/Projects/p6-GIO/lib
+    file#/home/cbwood/Projects/p6-GDK/lib
+    file#/home/cbwood/Projects/p6-GtkPlus/lib
+    file#/home/cbwood/Projects/p6-WebkitGTK/lib
+    file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+    file#/home/cbwood/Projects/p6-AMTK/lib
+    file#/home/cbwood/Projects/p6-TEPL/lib
+    file#/home/cbwood/Projects/p6-GooCanvas/lib
+    file#/home/cbwood/Projects/p6-Slope/lib
+    file#/home/cbwood/Projects/p6-WNCK/lib
+    file#/home/cbwood/Projects/p6-Clutter/lib
+    file#/home/cbwood/Projects/p6-GtkClutter/lib
+    file#/home/cbwood/Projects/p6-COGL/lib
+    file#/home/cbwood/Projects/p6-GStreamer/lib
+    file#/home/cbwood/Projects/p6-RSVG/lib
+    file#/home/cbwood/Projects/p6-GtkSheet/lib
+    file#/home/cbwood/Projects/p6-VTE/lib
+    file#/home/cbwood/Projects/p6-GUPnP/bin
+    inst#/home/cbwood/.raku
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+    ap#
+    nqp#
+    perl5#
+at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteResource.pm6 (GUPnP::Raw::DidlLiteResource):5
+
+at -e:1
+ === GUPnP::Raw::DidlLiteWriter ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DidlLiteWriter.pm6
+    Stage start      :   0.000
+    [31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteWriter.pm6 (GUPnP::Raw::DidlLiteWriter)
+    Could not find LibXML::Raw in:
+        file#/home/cbwood/Other_Projects/Method-Also/lib
+        file#/home/cbwood/Projects/p6-GLib/lib
+        file#/home/cbwood/Projects/p6-ATK/lib
+        file#/home/cbwood/Projects/p6-JSON-GLib/lib
+        file#/home/cbwood/Projects/p6-GIR/lib
+        file#/home/cbwood/Projects/p6-SOUP/lib
+        file#/home/cbwood/Projects/p6-GSSDP/lib
+        file#/home/cbwood/Projects/p6-GUPnP/lib
+        file#/home/cbwood/Projects/p6-Pango/lib
+        file#/home/cbwood/Projects/p6-GIO/lib
+        file#/home/cbwood/Projects/p6-GDK/lib
+        file#/home/cbwood/Projects/p6-GtkPlus/lib
+        file#/home/cbwood/Projects/p6-WebkitGTK/lib
+        file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+        file#/home/cbwood/Projects/p6-AMTK/lib
+        file#/home/cbwood/Projects/p6-TEPL/lib
+        file#/home/cbwood/Projects/p6-GooCanvas/lib
+        file#/home/cbwood/Projects/p6-Slope/lib
+        file#/home/cbwood/Projects/p6-WNCK/lib
+        file#/home/cbwood/Projects/p6-Clutter/lib
+        file#/home/cbwood/Projects/p6-GtkClutter/lib
+        file#/home/cbwood/Projects/p6-COGL/lib
+        file#/home/cbwood/Projects/p6-GStreamer/lib
+        file#/home/cbwood/Projects/p6-RSVG/lib
+        file#/home/cbwood/Projects/p6-GtkSheet/lib
+        file#/home/cbwood/Projects/p6-VTE/lib
+        file#/home/cbwood/Projects/p6-GUPnP/bin
+        inst#/home/cbwood/.raku
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+        ap#
+        nqp#
+        perl5#
+    at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteWriter.pm6 (GUPnP::Raw::DidlLiteWriter):5
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+Stage start      :   0.000
+[31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteWriter.pm6 (GUPnP::Raw::DidlLiteWriter)
+Could not find LibXML::Raw in:
+    file#/home/cbwood/Other_Projects/Method-Also/lib
+    file#/home/cbwood/Projects/p6-GLib/lib
+    file#/home/cbwood/Projects/p6-ATK/lib
+    file#/home/cbwood/Projects/p6-JSON-GLib/lib
+    file#/home/cbwood/Projects/p6-GIR/lib
+    file#/home/cbwood/Projects/p6-SOUP/lib
+    file#/home/cbwood/Projects/p6-GSSDP/lib
+    file#/home/cbwood/Projects/p6-GUPnP/lib
+    file#/home/cbwood/Projects/p6-Pango/lib
+    file#/home/cbwood/Projects/p6-GIO/lib
+    file#/home/cbwood/Projects/p6-GDK/lib
+    file#/home/cbwood/Projects/p6-GtkPlus/lib
+    file#/home/cbwood/Projects/p6-WebkitGTK/lib
+    file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+    file#/home/cbwood/Projects/p6-AMTK/lib
+    file#/home/cbwood/Projects/p6-TEPL/lib
+    file#/home/cbwood/Projects/p6-GooCanvas/lib
+    file#/home/cbwood/Projects/p6-Slope/lib
+    file#/home/cbwood/Projects/p6-WNCK/lib
+    file#/home/cbwood/Projects/p6-Clutter/lib
+    file#/home/cbwood/Projects/p6-GtkClutter/lib
+    file#/home/cbwood/Projects/p6-COGL/lib
+    file#/home/cbwood/Projects/p6-GStreamer/lib
+    file#/home/cbwood/Projects/p6-RSVG/lib
+    file#/home/cbwood/Projects/p6-GtkSheet/lib
+    file#/home/cbwood/Projects/p6-VTE/lib
+    file#/home/cbwood/Projects/p6-GUPnP/bin
+    inst#/home/cbwood/.raku
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+    ap#
+    nqp#
+    perl5#
+at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteWriter.pm6 (GUPnP::Raw::DidlLiteWriter):5
+
+at -e:1
+ === GUPnP::Raw::DlnaProfile ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DlnaProfile.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.595
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.004
+    Stage mast       :   0.039
+    Stage mbc        :   0.012
+Stage parse      :   4.615
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::Raw::DlnaProfileGuesser ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DlnaProfileGuesser.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.652
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.006
+    Stage mast       :   0.046
+    Stage mbc        :   0.015
+Stage parse      :   4.703
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::Raw::DlnaValueList ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DlnaValueList.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.481
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.004
+    Stage mast       :   0.035
+    Stage mbc        :   0.009
+Stage parse      :   4.506
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::Raw::MediaCollection ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/MediaCollection.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.716
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.006
+    Stage mast       :   0.048
+    Stage mbc        :   0.015
+Stage parse      :   4.773
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::Raw::ResourceFactory ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/ResourceFactory.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.328
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.004
+    Stage mast       :   0.038
+    Stage mbc        :   0.008
+Stage parse      :   4.391
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::Raw::RootDevice ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/RootDevice.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.602
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.006
+    Stage mast       :   0.047
+    Stage mbc        :   0.012
+Stage parse      :   4.632
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::Raw::ServiceInfo ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/ServiceInfo.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.910
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.008
+    Stage mast       :   0.079
+    Stage mbc        :   0.021
+Stage parse      :   4.997
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::Raw::ServiceProxy ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/ServiceProxy.pm6
+    Stage start      :   0.000
+    Stage parse      :   3.267
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.015
+    Stage mast       :   0.082
+    Stage mbc        :   0.035
+Stage parse      :   5.401
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === GUPnP::Raw::Subs ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/Subs.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.494
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.003
+    Stage mast       :   0.035
+    Stage mbc        :   0.003
+Stage parse      :   4.500
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::Raw::ServiceProxyAction ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/ServiceProxyAction.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.438
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.014
+    Stage mast       :   0.056
+    Stage mbc        :   0.003
+Stage parse      :   4.520
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::Raw::Structs ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/Structs.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.397
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.016
+    Stage mast       :   0.056
+    Stage mbc        :   0.004
+R: GLib::Roles::Pointers
+Stage parse      :   4.471
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::Raw::Exports ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/Exports.pm6
+    Stage start      :   0.000
+    Stage parse      :   0.114
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.001
+    Stage mast       :   0.003
+    Stage mbc        :   0.002
+Stage parse      :   2.016
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::Raw::Types ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/Types.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.991
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.001
+    Stage mast       :   0.037
+    Stage mbc        :   0.004
+Stage parse      :   5.091
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.008
+Stage mast       :   0.015
+Stage mbc        :   0.010
+Stage moar       :   0.000
+ === GUPnP::Raw::WhiteList ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/WhiteList.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.663
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.006
+    Stage mast       :   0.046
+    Stage mbc        :   0.015
+Stage parse      :   4.753
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::Raw::XMLDoc ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/XMLDoc.pm6
+    Stage start      :   0.000
+    [31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/XMLDoc.pm6 (GUPnP::Raw::XMLDoc)
+    Could not find LibXML::Raw in:
+        file#/home/cbwood/Other_Projects/Method-Also/lib
+        file#/home/cbwood/Projects/p6-GLib/lib
+        file#/home/cbwood/Projects/p6-ATK/lib
+        file#/home/cbwood/Projects/p6-JSON-GLib/lib
+        file#/home/cbwood/Projects/p6-GIR/lib
+        file#/home/cbwood/Projects/p6-SOUP/lib
+        file#/home/cbwood/Projects/p6-GSSDP/lib
+        file#/home/cbwood/Projects/p6-GUPnP/lib
+        file#/home/cbwood/Projects/p6-Pango/lib
+        file#/home/cbwood/Projects/p6-GIO/lib
+        file#/home/cbwood/Projects/p6-GDK/lib
+        file#/home/cbwood/Projects/p6-GtkPlus/lib
+        file#/home/cbwood/Projects/p6-WebkitGTK/lib
+        file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+        file#/home/cbwood/Projects/p6-AMTK/lib
+        file#/home/cbwood/Projects/p6-TEPL/lib
+        file#/home/cbwood/Projects/p6-GooCanvas/lib
+        file#/home/cbwood/Projects/p6-Slope/lib
+        file#/home/cbwood/Projects/p6-WNCK/lib
+        file#/home/cbwood/Projects/p6-Clutter/lib
+        file#/home/cbwood/Projects/p6-GtkClutter/lib
+        file#/home/cbwood/Projects/p6-COGL/lib
+        file#/home/cbwood/Projects/p6-GStreamer/lib
+        file#/home/cbwood/Projects/p6-RSVG/lib
+        file#/home/cbwood/Projects/p6-GtkSheet/lib
+        file#/home/cbwood/Projects/p6-VTE/lib
+        file#/home/cbwood/Projects/p6-GUPnP/bin
+        inst#/home/cbwood/.raku
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+        ap#
+        nqp#
+        perl5#
+    at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/XMLDoc.pm6 (GUPnP::Raw::XMLDoc):8
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+Stage start      :   0.000
+[31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/XMLDoc.pm6 (GUPnP::Raw::XMLDoc)
+Could not find LibXML::Raw in:
+    file#/home/cbwood/Other_Projects/Method-Also/lib
+    file#/home/cbwood/Projects/p6-GLib/lib
+    file#/home/cbwood/Projects/p6-ATK/lib
+    file#/home/cbwood/Projects/p6-JSON-GLib/lib
+    file#/home/cbwood/Projects/p6-GIR/lib
+    file#/home/cbwood/Projects/p6-SOUP/lib
+    file#/home/cbwood/Projects/p6-GSSDP/lib
+    file#/home/cbwood/Projects/p6-GUPnP/lib
+    file#/home/cbwood/Projects/p6-Pango/lib
+    file#/home/cbwood/Projects/p6-GIO/lib
+    file#/home/cbwood/Projects/p6-GDK/lib
+    file#/home/cbwood/Projects/p6-GtkPlus/lib
+    file#/home/cbwood/Projects/p6-WebkitGTK/lib
+    file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+    file#/home/cbwood/Projects/p6-AMTK/lib
+    file#/home/cbwood/Projects/p6-TEPL/lib
+    file#/home/cbwood/Projects/p6-GooCanvas/lib
+    file#/home/cbwood/Projects/p6-Slope/lib
+    file#/home/cbwood/Projects/p6-WNCK/lib
+    file#/home/cbwood/Projects/p6-Clutter/lib
+    file#/home/cbwood/Projects/p6-GtkClutter/lib
+    file#/home/cbwood/Projects/p6-COGL/lib
+    file#/home/cbwood/Projects/p6-GStreamer/lib
+    file#/home/cbwood/Projects/p6-RSVG/lib
+    file#/home/cbwood/Projects/p6-GtkSheet/lib
+    file#/home/cbwood/Projects/p6-VTE/lib
+    file#/home/cbwood/Projects/p6-GUPnP/bin
+    inst#/home/cbwood/.raku
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+    ap#
+    nqp#
+    perl5#
+at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/XMLDoc.pm6 (GUPnP::Raw::XMLDoc):8
+
+at -e:1
+ === GUPnP::ResourceFactory ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/ResourceFactory.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.972
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.016
+    Stage mast       :   0.039
+    Stage mbc        :   0.008
+R: GLib::Roles::Object
+Stage parse      :   5.094
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::Roles::ACL ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Roles/ACL.pm6
+    Stage start      :   0.000
+    Stage parse      :   3.113
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.013
+    Stage mast       :   0.067
+    Stage mbc        :   0.012
+R: GLib::Roles::Object
+Stage parse      :   5.288
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+R: GUPnP::Roles::ACL
+Role: Adding alias gupnp-acl-is-allowed to GUPnP::Roles::ACL as is_allowed...
+Role: Adding alias gupnp-acl-is-allowed-async to GUPnP::Roles::ACL as is_allowed_async...
+ === GUPnP::Roles::Signals::ContextManager ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Roles/Signals/ContextManager.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.266
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.023
+    Stage mast       :   0.040
+    Stage mbc        :   0.009
+Stage parse      :   4.355
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::Roles::Signals::ControlPoint ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Roles/Signals/ControlPoint.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.504
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.026
+    Stage mast       :   0.049
+    Stage mbc        :   0.017
+Stage parse      :   4.597
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::Roles::Signals::SearchCriteriaParser ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Roles/Signals/SearchCriteriaParser.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.700
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.008
+    Stage mast       :   0.051
+    Stage mbc        :   0.014
+Stage parse      :   4.851
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::Roles::Signals::ServiceProxy ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Roles/Signals/ServiceProxy.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.259
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.011
+    Stage mast       :   0.047
+    Stage mbc        :   0.011
+Stage parse      :   4.351
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.011
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::SearchCriteriaParser ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/SearchCriteriaParser.pm6
+    Stage start      :   0.000
+    Stage parse      :   3.347
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.011
+    Stage mast       :   0.057
+    Stage mbc        :   0.026
+R: GLib::Roles::Object
+Stage parse      :   5.503
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+R: GUPnP::Roles::Signals::SearchCriteriaParser
+ === GUPnP::ServiceInfo ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/ServiceInfo.pm6
+    Stage start      :   0.000
+    Stage parse      :   3.071
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.015
+    Stage mast       :   0.088
+    Stage mbc        :   0.010
+R: GLib::Roles::Object
+Stage parse      :   5.253
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::ServiceProxy ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/ServiceProxy.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.468
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.038
+    Stage mast       :   0.089
+    Stage mbc        :   0.006
+R: GUPnP::Roles::Signals::ServiceProxy
+Stage parse      :   4.783
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::UUID ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/UUID.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.316
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.001
+    Stage mast       :   0.027
+    Stage mbc        :   0.003
+Stage parse      :   4.315
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::WhiteList ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/WhiteList.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.997
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.017
+    Stage mast       :   0.054
+    Stage mbc        :   0.010
+R: GLib::Roles::Object
+Stage parse      :   5.129
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::XMLDoc ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/XMLDoc.pm6
+    Stage start      :   0.000
+    
+        precomp lib/GUPnP/Raw/XMLDoc.pm6
+        Stage start      :   0.000
+        [31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/XMLDoc.pm6 (GUPnP::Raw::XMLDoc)
+        Could not find LibXML::Raw in:
+            file#/home/cbwood/Other_Projects/Method-Also/lib
+            file#/home/cbwood/Projects/p6-GLib/lib
+            file#/home/cbwood/Projects/p6-ATK/lib
+            file#/home/cbwood/Projects/p6-JSON-GLib/lib
+            file#/home/cbwood/Projects/p6-GIR/lib
+            file#/home/cbwood/Projects/p6-SOUP/lib
+            file#/home/cbwood/Projects/p6-GSSDP/lib
+            file#/home/cbwood/Projects/p6-GUPnP/lib
+            file#/home/cbwood/Projects/p6-Pango/lib
+            file#/home/cbwood/Projects/p6-GIO/lib
+            file#/home/cbwood/Projects/p6-GDK/lib
+            file#/home/cbwood/Projects/p6-GtkPlus/lib
+            file#/home/cbwood/Projects/p6-WebkitGTK/lib
+            file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+            file#/home/cbwood/Projects/p6-AMTK/lib
+            file#/home/cbwood/Projects/p6-TEPL/lib
+            file#/home/cbwood/Projects/p6-GooCanvas/lib
+            file#/home/cbwood/Projects/p6-Slope/lib
+            file#/home/cbwood/Projects/p6-WNCK/lib
+            file#/home/cbwood/Projects/p6-Clutter/lib
+            file#/home/cbwood/Projects/p6-GtkClutter/lib
+            file#/home/cbwood/Projects/p6-COGL/lib
+            file#/home/cbwood/Projects/p6-GStreamer/lib
+            file#/home/cbwood/Projects/p6-RSVG/lib
+            file#/home/cbwood/Projects/p6-GtkSheet/lib
+            file#/home/cbwood/Projects/p6-VTE/lib
+            file#/home/cbwood/Projects/p6-GUPnP/bin
+            inst#/home/cbwood/.raku
+            inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+            inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+            inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+            ap#
+            nqp#
+            perl5#
+        at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/XMLDoc.pm6 (GUPnP::Raw::XMLDoc):8
+    [31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/XMLDoc.pm6 (GUPnP::XMLDoc)
+    Stage start      :   0.000
+    [31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/XMLDoc.pm6 (GUPnP::Raw::XMLDoc)
+    Could not find LibXML::Raw in:
+        file#/home/cbwood/Other_Projects/Method-Also/lib
+        file#/home/cbwood/Projects/p6-GLib/lib
+        file#/home/cbwood/Projects/p6-ATK/lib
+        file#/home/cbwood/Projects/p6-JSON-GLib/lib
+        file#/home/cbwood/Projects/p6-GIR/lib
+        file#/home/cbwood/Projects/p6-SOUP/lib
+        file#/home/cbwood/Projects/p6-GSSDP/lib
+        file#/home/cbwood/Projects/p6-GUPnP/lib
+        file#/home/cbwood/Projects/p6-Pango/lib
+        file#/home/cbwood/Projects/p6-GIO/lib
+        file#/home/cbwood/Projects/p6-GDK/lib
+        file#/home/cbwood/Projects/p6-GtkPlus/lib
+        file#/home/cbwood/Projects/p6-WebkitGTK/lib
+        file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+        file#/home/cbwood/Projects/p6-AMTK/lib
+        file#/home/cbwood/Projects/p6-TEPL/lib
+        file#/home/cbwood/Projects/p6-GooCanvas/lib
+        file#/home/cbwood/Projects/p6-Slope/lib
+        file#/home/cbwood/Projects/p6-WNCK/lib
+        file#/home/cbwood/Projects/p6-Clutter/lib
+        file#/home/cbwood/Projects/p6-GtkClutter/lib
+        file#/home/cbwood/Projects/p6-COGL/lib
+        file#/home/cbwood/Projects/p6-GStreamer/lib
+        file#/home/cbwood/Projects/p6-RSVG/lib
+        file#/home/cbwood/Projects/p6-GtkSheet/lib
+        file#/home/cbwood/Projects/p6-VTE/lib
+        file#/home/cbwood/Projects/p6-GUPnP/bin
+        inst#/home/cbwood/.raku
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+        ap#
+        nqp#
+        perl5#
+    at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/XMLDoc.pm6 (GUPnP::Raw::XMLDoc):8
+    
+    at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/XMLDoc.pm6 (GUPnP::XMLDoc):6
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/XMLDoc.pm6
+    Stage start      :   0.000
+    [31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/XMLDoc.pm6 (GUPnP::Raw::XMLDoc)
+    Could not find LibXML::Raw in:
+        file#/home/cbwood/Other_Projects/Method-Also/lib
+        file#/home/cbwood/Projects/p6-GLib/lib
+        file#/home/cbwood/Projects/p6-ATK/lib
+        file#/home/cbwood/Projects/p6-JSON-GLib/lib
+        file#/home/cbwood/Projects/p6-GIR/lib
+        file#/home/cbwood/Projects/p6-SOUP/lib
+        file#/home/cbwood/Projects/p6-GSSDP/lib
+        file#/home/cbwood/Projects/p6-GUPnP/lib
+        file#/home/cbwood/Projects/p6-Pango/lib
+        file#/home/cbwood/Projects/p6-GIO/lib
+        file#/home/cbwood/Projects/p6-GDK/lib
+        file#/home/cbwood/Projects/p6-GtkPlus/lib
+        file#/home/cbwood/Projects/p6-WebkitGTK/lib
+        file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+        file#/home/cbwood/Projects/p6-AMTK/lib
+        file#/home/cbwood/Projects/p6-TEPL/lib
+        file#/home/cbwood/Projects/p6-GooCanvas/lib
+        file#/home/cbwood/Projects/p6-Slope/lib
+        file#/home/cbwood/Projects/p6-WNCK/lib
+        file#/home/cbwood/Projects/p6-Clutter/lib
+        file#/home/cbwood/Projects/p6-GtkClutter/lib
+        file#/home/cbwood/Projects/p6-COGL/lib
+        file#/home/cbwood/Projects/p6-GStreamer/lib
+        file#/home/cbwood/Projects/p6-RSVG/lib
+        file#/home/cbwood/Projects/p6-GtkSheet/lib
+        file#/home/cbwood/Projects/p6-VTE/lib
+        file#/home/cbwood/Projects/p6-GUPnP/bin
+        inst#/home/cbwood/.raku
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+        ap#
+        nqp#
+        perl5#
+    at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/XMLDoc.pm6 (GUPnP::Raw::XMLDoc):8
+[31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/XMLDoc.pm6 (GUPnP::XMLDoc)
+Stage start      :   0.000
+[31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/XMLDoc.pm6 (GUPnP::Raw::XMLDoc)
+Could not find LibXML::Raw in:
+    file#/home/cbwood/Other_Projects/Method-Also/lib
+    file#/home/cbwood/Projects/p6-GLib/lib
+    file#/home/cbwood/Projects/p6-ATK/lib
+    file#/home/cbwood/Projects/p6-JSON-GLib/lib
+    file#/home/cbwood/Projects/p6-GIR/lib
+    file#/home/cbwood/Projects/p6-SOUP/lib
+    file#/home/cbwood/Projects/p6-GSSDP/lib
+    file#/home/cbwood/Projects/p6-GUPnP/lib
+    file#/home/cbwood/Projects/p6-Pango/lib
+    file#/home/cbwood/Projects/p6-GIO/lib
+    file#/home/cbwood/Projects/p6-GDK/lib
+    file#/home/cbwood/Projects/p6-GtkPlus/lib
+    file#/home/cbwood/Projects/p6-WebkitGTK/lib
+    file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+    file#/home/cbwood/Projects/p6-AMTK/lib
+    file#/home/cbwood/Projects/p6-TEPL/lib
+    file#/home/cbwood/Projects/p6-GooCanvas/lib
+    file#/home/cbwood/Projects/p6-Slope/lib
+    file#/home/cbwood/Projects/p6-WNCK/lib
+    file#/home/cbwood/Projects/p6-Clutter/lib
+    file#/home/cbwood/Projects/p6-GtkClutter/lib
+    file#/home/cbwood/Projects/p6-COGL/lib
+    file#/home/cbwood/Projects/p6-GStreamer/lib
+    file#/home/cbwood/Projects/p6-RSVG/lib
+    file#/home/cbwood/Projects/p6-GtkSheet/lib
+    file#/home/cbwood/Projects/p6-VTE/lib
+    file#/home/cbwood/Projects/p6-GUPnP/bin
+    inst#/home/cbwood/.raku
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+    ap#
+    nqp#
+    perl5#
+at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/XMLDoc.pm6 (GUPnP::Raw::XMLDoc):8
+
+at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/XMLDoc.pm6 (GUPnP::XMLDoc):6
+
+at -e:1
+ === GUPnP::Context ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Context.pm6
+    Stage start      :   0.000
+    Stage parse      :   5.355
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.029
+    Stage mast       :   0.138
+    Stage mbc        :   0.034
+Stage parse      :   8.047
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::ContextManager ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/ContextManager.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.321
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.017
+    Stage mast       :   0.051
+    Stage mbc        :   0.012
+R: GLib::Roles::Object
+Stage parse      :   4.492
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+R: GUPnP::Roles::Signals::ContextManager
+ === GUPnP::ControlPoint ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/ControlPoint.pm6
+    Stage start      :   0.000
+    Stage parse      :   3.649
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.016
+    Stage mast       :   0.063
+    Stage mbc        :   0.015
+R: GUPnP::Roles::Signals::ControlPoint
+Stage parse      :   5.956
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::DeviceInfo ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DeviceInfo.pm6
+    Stage start      :   0.000
+    Stage parse      :   3.395
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.030
+    Stage mast       :   0.111
+    Stage mbc        :   0.026
+R: GLib::Roles::Object
+Stage parse      :   5.668
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::DeviceProxy ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DeviceProxy.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.269
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.015
+    Stage mast       :   0.032
+    Stage mbc        :   0.010
+Stage parse      :   4.413
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::DidlLiteContributor ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DidlLiteContributor.pm6
+    Stage start      :   0.000
+    [31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteContributor.pm6 (GUPnP::DidlLiteContributor)
+    Could not find LibXML::Raw in:
+        file#/home/cbwood/Other_Projects/Method-Also/lib
+        file#/home/cbwood/Projects/p6-GLib/lib
+        file#/home/cbwood/Projects/p6-ATK/lib
+        file#/home/cbwood/Projects/p6-JSON-GLib/lib
+        file#/home/cbwood/Projects/p6-GIR/lib
+        file#/home/cbwood/Projects/p6-SOUP/lib
+        file#/home/cbwood/Projects/p6-GSSDP/lib
+        file#/home/cbwood/Projects/p6-GUPnP/lib
+        file#/home/cbwood/Projects/p6-Pango/lib
+        file#/home/cbwood/Projects/p6-GIO/lib
+        file#/home/cbwood/Projects/p6-GDK/lib
+        file#/home/cbwood/Projects/p6-GtkPlus/lib
+        file#/home/cbwood/Projects/p6-WebkitGTK/lib
+        file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+        file#/home/cbwood/Projects/p6-AMTK/lib
+        file#/home/cbwood/Projects/p6-TEPL/lib
+        file#/home/cbwood/Projects/p6-GooCanvas/lib
+        file#/home/cbwood/Projects/p6-Slope/lib
+        file#/home/cbwood/Projects/p6-WNCK/lib
+        file#/home/cbwood/Projects/p6-Clutter/lib
+        file#/home/cbwood/Projects/p6-GtkClutter/lib
+        file#/home/cbwood/Projects/p6-COGL/lib
+        file#/home/cbwood/Projects/p6-GStreamer/lib
+        file#/home/cbwood/Projects/p6-RSVG/lib
+        file#/home/cbwood/Projects/p6-GtkSheet/lib
+        file#/home/cbwood/Projects/p6-VTE/lib
+        file#/home/cbwood/Projects/p6-GUPnP/bin
+        inst#/home/cbwood/.raku
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+        ap#
+        nqp#
+        perl5#
+    at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteContributor.pm6 (GUPnP::DidlLiteContributor):5
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+Stage start      :   0.000
+[31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteContributor.pm6 (GUPnP::DidlLiteContributor)
+Could not find LibXML::Raw in:
+    file#/home/cbwood/Other_Projects/Method-Also/lib
+    file#/home/cbwood/Projects/p6-GLib/lib
+    file#/home/cbwood/Projects/p6-ATK/lib
+    file#/home/cbwood/Projects/p6-JSON-GLib/lib
+    file#/home/cbwood/Projects/p6-GIR/lib
+    file#/home/cbwood/Projects/p6-SOUP/lib
+    file#/home/cbwood/Projects/p6-GSSDP/lib
+    file#/home/cbwood/Projects/p6-GUPnP/lib
+    file#/home/cbwood/Projects/p6-Pango/lib
+    file#/home/cbwood/Projects/p6-GIO/lib
+    file#/home/cbwood/Projects/p6-GDK/lib
+    file#/home/cbwood/Projects/p6-GtkPlus/lib
+    file#/home/cbwood/Projects/p6-WebkitGTK/lib
+    file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+    file#/home/cbwood/Projects/p6-AMTK/lib
+    file#/home/cbwood/Projects/p6-TEPL/lib
+    file#/home/cbwood/Projects/p6-GooCanvas/lib
+    file#/home/cbwood/Projects/p6-Slope/lib
+    file#/home/cbwood/Projects/p6-WNCK/lib
+    file#/home/cbwood/Projects/p6-Clutter/lib
+    file#/home/cbwood/Projects/p6-GtkClutter/lib
+    file#/home/cbwood/Projects/p6-COGL/lib
+    file#/home/cbwood/Projects/p6-GStreamer/lib
+    file#/home/cbwood/Projects/p6-RSVG/lib
+    file#/home/cbwood/Projects/p6-GtkSheet/lib
+    file#/home/cbwood/Projects/p6-VTE/lib
+    file#/home/cbwood/Projects/p6-GUPnP/bin
+    inst#/home/cbwood/.raku
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+    ap#
+    nqp#
+    perl5#
+at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteContributor.pm6 (GUPnP::DidlLiteContributor):5
+
+at -e:1
+ === GUPnP::DidlLiteDescriptor ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DidlLiteDescriptor.pm6
+    Stage start      :   0.000
+    [31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteDescriptor.pm6 (GUPnP::DidlLiteDescriptor)
+    Could not find LibXML::Raw in:
+        file#/home/cbwood/Other_Projects/Method-Also/lib
+        file#/home/cbwood/Projects/p6-GLib/lib
+        file#/home/cbwood/Projects/p6-ATK/lib
+        file#/home/cbwood/Projects/p6-JSON-GLib/lib
+        file#/home/cbwood/Projects/p6-GIR/lib
+        file#/home/cbwood/Projects/p6-SOUP/lib
+        file#/home/cbwood/Projects/p6-GSSDP/lib
+        file#/home/cbwood/Projects/p6-GUPnP/lib
+        file#/home/cbwood/Projects/p6-Pango/lib
+        file#/home/cbwood/Projects/p6-GIO/lib
+        file#/home/cbwood/Projects/p6-GDK/lib
+        file#/home/cbwood/Projects/p6-GtkPlus/lib
+        file#/home/cbwood/Projects/p6-WebkitGTK/lib
+        file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+        file#/home/cbwood/Projects/p6-AMTK/lib
+        file#/home/cbwood/Projects/p6-TEPL/lib
+        file#/home/cbwood/Projects/p6-GooCanvas/lib
+        file#/home/cbwood/Projects/p6-Slope/lib
+        file#/home/cbwood/Projects/p6-WNCK/lib
+        file#/home/cbwood/Projects/p6-Clutter/lib
+        file#/home/cbwood/Projects/p6-GtkClutter/lib
+        file#/home/cbwood/Projects/p6-COGL/lib
+        file#/home/cbwood/Projects/p6-GStreamer/lib
+        file#/home/cbwood/Projects/p6-RSVG/lib
+        file#/home/cbwood/Projects/p6-GtkSheet/lib
+        file#/home/cbwood/Projects/p6-VTE/lib
+        file#/home/cbwood/Projects/p6-GUPnP/bin
+        inst#/home/cbwood/.raku
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+        ap#
+        nqp#
+        perl5#
+    at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteDescriptor.pm6 (GUPnP::DidlLiteDescriptor):5
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+Stage start      :   0.000
+[31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteDescriptor.pm6 (GUPnP::DidlLiteDescriptor)
+Could not find LibXML::Raw in:
+    file#/home/cbwood/Other_Projects/Method-Also/lib
+    file#/home/cbwood/Projects/p6-GLib/lib
+    file#/home/cbwood/Projects/p6-ATK/lib
+    file#/home/cbwood/Projects/p6-JSON-GLib/lib
+    file#/home/cbwood/Projects/p6-GIR/lib
+    file#/home/cbwood/Projects/p6-SOUP/lib
+    file#/home/cbwood/Projects/p6-GSSDP/lib
+    file#/home/cbwood/Projects/p6-GUPnP/lib
+    file#/home/cbwood/Projects/p6-Pango/lib
+    file#/home/cbwood/Projects/p6-GIO/lib
+    file#/home/cbwood/Projects/p6-GDK/lib
+    file#/home/cbwood/Projects/p6-GtkPlus/lib
+    file#/home/cbwood/Projects/p6-WebkitGTK/lib
+    file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+    file#/home/cbwood/Projects/p6-AMTK/lib
+    file#/home/cbwood/Projects/p6-TEPL/lib
+    file#/home/cbwood/Projects/p6-GooCanvas/lib
+    file#/home/cbwood/Projects/p6-Slope/lib
+    file#/home/cbwood/Projects/p6-WNCK/lib
+    file#/home/cbwood/Projects/p6-Clutter/lib
+    file#/home/cbwood/Projects/p6-GtkClutter/lib
+    file#/home/cbwood/Projects/p6-COGL/lib
+    file#/home/cbwood/Projects/p6-GStreamer/lib
+    file#/home/cbwood/Projects/p6-RSVG/lib
+    file#/home/cbwood/Projects/p6-GtkSheet/lib
+    file#/home/cbwood/Projects/p6-VTE/lib
+    file#/home/cbwood/Projects/p6-GUPnP/bin
+    inst#/home/cbwood/.raku
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+    ap#
+    nqp#
+    perl5#
+at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteDescriptor.pm6 (GUPnP::DidlLiteDescriptor):5
+
+at -e:1
+ === GUPnP::DlnaProfile ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DlnaProfile.pm6
+    Stage start      :   0.000
+    Stage parse      :   3.039
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.010
+    Stage mast       :   0.041
+    Stage mbc        :   0.008
+R: GLib::Roles::Object
+Stage parse      :   5.125
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::DlnaProfileGuesser ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DlnaProfileGuesser.pm6
+    Stage start      :   0.000
+    Stage parse      :   3.006
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.018
+    Stage mast       :   0.059
+    Stage mbc        :   0.009
+R: GLib::Roles::Object
+Stage parse      :   5.156
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::DlnaValueList ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DlnaValueList.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.127
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.022
+    Stage mast       :   0.032
+    Stage mbc        :   0.010
+Stage parse      :   4.199
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::Feature ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Feature.pm6
+    Stage start      :   0.000
+    Stage parse      :   3.293
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.015
+    Stage mast       :   0.056
+    Stage mbc        :   0.022
+R: GLib::Roles::Object
+Stage parse      :   5.445
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.014
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::FeatureListParser ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/FeatureListParser.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.546
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.021
+    Stage mast       :   0.051
+    Stage mbc        :   0.013
+R: GLib::Roles::Object
+Stage parse      :   4.726
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::LastChangeParser ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/LastChangeParser.pm6
+    Stage start      :   0.000
+    Stage parse      :   3.212
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.021
+    Stage mast       :   0.058
+    Stage mbc        :   0.018
+R: GLib::Roles::Object
+Stage parse      :   5.332
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::MediaCollection ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/MediaCollection.pm6
+    Stage start      :   0.000
+    Stage parse      :   3.089
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.018
+    Stage mast       :   0.049
+    Stage mbc        :   0.011
+R: GLib::Roles::Object
+Stage parse      :   5.229
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::Raw::CDSLastChangeParser ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/CDSLastChangeParser.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.781
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.006
+    Stage mast       :   0.045
+    Stage mbc        :   0.019
+Stage parse      :   4.813
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::Raw::DidlLiteCreateClass ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DidlLiteCreateClass.pm6
+    Stage start      :   0.000
+    [31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteCreateClass.pm6 (GUPnP::Raw::DidlLiteCreateClass)
+    Could not find LibXML::Raw in:
+        file#/home/cbwood/Other_Projects/Method-Also/lib
+        file#/home/cbwood/Projects/p6-GLib/lib
+        file#/home/cbwood/Projects/p6-ATK/lib
+        file#/home/cbwood/Projects/p6-JSON-GLib/lib
+        file#/home/cbwood/Projects/p6-GIR/lib
+        file#/home/cbwood/Projects/p6-SOUP/lib
+        file#/home/cbwood/Projects/p6-GSSDP/lib
+        file#/home/cbwood/Projects/p6-GUPnP/lib
+        file#/home/cbwood/Projects/p6-Pango/lib
+        file#/home/cbwood/Projects/p6-GIO/lib
+        file#/home/cbwood/Projects/p6-GDK/lib
+        file#/home/cbwood/Projects/p6-GtkPlus/lib
+        file#/home/cbwood/Projects/p6-WebkitGTK/lib
+        file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+        file#/home/cbwood/Projects/p6-AMTK/lib
+        file#/home/cbwood/Projects/p6-TEPL/lib
+        file#/home/cbwood/Projects/p6-GooCanvas/lib
+        file#/home/cbwood/Projects/p6-Slope/lib
+        file#/home/cbwood/Projects/p6-WNCK/lib
+        file#/home/cbwood/Projects/p6-Clutter/lib
+        file#/home/cbwood/Projects/p6-GtkClutter/lib
+        file#/home/cbwood/Projects/p6-COGL/lib
+        file#/home/cbwood/Projects/p6-GStreamer/lib
+        file#/home/cbwood/Projects/p6-RSVG/lib
+        file#/home/cbwood/Projects/p6-GtkSheet/lib
+        file#/home/cbwood/Projects/p6-VTE/lib
+        file#/home/cbwood/Projects/p6-GUPnP/bin
+        inst#/home/cbwood/.raku
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+        ap#
+        nqp#
+        perl5#
+    at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteCreateClass.pm6 (GUPnP::Raw::DidlLiteCreateClass):5
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+Stage start      :   0.000
+[31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteCreateClass.pm6 (GUPnP::Raw::DidlLiteCreateClass)
+Could not find LibXML::Raw in:
+    file#/home/cbwood/Other_Projects/Method-Also/lib
+    file#/home/cbwood/Projects/p6-GLib/lib
+    file#/home/cbwood/Projects/p6-ATK/lib
+    file#/home/cbwood/Projects/p6-JSON-GLib/lib
+    file#/home/cbwood/Projects/p6-GIR/lib
+    file#/home/cbwood/Projects/p6-SOUP/lib
+    file#/home/cbwood/Projects/p6-GSSDP/lib
+    file#/home/cbwood/Projects/p6-GUPnP/lib
+    file#/home/cbwood/Projects/p6-Pango/lib
+    file#/home/cbwood/Projects/p6-GIO/lib
+    file#/home/cbwood/Projects/p6-GDK/lib
+    file#/home/cbwood/Projects/p6-GtkPlus/lib
+    file#/home/cbwood/Projects/p6-WebkitGTK/lib
+    file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+    file#/home/cbwood/Projects/p6-AMTK/lib
+    file#/home/cbwood/Projects/p6-TEPL/lib
+    file#/home/cbwood/Projects/p6-GooCanvas/lib
+    file#/home/cbwood/Projects/p6-Slope/lib
+    file#/home/cbwood/Projects/p6-WNCK/lib
+    file#/home/cbwood/Projects/p6-Clutter/lib
+    file#/home/cbwood/Projects/p6-GtkClutter/lib
+    file#/home/cbwood/Projects/p6-COGL/lib
+    file#/home/cbwood/Projects/p6-GStreamer/lib
+    file#/home/cbwood/Projects/p6-RSVG/lib
+    file#/home/cbwood/Projects/p6-GtkSheet/lib
+    file#/home/cbwood/Projects/p6-VTE/lib
+    file#/home/cbwood/Projects/p6-GUPnP/bin
+    inst#/home/cbwood/.raku
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+    ap#
+    nqp#
+    perl5#
+at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteCreateClass.pm6 (GUPnP::Raw::DidlLiteCreateClass):5
+
+at -e:1
+ === GUPnP::Raw::DlnaAudioInformation ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DlnaAudioInformation.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.876
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.008
+    Stage mast       :   0.053
+    Stage mbc        :   0.029
+Stage parse      :   5.126
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.004
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === GUPnP::Raw::DlnaContainerInformation ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DlnaContainerInformation.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.525
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.006
+    Stage mast       :   0.040
+    Stage mbc        :   0.017
+Stage parse      :   4.555
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::Raw::DlnaImageInformation ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DlnaImageInformation.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.406
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.005
+    Stage mast       :   0.037
+    Stage mbc        :   0.012
+Stage parse      :   4.506
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::Raw::DlnaInformation ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DlnaInformation.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.437
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.003
+    Stage mast       :   0.041
+    Stage mbc        :   0.007
+Stage parse      :   4.550
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.012
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::Raw::DlnaRestriction ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DlnaRestriction.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.556
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.007
+    Stage mast       :   0.042
+    Stage mbc        :   0.011
+Stage parse      :   4.571
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::Raw::DlnaVideoInformation ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DlnaVideoInformation.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.674
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.005
+    Stage mast       :   0.054
+    Stage mbc        :   0.015
+Stage parse      :   4.750
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::Raw::ProtocolInfo ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/ProtocolInfo.pm6
+    Stage start      :   0.000
+    Stage parse      :   3.137
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.011
+    Stage mast       :   0.065
+    Stage mbc        :   0.030
+Stage parse      :   5.224
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === GUPnP::Raw::ServiceIntrospection ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/ServiceIntrospection.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.545
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.004
+    Stage mast       :   0.040
+    Stage mbc        :   0.009
+Stage parse      :   4.577
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::ServiceIntrospection ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/ServiceIntrospection.pm6
+    Stage start      :   0.000
+    Stage parse      :   3.026
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.015
+    Stage mast       :   0.040
+    Stage mbc        :   0.012
+R: GLib::Roles::Object
+Stage parse      :   5.134
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::CDSLastChangeParser ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/CDSLastChangeParser.pm6
+    Stage start      :   0.000
+    Stage parse      :   3.215
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.017
+    Stage mast       :   0.057
+    Stage mbc        :   0.017
+R: GLib::Roles::Object
+Stage parse      :   5.430
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::Device ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Device.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.147
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.012
+    Stage mast       :   0.051
+    Stage mbc        :   0.009
+Stage parse      :   4.376
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::DidlLiteCreateClass ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DidlLiteCreateClass.pm6
+    Stage start      :   0.000
+    
+        precomp lib/GUPnP/Raw/DidlLiteCreateClass.pm6
+        Stage start      :   0.000
+        [31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteCreateClass.pm6 (GUPnP::Raw::DidlLiteCreateClass)
+        Could not find LibXML::Raw in:
+            file#/home/cbwood/Other_Projects/Method-Also/lib
+            file#/home/cbwood/Projects/p6-GLib/lib
+            file#/home/cbwood/Projects/p6-ATK/lib
+            file#/home/cbwood/Projects/p6-JSON-GLib/lib
+            file#/home/cbwood/Projects/p6-GIR/lib
+            file#/home/cbwood/Projects/p6-SOUP/lib
+            file#/home/cbwood/Projects/p6-GSSDP/lib
+            file#/home/cbwood/Projects/p6-GUPnP/lib
+            file#/home/cbwood/Projects/p6-Pango/lib
+            file#/home/cbwood/Projects/p6-GIO/lib
+            file#/home/cbwood/Projects/p6-GDK/lib
+            file#/home/cbwood/Projects/p6-GtkPlus/lib
+            file#/home/cbwood/Projects/p6-WebkitGTK/lib
+            file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+            file#/home/cbwood/Projects/p6-AMTK/lib
+            file#/home/cbwood/Projects/p6-TEPL/lib
+            file#/home/cbwood/Projects/p6-GooCanvas/lib
+            file#/home/cbwood/Projects/p6-Slope/lib
+            file#/home/cbwood/Projects/p6-WNCK/lib
+            file#/home/cbwood/Projects/p6-Clutter/lib
+            file#/home/cbwood/Projects/p6-GtkClutter/lib
+            file#/home/cbwood/Projects/p6-COGL/lib
+            file#/home/cbwood/Projects/p6-GStreamer/lib
+            file#/home/cbwood/Projects/p6-RSVG/lib
+            file#/home/cbwood/Projects/p6-GtkSheet/lib
+            file#/home/cbwood/Projects/p6-VTE/lib
+            file#/home/cbwood/Projects/p6-GUPnP/bin
+            inst#/home/cbwood/.raku
+            inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+            inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+            inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+            ap#
+            nqp#
+            perl5#
+        at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteCreateClass.pm6 (GUPnP::Raw::DidlLiteCreateClass):5
+    [31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteCreateClass.pm6 (GUPnP::DidlLiteCreateClass)
+    Stage start      :   0.000
+    [31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteCreateClass.pm6 (GUPnP::Raw::DidlLiteCreateClass)
+    Could not find LibXML::Raw in:
+        file#/home/cbwood/Other_Projects/Method-Also/lib
+        file#/home/cbwood/Projects/p6-GLib/lib
+        file#/home/cbwood/Projects/p6-ATK/lib
+        file#/home/cbwood/Projects/p6-JSON-GLib/lib
+        file#/home/cbwood/Projects/p6-GIR/lib
+        file#/home/cbwood/Projects/p6-SOUP/lib
+        file#/home/cbwood/Projects/p6-GSSDP/lib
+        file#/home/cbwood/Projects/p6-GUPnP/lib
+        file#/home/cbwood/Projects/p6-Pango/lib
+        file#/home/cbwood/Projects/p6-GIO/lib
+        file#/home/cbwood/Projects/p6-GDK/lib
+        file#/home/cbwood/Projects/p6-GtkPlus/lib
+        file#/home/cbwood/Projects/p6-WebkitGTK/lib
+        file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+        file#/home/cbwood/Projects/p6-AMTK/lib
+        file#/home/cbwood/Projects/p6-TEPL/lib
+        file#/home/cbwood/Projects/p6-GooCanvas/lib
+        file#/home/cbwood/Projects/p6-Slope/lib
+        file#/home/cbwood/Projects/p6-WNCK/lib
+        file#/home/cbwood/Projects/p6-Clutter/lib
+        file#/home/cbwood/Projects/p6-GtkClutter/lib
+        file#/home/cbwood/Projects/p6-COGL/lib
+        file#/home/cbwood/Projects/p6-GStreamer/lib
+        file#/home/cbwood/Projects/p6-RSVG/lib
+        file#/home/cbwood/Projects/p6-GtkSheet/lib
+        file#/home/cbwood/Projects/p6-VTE/lib
+        file#/home/cbwood/Projects/p6-GUPnP/bin
+        inst#/home/cbwood/.raku
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+        ap#
+        nqp#
+        perl5#
+    at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteCreateClass.pm6 (GUPnP::Raw::DidlLiteCreateClass):5
+    
+    at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteCreateClass.pm6 (GUPnP::DidlLiteCreateClass):6
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DidlLiteCreateClass.pm6
+    Stage start      :   0.000
+    [31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteCreateClass.pm6 (GUPnP::Raw::DidlLiteCreateClass)
+    Could not find LibXML::Raw in:
+        file#/home/cbwood/Other_Projects/Method-Also/lib
+        file#/home/cbwood/Projects/p6-GLib/lib
+        file#/home/cbwood/Projects/p6-ATK/lib
+        file#/home/cbwood/Projects/p6-JSON-GLib/lib
+        file#/home/cbwood/Projects/p6-GIR/lib
+        file#/home/cbwood/Projects/p6-SOUP/lib
+        file#/home/cbwood/Projects/p6-GSSDP/lib
+        file#/home/cbwood/Projects/p6-GUPnP/lib
+        file#/home/cbwood/Projects/p6-Pango/lib
+        file#/home/cbwood/Projects/p6-GIO/lib
+        file#/home/cbwood/Projects/p6-GDK/lib
+        file#/home/cbwood/Projects/p6-GtkPlus/lib
+        file#/home/cbwood/Projects/p6-WebkitGTK/lib
+        file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+        file#/home/cbwood/Projects/p6-AMTK/lib
+        file#/home/cbwood/Projects/p6-TEPL/lib
+        file#/home/cbwood/Projects/p6-GooCanvas/lib
+        file#/home/cbwood/Projects/p6-Slope/lib
+        file#/home/cbwood/Projects/p6-WNCK/lib
+        file#/home/cbwood/Projects/p6-Clutter/lib
+        file#/home/cbwood/Projects/p6-GtkClutter/lib
+        file#/home/cbwood/Projects/p6-COGL/lib
+        file#/home/cbwood/Projects/p6-GStreamer/lib
+        file#/home/cbwood/Projects/p6-RSVG/lib
+        file#/home/cbwood/Projects/p6-GtkSheet/lib
+        file#/home/cbwood/Projects/p6-VTE/lib
+        file#/home/cbwood/Projects/p6-GUPnP/bin
+        inst#/home/cbwood/.raku
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+        ap#
+        nqp#
+        perl5#
+    at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteCreateClass.pm6 (GUPnP::Raw::DidlLiteCreateClass):5
+[31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteCreateClass.pm6 (GUPnP::DidlLiteCreateClass)
+Stage start      :   0.000
+[31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteCreateClass.pm6 (GUPnP::Raw::DidlLiteCreateClass)
+Could not find LibXML::Raw in:
+    file#/home/cbwood/Other_Projects/Method-Also/lib
+    file#/home/cbwood/Projects/p6-GLib/lib
+    file#/home/cbwood/Projects/p6-ATK/lib
+    file#/home/cbwood/Projects/p6-JSON-GLib/lib
+    file#/home/cbwood/Projects/p6-GIR/lib
+    file#/home/cbwood/Projects/p6-SOUP/lib
+    file#/home/cbwood/Projects/p6-GSSDP/lib
+    file#/home/cbwood/Projects/p6-GUPnP/lib
+    file#/home/cbwood/Projects/p6-Pango/lib
+    file#/home/cbwood/Projects/p6-GIO/lib
+    file#/home/cbwood/Projects/p6-GDK/lib
+    file#/home/cbwood/Projects/p6-GtkPlus/lib
+    file#/home/cbwood/Projects/p6-WebkitGTK/lib
+    file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+    file#/home/cbwood/Projects/p6-AMTK/lib
+    file#/home/cbwood/Projects/p6-TEPL/lib
+    file#/home/cbwood/Projects/p6-GooCanvas/lib
+    file#/home/cbwood/Projects/p6-Slope/lib
+    file#/home/cbwood/Projects/p6-WNCK/lib
+    file#/home/cbwood/Projects/p6-Clutter/lib
+    file#/home/cbwood/Projects/p6-GtkClutter/lib
+    file#/home/cbwood/Projects/p6-COGL/lib
+    file#/home/cbwood/Projects/p6-GStreamer/lib
+    file#/home/cbwood/Projects/p6-RSVG/lib
+    file#/home/cbwood/Projects/p6-GtkSheet/lib
+    file#/home/cbwood/Projects/p6-VTE/lib
+    file#/home/cbwood/Projects/p6-GUPnP/bin
+    inst#/home/cbwood/.raku
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+    ap#
+    nqp#
+    perl5#
+at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteCreateClass.pm6 (GUPnP::Raw::DidlLiteCreateClass):5
+
+at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteCreateClass.pm6 (GUPnP::DidlLiteCreateClass):6
+
+at -e:1
+ === GUPnP::DlnaAudioInformation ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DlnaAudioInformation.pm6
+    Stage start      :   0.000
+    Stage parse      :   3.429
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.011
+    Stage mast       :   0.041
+    Stage mbc        :   0.033
+R: GLib::Roles::Object
+Stage parse      :   5.681
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::DlnaContainerInformation ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DlnaContainerInformation.pm6
+    Stage start      :   0.000
+    Stage parse      :   3.137
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.013
+    Stage mast       :   0.037
+    Stage mbc        :   0.016
+R: GLib::Roles::Object
+Stage parse      :   5.345
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::DlnaImageInformation ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DlnaImageInformation.pm6
+    Stage start      :   0.000
+    Stage parse      :   3.104
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.009
+    Stage mast       :   0.037
+    Stage mbc        :   0.015
+R: GLib::Roles::Object
+Stage parse      :   5.211
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::DlnaVideoInformation ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DlnaVideoInformation.pm6
+    Stage start      :   0.000
+    Stage parse      :   3.001
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.010
+    Stage mast       :   0.044
+    Stage mbc        :   0.008
+R: GLib::Roles::Object
+Stage parse      :   5.104
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::ProtocolInfo ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/ProtocolInfo.pm6
+    Stage start      :   0.000
+    Stage parse      :   3.189
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.019
+    Stage mast       :   0.087
+    Stage mbc        :   0.010
+R: GLib::Roles::Object
+Stage parse      :   5.468
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::RootDevice ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/RootDevice.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.379
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.019
+    Stage mast       :   0.079
+    Stage mbc        :   0.007
+Stage parse      :   4.546
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::DidlLiteResource ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DidlLiteResource.pm6
+    Stage start      :   0.000
+    [31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteResource.pm6 (GUPnP::DidlLiteResource)
+    Could not find LibXML::Raw in:
+        file#/home/cbwood/Other_Projects/Method-Also/lib
+        file#/home/cbwood/Projects/p6-GLib/lib
+        file#/home/cbwood/Projects/p6-ATK/lib
+        file#/home/cbwood/Projects/p6-JSON-GLib/lib
+        file#/home/cbwood/Projects/p6-GIR/lib
+        file#/home/cbwood/Projects/p6-SOUP/lib
+        file#/home/cbwood/Projects/p6-GSSDP/lib
+        file#/home/cbwood/Projects/p6-GUPnP/lib
+        file#/home/cbwood/Projects/p6-Pango/lib
+        file#/home/cbwood/Projects/p6-GIO/lib
+        file#/home/cbwood/Projects/p6-GDK/lib
+        file#/home/cbwood/Projects/p6-GtkPlus/lib
+        file#/home/cbwood/Projects/p6-WebkitGTK/lib
+        file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+        file#/home/cbwood/Projects/p6-AMTK/lib
+        file#/home/cbwood/Projects/p6-TEPL/lib
+        file#/home/cbwood/Projects/p6-GooCanvas/lib
+        file#/home/cbwood/Projects/p6-Slope/lib
+        file#/home/cbwood/Projects/p6-WNCK/lib
+        file#/home/cbwood/Projects/p6-Clutter/lib
+        file#/home/cbwood/Projects/p6-GtkClutter/lib
+        file#/home/cbwood/Projects/p6-COGL/lib
+        file#/home/cbwood/Projects/p6-GStreamer/lib
+        file#/home/cbwood/Projects/p6-RSVG/lib
+        file#/home/cbwood/Projects/p6-GtkSheet/lib
+        file#/home/cbwood/Projects/p6-VTE/lib
+        file#/home/cbwood/Projects/p6-GUPnP/bin
+        inst#/home/cbwood/.raku
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+        ap#
+        nqp#
+        perl5#
+    at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteResource.pm6 (GUPnP::DidlLiteResource):5
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+Stage start      :   0.000
+[31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteResource.pm6 (GUPnP::DidlLiteResource)
+Could not find LibXML::Raw in:
+    file#/home/cbwood/Other_Projects/Method-Also/lib
+    file#/home/cbwood/Projects/p6-GLib/lib
+    file#/home/cbwood/Projects/p6-ATK/lib
+    file#/home/cbwood/Projects/p6-JSON-GLib/lib
+    file#/home/cbwood/Projects/p6-GIR/lib
+    file#/home/cbwood/Projects/p6-SOUP/lib
+    file#/home/cbwood/Projects/p6-GSSDP/lib
+    file#/home/cbwood/Projects/p6-GUPnP/lib
+    file#/home/cbwood/Projects/p6-Pango/lib
+    file#/home/cbwood/Projects/p6-GIO/lib
+    file#/home/cbwood/Projects/p6-GDK/lib
+    file#/home/cbwood/Projects/p6-GtkPlus/lib
+    file#/home/cbwood/Projects/p6-WebkitGTK/lib
+    file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+    file#/home/cbwood/Projects/p6-AMTK/lib
+    file#/home/cbwood/Projects/p6-TEPL/lib
+    file#/home/cbwood/Projects/p6-GooCanvas/lib
+    file#/home/cbwood/Projects/p6-Slope/lib
+    file#/home/cbwood/Projects/p6-WNCK/lib
+    file#/home/cbwood/Projects/p6-Clutter/lib
+    file#/home/cbwood/Projects/p6-GtkClutter/lib
+    file#/home/cbwood/Projects/p6-COGL/lib
+    file#/home/cbwood/Projects/p6-GStreamer/lib
+    file#/home/cbwood/Projects/p6-RSVG/lib
+    file#/home/cbwood/Projects/p6-GtkSheet/lib
+    file#/home/cbwood/Projects/p6-VTE/lib
+    file#/home/cbwood/Projects/p6-GUPnP/bin
+    inst#/home/cbwood/.raku
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+    ap#
+    nqp#
+    perl5#
+at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteResource.pm6 (GUPnP::DidlLiteResource):5
+
+at -e:1
+ === GUPnP::DlnaInformation ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DlnaInformation.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.536
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.018
+    Stage mast       :   0.060
+    Stage mbc        :   0.006
+R: GLib::Roles::Object
+Stage parse      :   4.800
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.004
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === GUPnP::DidlLiteObject ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DidlLiteObject.pm6
+    Stage start      :   0.000
+    [31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteObject.pm6 (GUPnP::DidlLiteObject)
+    Could not find LibXML::Raw in:
+        file#/home/cbwood/Other_Projects/Method-Also/lib
+        file#/home/cbwood/Projects/p6-GLib/lib
+        file#/home/cbwood/Projects/p6-ATK/lib
+        file#/home/cbwood/Projects/p6-JSON-GLib/lib
+        file#/home/cbwood/Projects/p6-GIR/lib
+        file#/home/cbwood/Projects/p6-SOUP/lib
+        file#/home/cbwood/Projects/p6-GSSDP/lib
+        file#/home/cbwood/Projects/p6-GUPnP/lib
+        file#/home/cbwood/Projects/p6-Pango/lib
+        file#/home/cbwood/Projects/p6-GIO/lib
+        file#/home/cbwood/Projects/p6-GDK/lib
+        file#/home/cbwood/Projects/p6-GtkPlus/lib
+        file#/home/cbwood/Projects/p6-WebkitGTK/lib
+        file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+        file#/home/cbwood/Projects/p6-AMTK/lib
+        file#/home/cbwood/Projects/p6-TEPL/lib
+        file#/home/cbwood/Projects/p6-GooCanvas/lib
+        file#/home/cbwood/Projects/p6-Slope/lib
+        file#/home/cbwood/Projects/p6-WNCK/lib
+        file#/home/cbwood/Projects/p6-Clutter/lib
+        file#/home/cbwood/Projects/p6-GtkClutter/lib
+        file#/home/cbwood/Projects/p6-COGL/lib
+        file#/home/cbwood/Projects/p6-GStreamer/lib
+        file#/home/cbwood/Projects/p6-RSVG/lib
+        file#/home/cbwood/Projects/p6-GtkSheet/lib
+        file#/home/cbwood/Projects/p6-VTE/lib
+        file#/home/cbwood/Projects/p6-GUPnP/bin
+        inst#/home/cbwood/.raku
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+        ap#
+        nqp#
+        perl5#
+    at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteObject.pm6 (GUPnP::DidlLiteObject):6
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+Stage start      :   0.000
+[31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteObject.pm6 (GUPnP::DidlLiteObject)
+Could not find LibXML::Raw in:
+    file#/home/cbwood/Other_Projects/Method-Also/lib
+    file#/home/cbwood/Projects/p6-GLib/lib
+    file#/home/cbwood/Projects/p6-ATK/lib
+    file#/home/cbwood/Projects/p6-JSON-GLib/lib
+    file#/home/cbwood/Projects/p6-GIR/lib
+    file#/home/cbwood/Projects/p6-SOUP/lib
+    file#/home/cbwood/Projects/p6-GSSDP/lib
+    file#/home/cbwood/Projects/p6-GUPnP/lib
+    file#/home/cbwood/Projects/p6-Pango/lib
+    file#/home/cbwood/Projects/p6-GIO/lib
+    file#/home/cbwood/Projects/p6-GDK/lib
+    file#/home/cbwood/Projects/p6-GtkPlus/lib
+    file#/home/cbwood/Projects/p6-WebkitGTK/lib
+    file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+    file#/home/cbwood/Projects/p6-AMTK/lib
+    file#/home/cbwood/Projects/p6-TEPL/lib
+    file#/home/cbwood/Projects/p6-GooCanvas/lib
+    file#/home/cbwood/Projects/p6-Slope/lib
+    file#/home/cbwood/Projects/p6-WNCK/lib
+    file#/home/cbwood/Projects/p6-Clutter/lib
+    file#/home/cbwood/Projects/p6-GtkClutter/lib
+    file#/home/cbwood/Projects/p6-COGL/lib
+    file#/home/cbwood/Projects/p6-GStreamer/lib
+    file#/home/cbwood/Projects/p6-RSVG/lib
+    file#/home/cbwood/Projects/p6-GtkSheet/lib
+    file#/home/cbwood/Projects/p6-VTE/lib
+    file#/home/cbwood/Projects/p6-GUPnP/bin
+    inst#/home/cbwood/.raku
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+    ap#
+    nqp#
+    perl5#
+at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteObject.pm6 (GUPnP::DidlLiteObject):6
+
+at -e:1
+ === GUPnP::DidlLiteContainer ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DidlLiteContainer.pm6
+    Stage start      :   0.000
+    
+        precomp lib/GUPnP/DidlLiteCreateClass.pm6
+        Stage start      :   0.000
+        
+            precomp lib/GUPnP/Raw/DidlLiteCreateClass.pm6
+            Stage start      :   0.000
+            [31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteCreateClass.pm6 (GUPnP::Raw::DidlLiteCreateClass)
+            Could not find LibXML::Raw in:
+                file#/home/cbwood/Other_Projects/Method-Also/lib
+                file#/home/cbwood/Projects/p6-GLib/lib
+                file#/home/cbwood/Projects/p6-ATK/lib
+                file#/home/cbwood/Projects/p6-JSON-GLib/lib
+                file#/home/cbwood/Projects/p6-GIR/lib
+                file#/home/cbwood/Projects/p6-SOUP/lib
+                file#/home/cbwood/Projects/p6-GSSDP/lib
+                file#/home/cbwood/Projects/p6-GUPnP/lib
+                file#/home/cbwood/Projects/p6-Pango/lib
+                file#/home/cbwood/Projects/p6-GIO/lib
+                file#/home/cbwood/Projects/p6-GDK/lib
+                file#/home/cbwood/Projects/p6-GtkPlus/lib
+                file#/home/cbwood/Projects/p6-WebkitGTK/lib
+                file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+                file#/home/cbwood/Projects/p6-AMTK/lib
+                file#/home/cbwood/Projects/p6-TEPL/lib
+                file#/home/cbwood/Projects/p6-GooCanvas/lib
+                file#/home/cbwood/Projects/p6-Slope/lib
+                file#/home/cbwood/Projects/p6-WNCK/lib
+                file#/home/cbwood/Projects/p6-Clutter/lib
+                file#/home/cbwood/Projects/p6-GtkClutter/lib
+                file#/home/cbwood/Projects/p6-COGL/lib
+                file#/home/cbwood/Projects/p6-GStreamer/lib
+                file#/home/cbwood/Projects/p6-RSVG/lib
+                file#/home/cbwood/Projects/p6-GtkSheet/lib
+                file#/home/cbwood/Projects/p6-VTE/lib
+                file#/home/cbwood/Projects/p6-GUPnP/bin
+                inst#/home/cbwood/.raku
+                inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+                inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+                inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+                ap#
+                nqp#
+                perl5#
+            at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteCreateClass.pm6 (GUPnP::Raw::DidlLiteCreateClass):5
+        [31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteCreateClass.pm6 (GUPnP::DidlLiteCreateClass)
+        Stage start      :   0.000
+        [31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteCreateClass.pm6 (GUPnP::Raw::DidlLiteCreateClass)
+        Could not find LibXML::Raw in:
+            file#/home/cbwood/Other_Projects/Method-Also/lib
+            file#/home/cbwood/Projects/p6-GLib/lib
+            file#/home/cbwood/Projects/p6-ATK/lib
+            file#/home/cbwood/Projects/p6-JSON-GLib/lib
+            file#/home/cbwood/Projects/p6-GIR/lib
+            file#/home/cbwood/Projects/p6-SOUP/lib
+            file#/home/cbwood/Projects/p6-GSSDP/lib
+            file#/home/cbwood/Projects/p6-GUPnP/lib
+            file#/home/cbwood/Projects/p6-Pango/lib
+            file#/home/cbwood/Projects/p6-GIO/lib
+            file#/home/cbwood/Projects/p6-GDK/lib
+            file#/home/cbwood/Projects/p6-GtkPlus/lib
+            file#/home/cbwood/Projects/p6-WebkitGTK/lib
+            file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+            file#/home/cbwood/Projects/p6-AMTK/lib
+            file#/home/cbwood/Projects/p6-TEPL/lib
+            file#/home/cbwood/Projects/p6-GooCanvas/lib
+            file#/home/cbwood/Projects/p6-Slope/lib
+            file#/home/cbwood/Projects/p6-WNCK/lib
+            file#/home/cbwood/Projects/p6-Clutter/lib
+            file#/home/cbwood/Projects/p6-GtkClutter/lib
+            file#/home/cbwood/Projects/p6-COGL/lib
+            file#/home/cbwood/Projects/p6-GStreamer/lib
+            file#/home/cbwood/Projects/p6-RSVG/lib
+            file#/home/cbwood/Projects/p6-GtkSheet/lib
+            file#/home/cbwood/Projects/p6-VTE/lib
+            file#/home/cbwood/Projects/p6-GUPnP/bin
+            inst#/home/cbwood/.raku
+            inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+            inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+            inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+            ap#
+            nqp#
+            perl5#
+        at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteCreateClass.pm6 (GUPnP::Raw::DidlLiteCreateClass):5
+        
+        at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteCreateClass.pm6 (GUPnP::DidlLiteCreateClass):6
+    [31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteContainer.pm6 (GUPnP::DidlLiteContainer)
+    Stage start      :   0.000
+    
+        precomp lib/GUPnP/Raw/DidlLiteCreateClass.pm6
+        Stage start      :   0.000
+        [31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteCreateClass.pm6 (GUPnP::Raw::DidlLiteCreateClass)
+        Could not find LibXML::Raw in:
+            file#/home/cbwood/Other_Projects/Method-Also/lib
+            file#/home/cbwood/Projects/p6-GLib/lib
+            file#/home/cbwood/Projects/p6-ATK/lib
+            file#/home/cbwood/Projects/p6-JSON-GLib/lib
+            file#/home/cbwood/Projects/p6-GIR/lib
+            file#/home/cbwood/Projects/p6-SOUP/lib
+            file#/home/cbwood/Projects/p6-GSSDP/lib
+            file#/home/cbwood/Projects/p6-GUPnP/lib
+            file#/home/cbwood/Projects/p6-Pango/lib
+            file#/home/cbwood/Projects/p6-GIO/lib
+            file#/home/cbwood/Projects/p6-GDK/lib
+            file#/home/cbwood/Projects/p6-GtkPlus/lib
+            file#/home/cbwood/Projects/p6-WebkitGTK/lib
+            file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+            file#/home/cbwood/Projects/p6-AMTK/lib
+            file#/home/cbwood/Projects/p6-TEPL/lib
+            file#/home/cbwood/Projects/p6-GooCanvas/lib
+            file#/home/cbwood/Projects/p6-Slope/lib
+            file#/home/cbwood/Projects/p6-WNCK/lib
+            file#/home/cbwood/Projects/p6-Clutter/lib
+            file#/home/cbwood/Projects/p6-GtkClutter/lib
+            file#/home/cbwood/Projects/p6-COGL/lib
+            file#/home/cbwood/Projects/p6-GStreamer/lib
+            file#/home/cbwood/Projects/p6-RSVG/lib
+            file#/home/cbwood/Projects/p6-GtkSheet/lib
+            file#/home/cbwood/Projects/p6-VTE/lib
+            file#/home/cbwood/Projects/p6-GUPnP/bin
+            inst#/home/cbwood/.raku
+            inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+            inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+            inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+            ap#
+            nqp#
+            perl5#
+        at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteCreateClass.pm6 (GUPnP::Raw::DidlLiteCreateClass):5
+    [31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteCreateClass.pm6 (GUPnP::DidlLiteCreateClass)
+    Stage start      :   0.000
+    [31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteCreateClass.pm6 (GUPnP::Raw::DidlLiteCreateClass)
+    Could not find LibXML::Raw in:
+        file#/home/cbwood/Other_Projects/Method-Also/lib
+        file#/home/cbwood/Projects/p6-GLib/lib
+        file#/home/cbwood/Projects/p6-ATK/lib
+        file#/home/cbwood/Projects/p6-JSON-GLib/lib
+        file#/home/cbwood/Projects/p6-GIR/lib
+        file#/home/cbwood/Projects/p6-SOUP/lib
+        file#/home/cbwood/Projects/p6-GSSDP/lib
+        file#/home/cbwood/Projects/p6-GUPnP/lib
+        file#/home/cbwood/Projects/p6-Pango/lib
+        file#/home/cbwood/Projects/p6-GIO/lib
+        file#/home/cbwood/Projects/p6-GDK/lib
+        file#/home/cbwood/Projects/p6-GtkPlus/lib
+        file#/home/cbwood/Projects/p6-WebkitGTK/lib
+        file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+        file#/home/cbwood/Projects/p6-AMTK/lib
+        file#/home/cbwood/Projects/p6-TEPL/lib
+        file#/home/cbwood/Projects/p6-GooCanvas/lib
+        file#/home/cbwood/Projects/p6-Slope/lib
+        file#/home/cbwood/Projects/p6-WNCK/lib
+        file#/home/cbwood/Projects/p6-Clutter/lib
+        file#/home/cbwood/Projects/p6-GtkClutter/lib
+        file#/home/cbwood/Projects/p6-COGL/lib
+        file#/home/cbwood/Projects/p6-GStreamer/lib
+        file#/home/cbwood/Projects/p6-RSVG/lib
+        file#/home/cbwood/Projects/p6-GtkSheet/lib
+        file#/home/cbwood/Projects/p6-VTE/lib
+        file#/home/cbwood/Projects/p6-GUPnP/bin
+        inst#/home/cbwood/.raku
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+        ap#
+        nqp#
+        perl5#
+    at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteCreateClass.pm6 (GUPnP::Raw::DidlLiteCreateClass):5
+    
+    at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteCreateClass.pm6 (GUPnP::DidlLiteCreateClass):6
+    
+    at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteContainer.pm6 (GUPnP::DidlLiteContainer):10
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DidlLiteCreateClass.pm6
+    Stage start      :   0.000
+    
+        precomp lib/GUPnP/Raw/DidlLiteCreateClass.pm6
+        Stage start      :   0.000
+        [31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteCreateClass.pm6 (GUPnP::Raw::DidlLiteCreateClass)
+        Could not find LibXML::Raw in:
+            file#/home/cbwood/Other_Projects/Method-Also/lib
+            file#/home/cbwood/Projects/p6-GLib/lib
+            file#/home/cbwood/Projects/p6-ATK/lib
+            file#/home/cbwood/Projects/p6-JSON-GLib/lib
+            file#/home/cbwood/Projects/p6-GIR/lib
+            file#/home/cbwood/Projects/p6-SOUP/lib
+            file#/home/cbwood/Projects/p6-GSSDP/lib
+            file#/home/cbwood/Projects/p6-GUPnP/lib
+            file#/home/cbwood/Projects/p6-Pango/lib
+            file#/home/cbwood/Projects/p6-GIO/lib
+            file#/home/cbwood/Projects/p6-GDK/lib
+            file#/home/cbwood/Projects/p6-GtkPlus/lib
+            file#/home/cbwood/Projects/p6-WebkitGTK/lib
+            file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+            file#/home/cbwood/Projects/p6-AMTK/lib
+            file#/home/cbwood/Projects/p6-TEPL/lib
+            file#/home/cbwood/Projects/p6-GooCanvas/lib
+            file#/home/cbwood/Projects/p6-Slope/lib
+            file#/home/cbwood/Projects/p6-WNCK/lib
+            file#/home/cbwood/Projects/p6-Clutter/lib
+            file#/home/cbwood/Projects/p6-GtkClutter/lib
+            file#/home/cbwood/Projects/p6-COGL/lib
+            file#/home/cbwood/Projects/p6-GStreamer/lib
+            file#/home/cbwood/Projects/p6-RSVG/lib
+            file#/home/cbwood/Projects/p6-GtkSheet/lib
+            file#/home/cbwood/Projects/p6-VTE/lib
+            file#/home/cbwood/Projects/p6-GUPnP/bin
+            inst#/home/cbwood/.raku
+            inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+            inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+            inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+            ap#
+            nqp#
+            perl5#
+        at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteCreateClass.pm6 (GUPnP::Raw::DidlLiteCreateClass):5
+    [31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteCreateClass.pm6 (GUPnP::DidlLiteCreateClass)
+    Stage start      :   0.000
+    [31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteCreateClass.pm6 (GUPnP::Raw::DidlLiteCreateClass)
+    Could not find LibXML::Raw in:
+        file#/home/cbwood/Other_Projects/Method-Also/lib
+        file#/home/cbwood/Projects/p6-GLib/lib
+        file#/home/cbwood/Projects/p6-ATK/lib
+        file#/home/cbwood/Projects/p6-JSON-GLib/lib
+        file#/home/cbwood/Projects/p6-GIR/lib
+        file#/home/cbwood/Projects/p6-SOUP/lib
+        file#/home/cbwood/Projects/p6-GSSDP/lib
+        file#/home/cbwood/Projects/p6-GUPnP/lib
+        file#/home/cbwood/Projects/p6-Pango/lib
+        file#/home/cbwood/Projects/p6-GIO/lib
+        file#/home/cbwood/Projects/p6-GDK/lib
+        file#/home/cbwood/Projects/p6-GtkPlus/lib
+        file#/home/cbwood/Projects/p6-WebkitGTK/lib
+        file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+        file#/home/cbwood/Projects/p6-AMTK/lib
+        file#/home/cbwood/Projects/p6-TEPL/lib
+        file#/home/cbwood/Projects/p6-GooCanvas/lib
+        file#/home/cbwood/Projects/p6-Slope/lib
+        file#/home/cbwood/Projects/p6-WNCK/lib
+        file#/home/cbwood/Projects/p6-Clutter/lib
+        file#/home/cbwood/Projects/p6-GtkClutter/lib
+        file#/home/cbwood/Projects/p6-COGL/lib
+        file#/home/cbwood/Projects/p6-GStreamer/lib
+        file#/home/cbwood/Projects/p6-RSVG/lib
+        file#/home/cbwood/Projects/p6-GtkSheet/lib
+        file#/home/cbwood/Projects/p6-VTE/lib
+        file#/home/cbwood/Projects/p6-GUPnP/bin
+        inst#/home/cbwood/.raku
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+        ap#
+        nqp#
+        perl5#
+    at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteCreateClass.pm6 (GUPnP::Raw::DidlLiteCreateClass):5
+    
+    at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteCreateClass.pm6 (GUPnP::DidlLiteCreateClass):6
+[31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteContainer.pm6 (GUPnP::DidlLiteContainer)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DidlLiteCreateClass.pm6
+    Stage start      :   0.000
+    [31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteCreateClass.pm6 (GUPnP::Raw::DidlLiteCreateClass)
+    Could not find LibXML::Raw in:
+        file#/home/cbwood/Other_Projects/Method-Also/lib
+        file#/home/cbwood/Projects/p6-GLib/lib
+        file#/home/cbwood/Projects/p6-ATK/lib
+        file#/home/cbwood/Projects/p6-JSON-GLib/lib
+        file#/home/cbwood/Projects/p6-GIR/lib
+        file#/home/cbwood/Projects/p6-SOUP/lib
+        file#/home/cbwood/Projects/p6-GSSDP/lib
+        file#/home/cbwood/Projects/p6-GUPnP/lib
+        file#/home/cbwood/Projects/p6-Pango/lib
+        file#/home/cbwood/Projects/p6-GIO/lib
+        file#/home/cbwood/Projects/p6-GDK/lib
+        file#/home/cbwood/Projects/p6-GtkPlus/lib
+        file#/home/cbwood/Projects/p6-WebkitGTK/lib
+        file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+        file#/home/cbwood/Projects/p6-AMTK/lib
+        file#/home/cbwood/Projects/p6-TEPL/lib
+        file#/home/cbwood/Projects/p6-GooCanvas/lib
+        file#/home/cbwood/Projects/p6-Slope/lib
+        file#/home/cbwood/Projects/p6-WNCK/lib
+        file#/home/cbwood/Projects/p6-Clutter/lib
+        file#/home/cbwood/Projects/p6-GtkClutter/lib
+        file#/home/cbwood/Projects/p6-COGL/lib
+        file#/home/cbwood/Projects/p6-GStreamer/lib
+        file#/home/cbwood/Projects/p6-RSVG/lib
+        file#/home/cbwood/Projects/p6-GtkSheet/lib
+        file#/home/cbwood/Projects/p6-VTE/lib
+        file#/home/cbwood/Projects/p6-GUPnP/bin
+        inst#/home/cbwood/.raku
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+        ap#
+        nqp#
+        perl5#
+    at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteCreateClass.pm6 (GUPnP::Raw::DidlLiteCreateClass):5
+[31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteCreateClass.pm6 (GUPnP::DidlLiteCreateClass)
+Stage start      :   0.000
+[31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteCreateClass.pm6 (GUPnP::Raw::DidlLiteCreateClass)
+Could not find LibXML::Raw in:
+    file#/home/cbwood/Other_Projects/Method-Also/lib
+    file#/home/cbwood/Projects/p6-GLib/lib
+    file#/home/cbwood/Projects/p6-ATK/lib
+    file#/home/cbwood/Projects/p6-JSON-GLib/lib
+    file#/home/cbwood/Projects/p6-GIR/lib
+    file#/home/cbwood/Projects/p6-SOUP/lib
+    file#/home/cbwood/Projects/p6-GSSDP/lib
+    file#/home/cbwood/Projects/p6-GUPnP/lib
+    file#/home/cbwood/Projects/p6-Pango/lib
+    file#/home/cbwood/Projects/p6-GIO/lib
+    file#/home/cbwood/Projects/p6-GDK/lib
+    file#/home/cbwood/Projects/p6-GtkPlus/lib
+    file#/home/cbwood/Projects/p6-WebkitGTK/lib
+    file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+    file#/home/cbwood/Projects/p6-AMTK/lib
+    file#/home/cbwood/Projects/p6-TEPL/lib
+    file#/home/cbwood/Projects/p6-GooCanvas/lib
+    file#/home/cbwood/Projects/p6-Slope/lib
+    file#/home/cbwood/Projects/p6-WNCK/lib
+    file#/home/cbwood/Projects/p6-Clutter/lib
+    file#/home/cbwood/Projects/p6-GtkClutter/lib
+    file#/home/cbwood/Projects/p6-COGL/lib
+    file#/home/cbwood/Projects/p6-GStreamer/lib
+    file#/home/cbwood/Projects/p6-RSVG/lib
+    file#/home/cbwood/Projects/p6-GtkSheet/lib
+    file#/home/cbwood/Projects/p6-VTE/lib
+    file#/home/cbwood/Projects/p6-GUPnP/bin
+    inst#/home/cbwood/.raku
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+    ap#
+    nqp#
+    perl5#
+at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/Raw/DidlLiteCreateClass.pm6 (GUPnP::Raw::DidlLiteCreateClass):5
+
+at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteCreateClass.pm6 (GUPnP::DidlLiteCreateClass):6
+
+at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteContainer.pm6 (GUPnP::DidlLiteContainer):10
+
+at -e:1
+ === GUPnP::DidlLiteItem ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DidlLiteItem.pm6
+    Stage start      :   0.000
+    
+        precomp lib/GUPnP/DidlLiteObject.pm6
+        Stage start      :   0.000
+        [31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteObject.pm6 (GUPnP::DidlLiteObject)
+        Could not find LibXML::Raw in:
+            file#/home/cbwood/Other_Projects/Method-Also/lib
+            file#/home/cbwood/Projects/p6-GLib/lib
+            file#/home/cbwood/Projects/p6-ATK/lib
+            file#/home/cbwood/Projects/p6-JSON-GLib/lib
+            file#/home/cbwood/Projects/p6-GIR/lib
+            file#/home/cbwood/Projects/p6-SOUP/lib
+            file#/home/cbwood/Projects/p6-GSSDP/lib
+            file#/home/cbwood/Projects/p6-GUPnP/lib
+            file#/home/cbwood/Projects/p6-Pango/lib
+            file#/home/cbwood/Projects/p6-GIO/lib
+            file#/home/cbwood/Projects/p6-GDK/lib
+            file#/home/cbwood/Projects/p6-GtkPlus/lib
+            file#/home/cbwood/Projects/p6-WebkitGTK/lib
+            file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+            file#/home/cbwood/Projects/p6-AMTK/lib
+            file#/home/cbwood/Projects/p6-TEPL/lib
+            file#/home/cbwood/Projects/p6-GooCanvas/lib
+            file#/home/cbwood/Projects/p6-Slope/lib
+            file#/home/cbwood/Projects/p6-WNCK/lib
+            file#/home/cbwood/Projects/p6-Clutter/lib
+            file#/home/cbwood/Projects/p6-GtkClutter/lib
+            file#/home/cbwood/Projects/p6-COGL/lib
+            file#/home/cbwood/Projects/p6-GStreamer/lib
+            file#/home/cbwood/Projects/p6-RSVG/lib
+            file#/home/cbwood/Projects/p6-GtkSheet/lib
+            file#/home/cbwood/Projects/p6-VTE/lib
+            file#/home/cbwood/Projects/p6-GUPnP/bin
+            inst#/home/cbwood/.raku
+            inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+            inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+            inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+            ap#
+            nqp#
+            perl5#
+        at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteObject.pm6 (GUPnP::DidlLiteObject):6
+    [31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteItem.pm6 (GUPnP::DidlLiteItem)
+    Stage start      :   0.000
+    [31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteObject.pm6 (GUPnP::DidlLiteObject)
+    Could not find LibXML::Raw in:
+        file#/home/cbwood/Other_Projects/Method-Also/lib
+        file#/home/cbwood/Projects/p6-GLib/lib
+        file#/home/cbwood/Projects/p6-ATK/lib
+        file#/home/cbwood/Projects/p6-JSON-GLib/lib
+        file#/home/cbwood/Projects/p6-GIR/lib
+        file#/home/cbwood/Projects/p6-SOUP/lib
+        file#/home/cbwood/Projects/p6-GSSDP/lib
+        file#/home/cbwood/Projects/p6-GUPnP/lib
+        file#/home/cbwood/Projects/p6-Pango/lib
+        file#/home/cbwood/Projects/p6-GIO/lib
+        file#/home/cbwood/Projects/p6-GDK/lib
+        file#/home/cbwood/Projects/p6-GtkPlus/lib
+        file#/home/cbwood/Projects/p6-WebkitGTK/lib
+        file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+        file#/home/cbwood/Projects/p6-AMTK/lib
+        file#/home/cbwood/Projects/p6-TEPL/lib
+        file#/home/cbwood/Projects/p6-GooCanvas/lib
+        file#/home/cbwood/Projects/p6-Slope/lib
+        file#/home/cbwood/Projects/p6-WNCK/lib
+        file#/home/cbwood/Projects/p6-Clutter/lib
+        file#/home/cbwood/Projects/p6-GtkClutter/lib
+        file#/home/cbwood/Projects/p6-COGL/lib
+        file#/home/cbwood/Projects/p6-GStreamer/lib
+        file#/home/cbwood/Projects/p6-RSVG/lib
+        file#/home/cbwood/Projects/p6-GtkSheet/lib
+        file#/home/cbwood/Projects/p6-VTE/lib
+        file#/home/cbwood/Projects/p6-GUPnP/bin
+        inst#/home/cbwood/.raku
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+        ap#
+        nqp#
+        perl5#
+    at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteObject.pm6 (GUPnP::DidlLiteObject):6
+    
+    at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteItem.pm6 (GUPnP::DidlLiteItem):9
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DidlLiteObject.pm6
+    Stage start      :   0.000
+    [31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteObject.pm6 (GUPnP::DidlLiteObject)
+    Could not find LibXML::Raw in:
+        file#/home/cbwood/Other_Projects/Method-Also/lib
+        file#/home/cbwood/Projects/p6-GLib/lib
+        file#/home/cbwood/Projects/p6-ATK/lib
+        file#/home/cbwood/Projects/p6-JSON-GLib/lib
+        file#/home/cbwood/Projects/p6-GIR/lib
+        file#/home/cbwood/Projects/p6-SOUP/lib
+        file#/home/cbwood/Projects/p6-GSSDP/lib
+        file#/home/cbwood/Projects/p6-GUPnP/lib
+        file#/home/cbwood/Projects/p6-Pango/lib
+        file#/home/cbwood/Projects/p6-GIO/lib
+        file#/home/cbwood/Projects/p6-GDK/lib
+        file#/home/cbwood/Projects/p6-GtkPlus/lib
+        file#/home/cbwood/Projects/p6-WebkitGTK/lib
+        file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+        file#/home/cbwood/Projects/p6-AMTK/lib
+        file#/home/cbwood/Projects/p6-TEPL/lib
+        file#/home/cbwood/Projects/p6-GooCanvas/lib
+        file#/home/cbwood/Projects/p6-Slope/lib
+        file#/home/cbwood/Projects/p6-WNCK/lib
+        file#/home/cbwood/Projects/p6-Clutter/lib
+        file#/home/cbwood/Projects/p6-GtkClutter/lib
+        file#/home/cbwood/Projects/p6-COGL/lib
+        file#/home/cbwood/Projects/p6-GStreamer/lib
+        file#/home/cbwood/Projects/p6-RSVG/lib
+        file#/home/cbwood/Projects/p6-GtkSheet/lib
+        file#/home/cbwood/Projects/p6-VTE/lib
+        file#/home/cbwood/Projects/p6-GUPnP/bin
+        inst#/home/cbwood/.raku
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+        ap#
+        nqp#
+        perl5#
+    at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteObject.pm6 (GUPnP::DidlLiteObject):6
+[31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteItem.pm6 (GUPnP::DidlLiteItem)
+Stage start      :   0.000
+[31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteObject.pm6 (GUPnP::DidlLiteObject)
+Could not find LibXML::Raw in:
+    file#/home/cbwood/Other_Projects/Method-Also/lib
+    file#/home/cbwood/Projects/p6-GLib/lib
+    file#/home/cbwood/Projects/p6-ATK/lib
+    file#/home/cbwood/Projects/p6-JSON-GLib/lib
+    file#/home/cbwood/Projects/p6-GIR/lib
+    file#/home/cbwood/Projects/p6-SOUP/lib
+    file#/home/cbwood/Projects/p6-GSSDP/lib
+    file#/home/cbwood/Projects/p6-GUPnP/lib
+    file#/home/cbwood/Projects/p6-Pango/lib
+    file#/home/cbwood/Projects/p6-GIO/lib
+    file#/home/cbwood/Projects/p6-GDK/lib
+    file#/home/cbwood/Projects/p6-GtkPlus/lib
+    file#/home/cbwood/Projects/p6-WebkitGTK/lib
+    file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+    file#/home/cbwood/Projects/p6-AMTK/lib
+    file#/home/cbwood/Projects/p6-TEPL/lib
+    file#/home/cbwood/Projects/p6-GooCanvas/lib
+    file#/home/cbwood/Projects/p6-Slope/lib
+    file#/home/cbwood/Projects/p6-WNCK/lib
+    file#/home/cbwood/Projects/p6-Clutter/lib
+    file#/home/cbwood/Projects/p6-GtkClutter/lib
+    file#/home/cbwood/Projects/p6-COGL/lib
+    file#/home/cbwood/Projects/p6-GStreamer/lib
+    file#/home/cbwood/Projects/p6-RSVG/lib
+    file#/home/cbwood/Projects/p6-GtkSheet/lib
+    file#/home/cbwood/Projects/p6-VTE/lib
+    file#/home/cbwood/Projects/p6-GUPnP/bin
+    inst#/home/cbwood/.raku
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+    ap#
+    nqp#
+    perl5#
+at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteObject.pm6 (GUPnP::DidlLiteObject):6
+
+at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteItem.pm6 (GUPnP::DidlLiteItem):9
+
+at -e:1
+ === GUPnP::DidlLiteWriter ===
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DidlLiteWriter.pm6
+    Stage start      :   0.000
+    [31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteWriter.pm6 (GUPnP::DidlLiteWriter)
+    Could not find LibXML::Raw in:
+        file#/home/cbwood/Other_Projects/Method-Also/lib
+        file#/home/cbwood/Projects/p6-GLib/lib
+        file#/home/cbwood/Projects/p6-ATK/lib
+        file#/home/cbwood/Projects/p6-JSON-GLib/lib
+        file#/home/cbwood/Projects/p6-GIR/lib
+        file#/home/cbwood/Projects/p6-SOUP/lib
+        file#/home/cbwood/Projects/p6-GSSDP/lib
+        file#/home/cbwood/Projects/p6-GUPnP/lib
+        file#/home/cbwood/Projects/p6-Pango/lib
+        file#/home/cbwood/Projects/p6-GIO/lib
+        file#/home/cbwood/Projects/p6-GDK/lib
+        file#/home/cbwood/Projects/p6-GtkPlus/lib
+        file#/home/cbwood/Projects/p6-WebkitGTK/lib
+        file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+        file#/home/cbwood/Projects/p6-AMTK/lib
+        file#/home/cbwood/Projects/p6-TEPL/lib
+        file#/home/cbwood/Projects/p6-GooCanvas/lib
+        file#/home/cbwood/Projects/p6-Slope/lib
+        file#/home/cbwood/Projects/p6-WNCK/lib
+        file#/home/cbwood/Projects/p6-Clutter/lib
+        file#/home/cbwood/Projects/p6-GtkClutter/lib
+        file#/home/cbwood/Projects/p6-COGL/lib
+        file#/home/cbwood/Projects/p6-GStreamer/lib
+        file#/home/cbwood/Projects/p6-RSVG/lib
+        file#/home/cbwood/Projects/p6-GtkSheet/lib
+        file#/home/cbwood/Projects/p6-VTE/lib
+        file#/home/cbwood/Projects/p6-GUPnP/bin
+        inst#/home/cbwood/.raku
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+        inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+        ap#
+        nqp#
+        perl5#
+    at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteWriter.pm6 (GUPnP::DidlLiteWriter):5
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+Stage start      :   0.000
+[31m===[0mSORRY![31m===[0m Error while compiling /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteWriter.pm6 (GUPnP::DidlLiteWriter)
+Could not find LibXML::Raw in:
+    file#/home/cbwood/Other_Projects/Method-Also/lib
+    file#/home/cbwood/Projects/p6-GLib/lib
+    file#/home/cbwood/Projects/p6-ATK/lib
+    file#/home/cbwood/Projects/p6-JSON-GLib/lib
+    file#/home/cbwood/Projects/p6-GIR/lib
+    file#/home/cbwood/Projects/p6-SOUP/lib
+    file#/home/cbwood/Projects/p6-GSSDP/lib
+    file#/home/cbwood/Projects/p6-GUPnP/lib
+    file#/home/cbwood/Projects/p6-Pango/lib
+    file#/home/cbwood/Projects/p6-GIO/lib
+    file#/home/cbwood/Projects/p6-GDK/lib
+    file#/home/cbwood/Projects/p6-GtkPlus/lib
+    file#/home/cbwood/Projects/p6-WebkitGTK/lib
+    file#/home/cbwood/Projects/p6-SourceViewGTK/lib
+    file#/home/cbwood/Projects/p6-AMTK/lib
+    file#/home/cbwood/Projects/p6-TEPL/lib
+    file#/home/cbwood/Projects/p6-GooCanvas/lib
+    file#/home/cbwood/Projects/p6-Slope/lib
+    file#/home/cbwood/Projects/p6-WNCK/lib
+    file#/home/cbwood/Projects/p6-Clutter/lib
+    file#/home/cbwood/Projects/p6-GtkClutter/lib
+    file#/home/cbwood/Projects/p6-COGL/lib
+    file#/home/cbwood/Projects/p6-GStreamer/lib
+    file#/home/cbwood/Projects/p6-RSVG/lib
+    file#/home/cbwood/Projects/p6-GtkSheet/lib
+    file#/home/cbwood/Projects/p6-VTE/lib
+    file#/home/cbwood/Projects/p6-GUPnP/bin
+    inst#/home/cbwood/.raku
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/site
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/vendor
+    inst#/home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/core
+    ap#
+    nqp#
+    perl5#
+at /home/cbwood/Projects/p6-GUPnP/lib/GUPnP/DidlLiteWriter.pm6 (GUPnP::DidlLiteWriter):5
+
+at -e:1
+
+real 460.33
+user 536.64
+sys 28.27
