@@ -25,6 +25,7 @@ need GIO::Raw::Quarks;
 need GIO::DBus::Raw::Types;
 need SOUP::Raw::Definitions;
 need SOUP::Raw::Enums;
+need SOUP::Raw::Subs;
 need GSSDP::Raw::Definitions;
 need GUPnP::Raw::Definitions;
 need GUPnP::Raw::Enums;
