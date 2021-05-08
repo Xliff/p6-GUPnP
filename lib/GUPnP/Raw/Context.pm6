@@ -130,5 +130,6 @@ sub gupnp_context_unhost_path (GUPnPContext $context, Str $server_path)
 sub gupnp_context_get_type ()
   returns GType
   is native(gupnp-helper)
+  is symbol('helper_gupnp_context_get_type')
   is export
 { * }
