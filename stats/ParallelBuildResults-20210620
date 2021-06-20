@@ -1,0 +1,1989 @@
+ === GIO::Raw::Exports === 
+Stage start      :   0.000
+Stage parse      :   5.893
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.004
+Stage mast       :   0.028
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GIO::Raw::Exports compile time: 7.363127
+ === GLib::Raw::ReturnedValue === 
+Stage start      :   0.000
+Stage parse      :   5.922
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.004
+Stage mast       :   0.028
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GLib::Raw::ReturnedValue compile time: 7.8022592
+ === GIO::Raw::Enums === 
+Stage start      :   0.000
+Stage parse      :   6.798
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.044
+Stage mast       :   0.008
+Stage mbc        :   0.004
+Stage moar       :   0.000
+
+GIO::Raw::Enums compile time: 8.0520397
+ === GLib::Raw::Exports === 
+Stage start      :   0.000
+Stage parse      :   6.491
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GLib::Raw::Exports compile time: 7.92747085
+ === GIO::Raw::Definitions === 
+Stage start      :   0.000
+Stage parse      :   6.875
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.002
+Stage mast       :   0.005
+Stage mbc        :   0.002
+Stage moar       :   0.000
+
+GIO::Raw::Definitions compile time: 8.25542861
+ === GLib::Raw::Object === 
+Stage start      :   0.000
+Stage parse      :   6.587
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.041
+Stage moar       :   0.000
+
+GLib::Raw::Object compile time: 8.22419994
+ === GIO::DBus::Raw::Types === 
+Stage start      :   0.000
+Stage parse      :   7.481
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.003
+Stage mast       :   0.015
+Stage mbc        :   0.005
+Stage moar       :   0.000
+
+GIO::DBus::Raw::Types compile time: 8.63258522
+ === GLib::Raw::Struct_Subs === 
+Stage start      :   0.000
+Stage parse      :   6.897
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GLib::Raw::Struct_Subs compile time: 8.57066982
+ === GLib::Roles::Pointers === 
+Stage start      :   0.000
+Stage parse      :   6.819
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GLib::Roles::Pointers compile time: 8.57269581
+ === GLib::Raw::Definitions === 
+Stage start      :   0.000
+Stage parse      :   7.190
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.008
+Stage mast       :   0.010
+Stage mbc        :   0.007
+Stage moar       :   0.000
+
+GLib::Raw::Definitions compile time: 8.92921139
+ === GLib::GList === 
+Stage start      :   0.000
+Stage parse      :   7.450
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.002
+Stage mbc        :   0.004
+Stage moar       :   0.000
+
+GLib::GList compile time: 8.98008013
+ === GLib::Raw::Exceptions === 
+Stage start      :   0.000
+Stage parse      :   7.191
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.008
+Stage mast       :   0.010
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GLib::Raw::Exceptions compile time: 8.97985741
+ === GLib::Raw::Subs === 
+Stage start      :   0.000
+Stage parse      :   7.156
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.002
+Stage mast       :   0.009
+Stage mbc        :   0.015
+Stage moar       :   0.000
+
+GLib::Raw::Subs compile time: 8.84504013
+ === GIO::Raw::Structs === 
+Stage start      :   0.000
+Stage parse      :   7.642
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.003
+Stage moar       :   0.000
+
+GIO::Raw::Structs compile time: 9.16993331
+ === GLib::Raw::Enums === 
+Stage start      :   0.000
+Stage parse      :   7.521
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.009
+Stage mast       :   0.021
+Stage mbc        :   0.007
+Stage moar       :   0.000
+
+GLib::Raw::Enums compile time: 9.1887014
+ === GLib::Roles::ListData === 
+Stage start      :   0.000
+Stage parse      :   7.295
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.003
+Stage moar       :   0.000
+
+GLib::Roles::ListData compile time: 9.0378688
+ === GLib::Raw::Structs === 
+Stage start      :   0.000
+Stage parse      :   7.479
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.004
+Stage mbc        :   0.003
+Stage moar       :   0.000
+
+GLib::Raw::Structs compile time: 9.0973609
+ === GIO::Raw::Subs === 
+Stage start      :   0.000
+Stage parse      :   8.036
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.041
+Stage mbc        :   0.004
+Stage moar       :   0.000
+
+GIO::Raw::Subs compile time: 9.43070182
+ === GIO::Raw::Quarks === 
+Stage start      :   0.000
+Stage parse      :   8.045
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.107
+Stage mbc        :   0.004
+Stage moar       :   0.000
+
+GIO::Raw::Quarks compile time: 9.62965453
+ === GLib::Roles::Object === 
+Stage start      :   0.000
+Stage parse      :   8.151
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.009
+Stage mbc        :   0.037
+Stage moar       :   0.000
+
+GLib::Roles::Object compile time: 10.02964813
+ === GSSDP::Raw::Exports === 
+Stage start      :   0.000
+Stage parse      :   5.264
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.002
+Stage mast       :   0.008
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GSSDP::Raw::Exports compile time: 7.1104294
+ === GSSDP::Raw::Definitions === 
+Stage start      :   0.000
+Stage parse      :   5.574
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.002
+Stage moar       :   0.000
+
+GSSDP::Raw::Definitions compile time: 7.477472
+ === GLib::Roles::Signals::Generic === 
+Stage start      :   0.000
+Stage parse      :   6.677
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.004
+Stage moar       :   0.000
+
+GLib::Roles::Signals::Generic compile time: 8.3735706
+ === SOUP::Raw::Exports === 
+Stage start      :   0.000
+Stage parse      :   5.272
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.002
+Stage mast       :   0.007
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+SOUP::Raw::Exports compile time: 6.72043622
+ === GLib::Value === 
+Stage start      :   0.000
+Stage parse      :   5.834
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.003
+Stage moar       :   0.000
+
+GLib::Value compile time: 7.86269722
+ === GLib::Roles::StaticClass === 
+Stage start      :   0.012
+Stage parse      :   6.417
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.003
+Stage moar       :   0.000
+
+GLib::Roles::StaticClass compile time: 8.2123891
+ === Method::Also === 
+Stage start      :   0.000
+Stage parse      :   5.503
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.002
+Stage mast       :   0.009
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+Method::Also compile time: 7.2282048
+ === LibXML::Raw === 
+Stage start      :   0.000
+Stage parse      :   6.317
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.005
+Stage mbc        :   0.003
+Stage moar       :   0.000
+
+LibXML::Raw compile time: 8.04710246
+ === SOUP::Raw::Enums === 
+Stage start      :   0.000
+Stage parse      :   6.086
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.002
+Stage mast       :   0.005
+Stage mbc        :   0.003
+Stage moar       :   0.000
+
+SOUP::Raw::Enums compile time: 7.9424489
+ === SOUP::Raw::Definitions === 
+Stage start      :   0.000
+Stage parse      :   6.283
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.004
+Stage mbc        :   0.004
+Stage moar       :   0.000
+
+SOUP::Raw::Definitions compile time: 8.01177574
+ === SOUP::Raw::Subs === 
+Stage start      :   0.000
+Stage parse      :   6.329
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.002
+Stage mbc        :   0.002
+Stage moar       :   0.000
+
+SOUP::Raw::Subs compile time: 7.914829
+ === GSSDP::Client === 
+Stage start      :   0.000
+Stage parse      :   7.434
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.002
+Stage mbc        :   0.013
+Stage moar       :   0.000
+
+GSSDP::Client compile time: 9.56877875
+ === GSSDP::ResourceBrowser === 
+Stage start      :   0.000
+Stage parse      :   7.807
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.001
+Stage mbc        :   0.006
+Stage moar       :   0.000
+
+GSSDP::ResourceBrowser compile time: 9.54421606
+ === LibXML::Document === 
+Stage start      :   0.000
+Stage parse      :   7.707
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.001
+Stage mbc        :   0.003
+Stage moar       :   0.000
+
+LibXML::Document compile time: 9.2993715
+ === SOUP::Session === 
+Stage start      :   0.000
+Stage parse      :   7.793
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.001
+Stage mbc        :   0.006
+Stage moar       :   0.000
+
+SOUP::Session compile time: 9.36340634
+ === SOUP::Server === 
+Stage start      :   0.000
+Stage parse      :   7.965
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.001
+Stage mbc        :   0.008
+Stage moar       :   0.000
+
+SOUP::Server compile time: 9.48560845
+ === GUPnP::Raw::Definitions === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/Definitions.pm6
+    Stage start      :   0.000
+    Stage parse      :   5.949
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.005
+    Stage mast       :   0.025
+    Stage mbc        :   0.012
+Stage parse      :   9.553
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.004
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::Raw::Definitions compile time: 11.2080755
+ === GUPnP::Raw::ContextManager === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/ContextManager.pm6
+    Stage start      :   0.000
+    Stage parse      :   4.595
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.015
+    Stage mast       :   0.056
+    Stage mbc        :   0.027
+Stage parse      :   8.292
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.002
+Stage moar       :   0.000
+
+GUPnP::Raw::ContextManager compile time: 9.0865815
+ === GUPnP::Raw::Enums === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/Enums.pm6
+    Stage start      :   0.000
+    Stage parse      :   4.763
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.028
+    Stage mast       :   0.089
+    Stage mbc        :   0.036
+Stage parse      :   8.566
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.005
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::Raw::Enums compile time: 9.33477197
+ === GUPnP::Raw::ACL === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/ACL.pm6
+    Stage start      :   0.000
+    Stage parse      :   4.614
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.011
+    Stage mast       :   0.072
+    Stage mbc        :   0.011
+Stage parse      :   8.523
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::Raw::ACL compile time: 9.35922918
+ === GUPnP::Raw::DidlLiteContainer === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DidlLiteContainer.pm6
+    Stage start      :   0.000
+    Stage parse      :   4.605
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.025
+    Stage mast       :   0.109
+    Stage mbc        :   0.034
+Stage parse      :   8.558
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.002
+Stage moar       :   0.000
+
+GUPnP::Raw::DidlLiteContainer compile time: 9.40526746
+ === GUPnP::Raw::ControlPoint === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/ControlPoint.pm6
+    Stage start      :   0.000
+    Stage parse      :   4.589
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.011
+    Stage mast       :   0.056
+    Stage mbc        :   0.016
+Stage parse      :   8.477
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::Raw::ControlPoint compile time: 9.4495757
+ === GUPnP::Raw::Context === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/Context.pm6
+    Stage start      :   0.000
+    Stage parse      :   5.228
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.024
+    Stage mast       :   0.254
+    Stage mbc        :   0.077
+Stage parse      :   9.594
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.004
+Stage mbc        :   0.003
+Stage moar       :   0.000
+
+GUPnP::Raw::Context compile time: 10.45744845
+ === GUPnP::Raw::DidlLiteDescriptor === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DidlLiteDescriptor.pm6
+    Stage start      :   0.000
+    Stage parse      :   4.928
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.011
+    Stage mast       :   0.087
+    Stage mbc        :   0.040
+Stage parse      :   9.528
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.021
+Stage mbc        :   0.003
+Stage moar       :   0.000
+
+GUPnP::Raw::DidlLiteDescriptor compile time: 10.43815091
+ === GUPnP::Raw::DidlLiteContributor === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DidlLiteContributor.pm6
+    Stage start      :   0.000
+    Stage parse      :   4.861
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.011
+    Stage mast       :   0.062
+    Stage mbc        :   0.019
+Stage parse      :   9.600
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.003
+Stage moar       :   0.000
+
+GUPnP::Raw::DidlLiteContributor compile time: 10.45394662
+ === GUPnP::Raw::DeviceInfo === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DeviceInfo.pm6
+    Stage start      :   0.000
+    Stage parse      :   5.856
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.036
+    Stage mast       :   0.172
+    Stage mbc        :   0.127
+Stage parse      :   9.756
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.002
+Stage moar       :   0.000
+
+GUPnP::Raw::DeviceInfo compile time: 10.59905946
+ === GUPnP::Raw::DlnaProfile === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DlnaProfile.pm6
+    Stage start      :   0.000
+    Stage parse      :   5.064
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.010
+    Stage mast       :   0.051
+    Stage mbc        :   0.043
+Stage parse      :   9.282
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.004
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::Raw::DlnaProfile compile time: 10.5966935
+ === GUPnP::Raw::ResourceFactory === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/ResourceFactory.pm6
+    Stage start      :   0.000
+    Stage parse      :   5.529
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.009
+    Stage mast       :   0.040
+    Stage mbc        :   0.010
+Stage parse      :   9.618
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::Raw::ResourceFactory compile time: 11.07641933
+ === GUPnP::Raw::Subs === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/Subs.pm6
+    Stage start      :   0.000
+    Stage parse      :   5.617
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.007
+    Stage mast       :   0.055
+    Stage mbc        :   0.008
+Stage parse      :   9.691
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.003
+Stage moar       :   0.000
+
+GUPnP::Raw::Subs compile time: 11.22419098
+ === GUPnP::Raw::ServiceProxy === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/ServiceProxy.pm6
+    Stage start      :   0.000
+    Stage parse      :   5.990
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.044
+    Stage mast       :   0.122
+    Stage mbc        :   0.035
+Stage parse      :  10.244
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::Raw::ServiceProxy compile time: 11.67873766
+ === GUPnP::Raw::RootDevice === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/RootDevice.pm6
+    Stage start      :   0.000
+    Stage parse      :   5.792
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.024
+    Stage mast       :   0.060
+    Stage mbc        :   0.018
+Stage parse      :  10.388
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::Raw::RootDevice compile time: 11.7630505
+ === GUPnP::Raw::DlnaValueList === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DlnaValueList.pm6
+    Stage start      :   0.000
+    Stage parse      :   5.550
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.005
+    Stage mast       :   0.029
+    Stage mbc        :   0.009
+Stage parse      :  10.440
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::Raw::DlnaValueList compile time: 11.8851955
+ === GUPnP::Raw::MediaCollection === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/MediaCollection.pm6
+    Stage start      :   0.000
+    Stage parse      :   5.934
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.009
+    Stage mast       :   0.043
+    Stage mbc        :   0.011
+Stage parse      :  11.542
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::Raw::MediaCollection compile time: 12.95524019
+ === GUPnP::Raw::DlnaProfileGuesser === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DlnaProfileGuesser.pm6
+    Stage start      :   0.000
+    Stage parse      :   5.726
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.010
+    Stage mast       :   0.052
+    Stage mbc        :   0.017
+Stage parse      :  11.673
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::Raw::DlnaProfileGuesser compile time: 13.0611187
+ === GUPnP::Raw::ServiceInfo === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/ServiceInfo.pm6
+    Stage start      :   0.000
+    Stage parse      :   6.582
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.011
+    Stage mast       :   0.056
+    Stage mbc        :   0.023
+Stage parse      :  12.148
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::Raw::ServiceInfo compile time: 13.55588326
+ === GUPnP::Raw::DidlLiteWriter === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DidlLiteWriter.pm6
+    Stage start      :   0.000
+    Stage parse      :   5.858
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.018
+    Stage mast       :   0.039
+    Stage mbc        :   0.011
+Stage parse      :  12.746
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.018
+Stage mbc        :   0.002
+Stage moar       :   0.000
+
+GUPnP::Raw::DidlLiteWriter compile time: 14.09224243
+ === GUPnP::Raw::DidlLiteResource === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DidlLiteResource.pm6
+    Stage start      :   0.000
+    Stage parse      :   7.035
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.028
+    Stage mast       :   0.107
+    Stage mbc        :   0.033
+Stage parse      :  13.297
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::Raw::DidlLiteResource compile time: 14.5660122
+ === GUPnP::Raw::DidlLiteObject === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DidlLiteObject.pm6
+    Stage start      :   0.000
+    Stage parse      :   8.355
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.036
+    Stage mast       :   0.126
+    Stage mbc        :   0.065
+Stage parse      :  13.316
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.002
+Stage mbc        :   0.002
+Stage moar       :   0.000
+
+GUPnP::Raw::DidlLiteObject compile time: 14.67401574
+ === GUPnP::Raw::Exports === 
+Stage start      :   0.000
+Stage parse      :   2.737
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.004
+Stage mbc        :   0.000
+Stage moar       :   0.000
+
+GUPnP::Raw::Exports compile time: 3.72491162
+ === GUPnP::Raw::Structs === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/Structs.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.992
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.015
+    Stage mast       :   0.081
+    Stage mbc        :   0.005
+Stage parse      :   6.286
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::Raw::Structs compile time: 7.22026163
+ === GUPnP::Raw::ServiceProxyAction === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/ServiceProxyAction.pm6
+    Stage start      :   0.000
+    Stage parse      :   3.147
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.016
+    Stage mast       :   0.049
+    Stage mbc        :   0.003
+Stage parse      :   6.361
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::Raw::ServiceProxyAction compile time: 7.2912614
+ === GUPnP::Raw::WhiteList === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/WhiteList.pm6
+    Stage start      :   0.000
+    Stage parse      :   3.313
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.024
+    Stage mast       :   0.045
+    Stage mbc        :   0.009
+Stage parse      :   6.107
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::Raw::WhiteList compile time: 6.69439718
+ === GUPnP::Raw::XMLDoc === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/XMLDoc.pm6
+    Stage start      :   0.000
+    Stage parse      :   3.581
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.003
+    Stage mast       :   0.029
+    Stage mbc        :   0.006
+Stage parse      :   6.367
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::Raw::XMLDoc compile time: 6.9468134
+ === GUPnP::Raw::Types === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/Types.pm6
+    Stage start      :   0.000
+    Stage parse      :   4.189
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.001
+    Stage mast       :   0.018
+    Stage mbc        :   0.004
+Stage parse      :   7.227
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.009
+Stage mast       :   0.012
+Stage mbc        :   0.007
+Stage moar       :   0.000
+
+GUPnP::Raw::Types compile time: 7.81600614
+ === GUPnP::Roles::Signals::ContextManager === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Roles/Signals/ContextManager.pm6
+    Stage start      :   0.000
+    Stage parse      :   3.533
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.024
+    Stage mast       :   0.038
+    Stage mbc        :   0.016
+Stage parse      :   7.326
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.002
+Stage moar       :   0.000
+
+GUPnP::Roles::Signals::ContextManager compile time: 7.98092467
+ === GUPnP::Roles::Signals::ServiceProxy === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Roles/Signals/ServiceProxy.pm6
+    Stage start      :   0.000
+    Stage parse      :   3.547
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.017
+    Stage mast       :   0.036
+    Stage mbc        :   0.028
+Stage parse      :   7.191
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.002
+Stage moar       :   0.000
+
+GUPnP::Roles::Signals::ServiceProxy compile time: 7.93735654
+ === GUPnP::Roles::Signals::ControlPoint === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Roles/Signals/ControlPoint.pm6
+    Stage start      :   0.000
+    Stage parse      :   3.804
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.041
+    Stage mast       :   0.048
+    Stage mbc        :   0.036
+Stage parse      :   7.485
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::Roles::Signals::ControlPoint compile time: 8.177175
+ === GUPnP::Roles::Signals::SearchCriteriaParser === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Roles/Signals/SearchCriteriaParser.pm6
+    Stage start      :   0.000
+    Stage parse      :   4.365
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.014
+    Stage mast       :   0.032
+    Stage mbc        :   0.019
+Stage parse      :   7.988
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::Roles::Signals::SearchCriteriaParser compile time: 8.67922637
+ === GUPnP::ResourceFactory === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/ResourceFactory.pm6
+    Stage start      :   0.000
+    Stage parse      :   4.753
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.012
+    Stage mast       :   0.042
+    Stage mbc        :   0.017
+Stage parse      :   8.522
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::ResourceFactory compile time: 9.14109926
+ === GUPnP::Roles::ACL === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Roles/ACL.pm6
+    Stage start      :   0.000
+    Stage parse      :   5.035
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.045
+    Stage mast       :   0.074
+    Stage mbc        :   0.014
+Stage parse      :   8.736
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.001
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::Roles::ACL compile time: 9.3950039
+ === GUPnP::SearchCriteriaParser === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/SearchCriteriaParser.pm6
+    Stage start      :   0.000
+    Stage parse      :   3.903
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.020
+    Stage mast       :   0.045
+    Stage mbc        :   0.017
+Stage parse      :   6.875
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.001
+Stage mbc        :   0.010
+Stage moar       :   0.000
+
+GUPnP::SearchCriteriaParser compile time: 7.51898189
+ === GUPnP::ServiceInfo === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/ServiceInfo.pm6
+    Stage start      :   0.000
+    Stage parse      :   3.765
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.024
+    Stage mast       :   0.062
+    Stage mbc        :   0.010
+Stage parse      :   6.908
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.001
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::ServiceInfo compile time: 7.56061773
+ === GUPnP::UUID === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/UUID.pm6
+    Stage start      :   0.000
+    Stage parse      :   3.685
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.002
+    Stage mast       :   0.018
+    Stage mbc        :   0.014
+Stage parse      :   6.964
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::UUID compile time: 7.61749171
+ === GUPnP::ServiceProxy === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/ServiceProxy.pm6
+    Stage start      :   0.000
+    Stage parse      :   3.701
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.060
+    Stage mast       :   0.128
+    Stage mbc        :   0.011
+Stage parse      :   7.589
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::ServiceProxy compile time: 8.24926054
+ === GUPnP::WhiteList === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/WhiteList.pm6
+    Stage start      :   0.000
+    Stage parse      :   4.447
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.018
+    Stage mast       :   0.051
+    Stage mbc        :   0.012
+Stage parse      :   8.217
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::WhiteList compile time: 8.86836429
+ === GUPnP::XMLDoc === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/XMLDoc.pm6
+    Stage start      :   0.000
+    Stage parse      :   6.351
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.020
+    Stage mast       :   0.061
+    Stage mbc        :   0.024
+Stage parse      :  10.222
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::XMLDoc compile time: 10.92019277
+ === GUPnP::Context === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Context.pm6
+    Stage start      :   0.000
+    Stage parse      :   7.757
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.036
+    Stage mast       :   0.144
+    Stage mbc        :   0.048
+Stage parse      :  12.174
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::Context compile time: 12.8225344
+ === GUPnP::ContextManager === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/ContextManager.pm6
+    Stage start      :   0.000
+    Stage parse      :   3.177
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.039
+    Stage mast       :   0.043
+    Stage mbc        :   0.014
+Stage parse      :   6.612
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::ContextManager compile time: 7.24001126
+ === GUPnP::DeviceInfo === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DeviceInfo.pm6
+    Stage start      :   0.000
+    Stage parse      :   4.478
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.038
+    Stage mast       :   0.100
+    Stage mbc        :   0.028
+Stage parse      :   7.794
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::DeviceInfo compile time: 8.49611853
+ === GUPnP::ControlPoint === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/ControlPoint.pm6
+    Stage start      :   0.000
+    Stage parse      :   4.712
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.014
+    Stage mast       :   0.064
+    Stage mbc        :   0.016
+Stage parse      :   8.541
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::ControlPoint compile time: 9.2545971
+ === GUPnP::DlnaValueList === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DlnaValueList.pm6
+    Stage start      :   0.000
+    Stage parse      :   3.415
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.028
+    Stage mast       :   0.054
+    Stage mbc        :   0.028
+Stage parse      :   7.058
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::DlnaValueList compile time: 7.90438323
+ === GUPnP::DeviceProxy === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DeviceProxy.pm6
+    Stage start      :   0.000
+    Stage parse      :   3.483
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.027
+    Stage mast       :   0.037
+    Stage mbc        :   0.016
+Stage parse      :   7.377
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::DeviceProxy compile time: 8.219593
+ === GUPnP::DlnaProfile === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DlnaProfile.pm6
+    Stage start      :   0.000
+    Stage parse      :   5.076
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.022
+    Stage mast       :   0.039
+    Stage mbc        :   0.018
+Stage parse      :   8.617
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.002
+Stage mbc        :   0.002
+Stage moar       :   0.000
+
+GUPnP::DlnaProfile compile time: 9.4268698
+ === GUPnP::DlnaProfileGuesser === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DlnaProfileGuesser.pm6
+    Stage start      :   0.000
+    Stage parse      :   5.111
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.114
+    Stage mast       :   0.065
+    Stage mbc        :   0.013
+Stage parse      :   8.986
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::DlnaProfileGuesser compile time: 9.7856486
+ === GUPnP::Feature === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Feature.pm6
+    Stage start      :   0.000
+    Stage parse      :   5.282
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.025
+    Stage mast       :   0.065
+    Stage mbc        :   0.024
+Stage parse      :   8.960
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::Feature compile time: 9.79402598
+ === GUPnP::DidlLiteContributor === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DidlLiteContributor.pm6
+    Stage start      :   0.000
+    Stage parse      :   5.338
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.031
+    Stage mast       :   0.092
+    Stage mbc        :   0.030
+Stage parse      :  10.219
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.003
+Stage moar       :   0.000
+
+GUPnP::DidlLiteContributor compile time: 11.01422003
+ === GUPnP::DidlLiteDescriptor === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DidlLiteDescriptor.pm6
+    Stage start      :   0.000
+    Stage parse      :   5.413
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.028
+    Stage mast       :   0.227
+    Stage mbc        :   0.048
+Stage parse      :  10.320
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.003
+Stage moar       :   0.000
+
+GUPnP::DidlLiteDescriptor compile time: 11.1130202
+ === GUPnP::Raw::DlnaImageInformation === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DlnaImageInformation.pm6
+    Stage start      :   0.000
+    Stage parse      :   5.778
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.036
+    Stage mast       :   0.032
+    Stage mbc        :   0.012
+Stage parse      :  10.040
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.002
+Stage moar       :   0.000
+
+GUPnP::Raw::DlnaImageInformation compile time: 11.27743283
+ === GUPnP::Raw::DlnaContainerInformation === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DlnaContainerInformation.pm6
+    Stage start      :   0.000
+    Stage parse      :   5.657
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.019
+    Stage mast       :   0.063
+    Stage mbc        :   0.023
+Stage parse      :  10.084
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.002
+Stage moar       :   0.000
+
+GUPnP::Raw::DlnaContainerInformation compile time: 11.41975731
+ === GUPnP::Raw::ServiceIntrospection === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/ServiceIntrospection.pm6
+    Stage start      :   0.000
+    Stage parse      :   5.704
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.010
+    Stage mast       :   0.058
+    Stage mbc        :   0.020
+Stage parse      :  11.000
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::Raw::ServiceIntrospection compile time: 12.33676646
+ === GUPnP::Raw::DlnaRestriction === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DlnaRestriction.pm6
+    Stage start      :   0.000
+    Stage parse      :   6.555
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.021
+    Stage mast       :   0.051
+    Stage mbc        :   0.016
+Stage parse      :  11.146
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::Raw::DlnaRestriction compile time: 12.4607895
+ === GUPnP::Raw::DlnaInformation === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DlnaInformation.pm6
+    Stage start      :   0.000
+    Stage parse      :   6.359
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.011
+    Stage mast       :   0.058
+    Stage mbc        :   0.011
+Stage parse      :  11.217
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::Raw::DlnaInformation compile time: 12.57795482
+ === GUPnP::Raw::DlnaVideoInformation === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DlnaVideoInformation.pm6
+    Stage start      :   0.000
+    Stage parse      :   5.219
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.015
+    Stage mast       :   0.078
+    Stage mbc        :   0.021
+Stage parse      :  11.266
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.004
+Stage mbc        :   0.002
+Stage moar       :   0.000
+
+GUPnP::Raw::DlnaVideoInformation compile time: 12.57603891
+ === GUPnP::FeatureListParser === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/FeatureListParser.pm6
+    Stage start      :   0.000
+    Stage parse      :   6.635
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.028
+    Stage mast       :   0.059
+    Stage mbc        :   0.013
+Stage parse      :  12.168
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.002
+Stage mbc        :   0.002
+Stage moar       :   0.000
+
+GUPnP::FeatureListParser compile time: 13.34891674
+ === GUPnP::Raw::CDSLastChangeParser === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/CDSLastChangeParser.pm6
+    Stage start      :   0.000
+    Stage parse      :   6.494
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.014
+    Stage mast       :   0.047
+    Stage mbc        :   0.020
+Stage parse      :  12.285
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.004
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::Raw::CDSLastChangeParser compile time: 13.57479142
+ === GUPnP::Raw::DlnaAudioInformation === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DlnaAudioInformation.pm6
+    Stage start      :   0.000
+    Stage parse      :   6.093
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.023
+    Stage mast       :   0.069
+    Stage mbc        :   0.032
+Stage parse      :  12.308
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::Raw::DlnaAudioInformation compile time: 13.5661414
+ === GUPnP::Raw::ProtocolInfo === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/ProtocolInfo.pm6
+    Stage start      :   0.000
+    Stage parse      :   7.087
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.036
+    Stage mast       :   0.084
+    Stage mbc        :   0.026
+Stage parse      :  12.422
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::Raw::ProtocolInfo compile time: 13.67001062
+ === GUPnP::Raw::DidlLiteCreateClass === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DidlLiteCreateClass.pm6
+    Stage start      :   0.000
+    Stage parse      :   6.174
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.014
+    Stage mast       :   0.068
+    Stage mbc        :   0.019
+Stage parse      :  12.768
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.002
+Stage mbc        :   0.002
+Stage moar       :   0.000
+
+GUPnP::Raw::DidlLiteCreateClass compile time: 13.94420147
+ === GUPnP::LastChangeParser === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/LastChangeParser.pm6
+    Stage start      :   0.000
+    Stage parse      :   7.552
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.023
+    Stage mast       :   0.059
+    Stage mbc        :   0.018
+Stage parse      :  13.288
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.002
+Stage moar       :   0.000
+
+GUPnP::LastChangeParser compile time: 14.4833239
+ === GUPnP::MediaCollection === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/MediaCollection.pm6
+    Stage start      :   0.000
+    Stage parse      :   7.068
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.019
+    Stage mast       :   0.066
+    Stage mbc        :   0.030
+Stage parse      :  13.478
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.002
+Stage moar       :   0.000
+
+GUPnP::MediaCollection compile time: 14.7195735
+ === GUPnP::Device === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Device.pm6
+    Stage start      :   0.000
+    Stage parse      :   4.530
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.021
+    Stage mast       :   0.090
+    Stage mbc        :   0.028
+Stage parse      :   9.389
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.002
+Stage mbc        :   0.002
+Stage moar       :   0.000
+
+GUPnP::Device compile time: 10.31501235
+ === GUPnP::ServiceIntrospection === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/ServiceIntrospection.pm6
+    Stage start      :   0.000
+    Stage parse      :   5.982
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.028
+    Stage mast       :   0.064
+    Stage mbc        :   0.014
+Stage parse      :  10.468
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.002
+Stage mbc        :   0.002
+Stage moar       :   0.000
+
+GUPnP::ServiceIntrospection compile time: 11.45811021
+ === GUPnP::DlnaImageInformation === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DlnaImageInformation.pm6
+    Stage start      :   0.000
+    Stage parse      :   5.959
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.026
+    Stage mast       :   0.054
+    Stage mbc        :   0.028
+Stage parse      :  10.170
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::DlnaImageInformation compile time: 11.12646963
+ === GUPnP::CDSLastChangeParser === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/CDSLastChangeParser.pm6
+    Stage start      :   0.000
+    Stage parse      :   6.494
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.027
+    Stage mast       :   0.086
+    Stage mbc        :   0.037
+Stage parse      :  10.784
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.002
+Stage moar       :   0.000
+
+GUPnP::CDSLastChangeParser compile time: 11.7090409
+ === GUPnP::DidlLiteCreateClass === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DidlLiteCreateClass.pm6
+    Stage start      :   0.000
+    Stage parse      :   6.215
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.021
+    Stage mast       :   0.046
+    Stage mbc        :   0.032
+Stage parse      :  10.537
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.003
+Stage mbc        :   0.002
+Stage moar       :   0.000
+
+GUPnP::DidlLiteCreateClass compile time: 11.52809805
+ === GUPnP::ProtocolInfo === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/ProtocolInfo.pm6
+    Stage start      :   0.000
+    Stage parse      :   6.424
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.035
+    Stage mast       :   0.104
+    Stage mbc        :   0.016
+Stage parse      :  10.525
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::ProtocolInfo compile time: 11.55582157
+ === GUPnP::DlnaContainerInformation === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DlnaContainerInformation.pm6
+    Stage start      :   0.000
+    Stage parse      :   6.062
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.029
+    Stage mast       :   0.064
+    Stage mbc        :   0.040
+Stage parse      :  10.604
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.002
+Stage mbc        :   0.002
+Stage moar       :   0.000
+
+GUPnP::DlnaContainerInformation compile time: 11.62409933
+ === GUPnP::DlnaVideoInformation === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DlnaVideoInformation.pm6
+    Stage start      :   0.000
+    Stage parse      :   6.135
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.022
+    Stage mast       :   0.046
+    Stage mbc        :   0.019
+Stage parse      :  10.777
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::DlnaVideoInformation compile time: 11.76391885
+ === GUPnP::DlnaAudioInformation === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DlnaAudioInformation.pm6
+    Stage start      :   0.000
+    Stage parse      :   6.378
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.035
+    Stage mast       :   0.076
+    Stage mbc        :   0.048
+Stage parse      :  10.922
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::DlnaAudioInformation compile time: 11.87900109
+ === GUPnP::RootDevice === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/RootDevice.pm6
+    Stage start      :   0.000
+    Stage parse      :   3.183
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.028
+    Stage mast       :   0.117
+    Stage mbc        :   0.008
+Stage parse      :   6.701
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::RootDevice compile time: 7.50930406
+ === GUPnP::DlnaInformation === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DlnaInformation.pm6
+    Stage start      :   0.000
+    Stage parse      :   3.350
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.032
+    Stage mast       :   0.096
+    Stage mbc        :   0.008
+Stage parse      :   6.585
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.001
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::DlnaInformation compile time: 7.2501773
+ === GUPnP::DidlLiteResource === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DidlLiteResource.pm6
+    Stage start      :   0.000
+    Stage parse      :   3.891
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.095
+    Stage mast       :   0.140
+    Stage mbc        :   0.008
+Stage parse      :   7.624
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.001
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::DidlLiteResource compile time: 8.31866394
+ === GUPnP::DidlLiteObject === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DidlLiteObject.pm6
+    Stage start      :   0.000
+    Stage parse      :   3.733
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.090
+    Stage mast       :   0.187
+    Stage mbc        :   0.012
+Stage parse      :   7.102
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.001
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::DidlLiteObject compile time: 7.65433549
+ === GUPnP::DidlLiteItem === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DidlLiteItem.pm6
+    Stage start      :   0.000
+    Stage parse      :   3.259
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.028
+    Stage mast       :   0.058
+    Stage mbc        :   0.016
+Stage parse      :   6.555
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::DidlLiteItem compile time: 7.1305638
+ === GUPnP::DidlLiteContainer === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DidlLiteContainer.pm6
+    Stage start      :   0.000
+    Stage parse      :   3.178
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.040
+    Stage mast       :   0.098
+    Stage mbc        :   0.019
+Stage parse      :   6.634
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::DidlLiteContainer compile time: 7.17766195
+ === GUPnP::DidlLiteWriter === 
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DidlLiteWriter.pm6
+    Stage start      :   0.000
+    Stage parse      :   3.427
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.017
+    Stage mast       :   0.049
+    Stage mbc        :   0.007
+Stage parse      :   6.863
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.001
+Stage mbc        :   0.001
+Stage moar       :   0.000
+
+GUPnP::DidlLiteWriter compile time: 7.59853978
+
+Total compile time: 156.91935155s
