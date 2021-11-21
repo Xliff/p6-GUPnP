@@ -1,0 +1,2377 @@
+Dependency Generation
+=====================
+real 1.11
+user 1.71
+sys 0.06
+ === GIO::DBus::Raw::Types === (1/117)
+Stage start      :   0.000
+Stage parse      :   1.901
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.002
+Stage mbc        :   0.002
+Stage moar       :   0.000
+ === GIO::Raw::Definitions === (2/117)
+Stage start      :   0.000
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_n32 NYI
+at -e:1
+Actually thrown at:
+  in any statement_control at /home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/lib/Perl6/Grammar.moarvm line 1
+
+ === GIO::Raw::Enums === (3/117)
+Stage start      :   0.000
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_iX NYI
+at -e:1
+Actually thrown at:
+  in any statement_control at /home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/lib/Perl6/Grammar.moarvm line 1
+
+ === GIO::Raw::Exports === (4/117)
+Stage start      :   0.000
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_n32 NYI
+at -e:1
+Actually thrown at:
+  in any statement_control at /home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/lib/Perl6/Grammar.moarvm line 1
+
+ === GIO::Raw::Quarks === (5/117)
+Stage start      :   0.000
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_iX NYI
+at -e:1
+Actually thrown at:
+  in any statement_control at /home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/lib/Perl6/Grammar.moarvm line 1
+
+ === GIO::Raw::Structs === (6/117)
+Stage start      :   0.000
+Stage parse      :   1.754
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === GIO::Raw::Subs === (7/117)
+Stage start      :   0.000
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_n32 NYI
+at -e:1
+Actually thrown at:
+  in any statement_control at /home/cbwood/Projects/rakudobrew/versions/moar-blead/install/share/perl6/lib/Perl6/Grammar.moarvm line 1
+
+ === GLib::GList === (8/117)
+Stage start      :   0.000
+Stage parse      :   1.912
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.002
+Stage mbc        :   0.002
+Stage moar       :   0.000
+ === GLib::Raw::Definitions === (9/117)
+Stage start      :   0.000
+Stage parse      :   1.548
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === GLib::Raw::Enums === (10/117)
+Stage start      :   0.000
+Stage parse      :   1.636
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.004
+Stage mast       :   0.007
+Stage mbc        :   0.003
+Stage moar       :   0.000
+ === GLib::Raw::Exceptions === (11/117)
+Stage start      :   0.000
+Stage parse      :   1.345
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.002
+Stage mast       :   0.007
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === GLib::Raw::Exports === (12/117)
+Stage start      :   0.000
+Stage parse      :   1.408
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.002
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GLib::Raw::Object === (13/117)
+Stage start      :   0.000
+Stage parse      :   1.636
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === GLib::Raw::ReturnedValue === (14/117)
+Stage start      :   0.000
+Stage parse      :   1.369
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.002
+Stage mast       :   0.006
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === GLib::Raw::Struct_Subs === (15/117)
+Stage start      :   0.000
+Stage parse      :   1.520
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === GLib::Raw::Structs === (16/117)
+Stage start      :   0.000
+Stage parse      :   1.716
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === GLib::Raw::Subs === (17/117)
+Stage start      :   0.000
+Stage parse      :   1.728
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === GLib::Roles::ListData === (18/117)
+Stage start      :   0.000
+Stage parse      :   1.765
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.001
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === GLib::Roles::Object === (19/117)
+Stage start      :   0.000
+Stage parse      :   2.020
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.001
+Stage mbc        :   0.002
+Stage moar       :   0.000
+ === GLib::Roles::Pointers === (20/117)
+Stage start      :   0.000
+Stage parse      :   1.527
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === GLib::Roles::Signals::Generic === (21/117)
+Stage start      :   0.000
+Stage parse      :   1.824
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === GLib::Roles::StaticClass === (22/117)
+Stage start      :   0.000
+Stage parse      :   1.793
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.001
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === GLib::Value === (23/117)
+Stage start      :   0.000
+Stage parse      :   1.792
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === GSSDP::Client === (24/117)
+Stage start      :   0.000
+Stage parse      :   2.385
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.001
+Stage mbc        :   0.004
+Stage moar       :   0.000
+ === GSSDP::Raw::Definitions === (25/117)
+Stage start      :   0.000
+Stage parse      :   1.580
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === GSSDP::Raw::Exports === (26/117)
+Stage start      :   0.000
+Stage parse      :   1.360
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.002
+Stage mast       :   0.007
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === GSSDP::ResourceBrowser === (27/117)
+Stage start      :   0.000
+Stage parse      :   2.409
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.002
+Stage mbc        :   0.004
+Stage moar       :   0.000
+ === LibXML::Document === (28/117)
+Stage start      :   0.000
+
+    precomp ../rakudobrew/versions/moar-blead/install/share/perl6/site/sources/B9287F585E358244F7B865C04180CDD5F2F54B6E
+    Stage start      :   0.001
+    
+        precomp ../rakudobrew/versions/moar-blead/install/share/perl6/site/sources/70D291204D40EB6F0FE27E215EA91F9BDACED5EF
+        Stage start      :   0.000
+        
+            precomp ../rakudobrew/versions/moar-blead/install/share/perl6/site/sources/5C92067B36156B379A532DD630B82952728A8562
+            Stage start      :   0.000
+            
+                precomp ../rakudobrew/versions/moar-blead/install/share/perl6/site/sources/8F4D2ADF9FBCD95BE3094CA7763D773AE0F2F9AC
+                Stage start      :   0.000
+                
+                    precomp ../rakudobrew/versions/moar-blead/install/share/perl6/site/sources/27E3AFDFF979C0EC824060C2D1714F0DB54B7724
+                    Stage start      :   0.000
+                    
+                        precomp ../rakudobrew/versions/moar-blead/install/share/perl6/site/sources/C177060D6C806C1413F92079A820C1313AE86CB2
+                        Stage start      :   0.000
+                        Stage parse      :   0.510
+                        Stage syntaxcheck:   0.000
+                        Stage ast        :   0.000
+                        Stage optimize   :   0.056
+                        Stage mast       :   0.065
+                        Stage mbc        :   0.013
+                    Stage parse      :   2.852
+                    Stage syntaxcheck:   0.000
+                    Stage ast        :   0.000
+                    Stage optimize   :   0.092
+                    Stage mast       :   0.058
+                    Stage mbc        :   0.012
+                
+                    precomp ../rakudobrew/versions/moar-blead/install/share/perl6/site/sources/34E28AE49FD4C0324E3F69B703D721BC9DB70F9B
+                    Stage start      :   0.000
+                    
+                        precomp ../rakudobrew/versions/moar-blead/install/share/perl6/site/sources/92E10D1C277573F880C307DBF9B2D12E32E2AC49
+                        Stage start      :   0.000
+                        Stage parse      :   0.202
+                        Stage syntaxcheck:   0.000
+                        Stage ast        :   0.000
+                        Stage optimize   :   0.004
+                        Stage mast       :   0.008
+                        Stage mbc        :   0.003
+                    Stage parse      :   2.084
+                    Stage syntaxcheck:   0.000
+                    Stage ast        :   0.000
+                    Stage optimize   :   0.007
+                    Stage mast       :   0.015
+                    Stage mbc        :   0.006
+                
+                    precomp ../rakudobrew/versions/moar-blead/install/share/perl6/site/sources/70ADE570E61316F193B0DFCE92D6D2DAB0230F34
+                    Stage start      :   0.000
+                    Stage parse      :   2.002
+                    Stage syntaxcheck:   0.000
+                    Stage ast        :   0.000
+                    Stage optimize   :   0.011
+                    Stage mast       :   0.026
+                    Stage mbc        :   0.015
+                
+                    precomp ../rakudobrew/versions/moar-blead/install/share/perl6/site/sources/411E76CFB7955D31A484636038776F85333637FE
+                    Stage start      :   0.000
+                    
+                        precomp ../rakudobrew/versions/moar-blead/install/share/perl6/site/sources/D940284CFAB6347A0F3FC919C83D493A930C936E
+                        Stage start      :   0.000
+                        Stage parse      :   0.199
+                        Stage syntaxcheck:   0.000
+                        Stage ast        :   0.000
+                        Stage optimize   :   0.006
+                        Stage mast       :   0.015
+                        Stage mbc        :   0.005
+                    Stage parse      :   2.132
+                    Stage syntaxcheck:   0.000
+                    Stage ast        :   0.000
+                    Stage optimize   :   0.020
+                    Stage mast       :   0.013
+                    Stage mbc        :   0.005
+                
+                    precomp ../rakudobrew/versions/moar-blead/install/share/perl6/site/sources/6A60C5289189CE87E742143E39F5937B2E5B0BA1
+                    Stage start      :   0.000
+                    
+                        precomp ../rakudobrew/versions/moar-blead/install/share/perl6/site/sources/CA528C90098BA1F15F95CE957F45E115374D37D4
+                        Stage start      :   0.000
+                        Stage parse      :   2.126
+                        Stage syntaxcheck:   0.000
+                        Stage ast        :   0.000
+                        Stage optimize   :   0.057
+                        Stage mast       :   0.099
+                        Stage mbc        :   0.011
+                    Stage parse      :   4.166
+                    Stage syntaxcheck:   0.000
+                    Stage ast        :   0.000
+                    Stage optimize   :   0.047
+                    Stage mast       :   0.091
+                    Stage mbc        :   0.007
+                
+                    precomp ../rakudobrew/versions/moar-blead/install/share/perl6/site/sources/7BFE6EFB7E2C0871723B7C4492D0EA8BF3614073
+                    Stage start      :   0.000
+                    Stage parse      :   1.766
+                    Stage syntaxcheck:   0.000
+                    Stage ast        :   0.000
+                    Stage optimize   :   0.053
+                    Stage mast       :   0.077
+                    Stage mbc        :   0.015
+                Stage parse      :  30.310
+                Stage syntaxcheck:   0.000
+                Stage ast        :   0.000
+                Stage optimize   :   0.317
+                Stage mast       :   0.751
+                Stage mbc        :   0.622
+            
+                precomp ../rakudobrew/versions/moar-blead/install/share/perl6/site/sources/7C1F1F76A318B9D3454491DC626B188DFA879E93
+                Stage start      :   0.000
+                Stage parse      :   1.903
+                Stage syntaxcheck:   0.000
+                Stage ast        :   0.000
+                Stage optimize   :   0.039
+                Stage mast       :   0.054
+                Stage mbc        :   0.010
+            Stage parse      :  36.450
+            Stage syntaxcheck:   0.000
+            Stage ast        :   0.000
+            Stage optimize   :   0.020
+            Stage mast       :   0.044
+            Stage mbc        :   0.011
+        
+            precomp ../rakudobrew/versions/moar-blead/install/share/perl6/site/sources/E00DC896056DE433443F52950E28EAC3ACF650BA
+            Stage start      :   0.000
+            Stage parse      :   0.146
+            Stage syntaxcheck:   0.000
+            Stage ast        :   0.000
+            Stage optimize   :   0.007
+            Stage mast       :   0.009
+            Stage mbc        :   0.003
+        
+            precomp ../rakudobrew/versions/moar-blead/install/share/perl6/site/sources/48DCB34D7FA429291620AF4F82F6DE54B4D375AE
+            Stage start      :   0.000
+            Stage parse      :   1.882
+            Stage syntaxcheck:   0.000
+            Stage ast        :   0.000
+            Stage optimize   :   0.021
+            Stage mast       :   0.032
+            Stage mbc        :   0.006
+        
+            precomp ../rakudobrew/versions/moar-blead/install/share/perl6/site/sources/885314FC9AE6570B7E83A5372F14A6B76F289814
+            Stage start      :   0.000
+            Stage parse      :   1.627
+            Stage syntaxcheck:   0.000
+            Stage ast        :   0.000
+            Stage optimize   :   0.007
+            Stage mast       :   0.020
+            Stage mbc        :   0.001
+        Stage parse      :  43.677
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.078
+        Stage mast       :   0.151
+        Stage mbc        :   0.018
+    
+        precomp ../rakudobrew/versions/moar-blead/install/share/perl6/site/sources/16A3781A6E1052A187928B20D1CA13E9E4DB3154
+        Stage start      :   0.000
+        Stage parse      :   1.665
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.022
+        Stage mast       :   0.019
+        Stage mbc        :   0.002
+    
+        precomp ../rakudobrew/versions/moar-blead/install/share/perl6/site/sources/F1548E910001D738C9E7E15A3E3B5B9DEB409C38
+        Stage start      :   0.000
+        Stage parse      :   1.768
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.010
+        Stage mast       :   0.022
+        Stage mbc        :   0.004
+    
+        precomp ../rakudobrew/versions/moar-blead/install/share/perl6/site/sources/3956E4981871BD6BC1EAFEA010E2CECF900A388D
+        Stage start      :   0.000
+        
+            precomp ../rakudobrew/versions/moar-blead/install/share/perl6/site/sources/5C1241A5E18742FE5B5B077B5FDFE3150D7F0689
+            Stage start      :   0.000
+            Stage parse      :   1.767
+            Stage syntaxcheck:   0.000
+            Stage ast        :   0.000
+            Stage optimize   :   0.019
+            Stage mast       :   0.040
+            Stage mbc        :   0.003
+        Stage parse      :   3.620
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.005
+        Stage mast       :   0.027
+        Stage mbc        :   0.003
+    
+        precomp ../rakudobrew/versions/moar-blead/install/share/perl6/site/sources/790E7BC92B7C28DA130AAA0D58BD282861D1FF30
+        Stage start      :   0.000
+        Stage parse      :   1.683
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.005
+        Stage mast       :   0.016
+        Stage mbc        :   0.002
+    
+        precomp ../rakudobrew/versions/moar-blead/install/share/perl6/site/sources/84E91C8C1526CB16482C453C667A7459F5437D23
+        Stage start      :   0.000
+        
+            precomp ../rakudobrew/versions/moar-blead/install/share/perl6/site/sources/E3FFF441A99BD2DAFB652540DCCA8D39F3C6A8AB
+            Stage start      :   0.000
+            
+                precomp ../rakudobrew/versions/moar-blead/install/share/perl6/site/sources/EBA70ACEB9406254A8E5EC34650B4D8E31E95666
+                Stage start      :   0.000
+                Stage parse      :   1.734
+                Stage syntaxcheck:   0.000
+                Stage ast        :   0.000
+                Stage optimize   :   0.014
+                Stage mast       :   0.034
+                Stage mbc        :   0.003
+            
+                precomp ../rakudobrew/versions/moar-blead/install/share/perl6/site/sources/0E6FC12F16F9CDA4D1B4E3C6F2B6D91A31E6EC81
+                Stage start      :   0.000
+                
+                    precomp ../rakudobrew/versions/moar-blead/install/share/perl6/site/sources/E75FE29528160EF26801D4A5149E1AC8CC60F57B
+                    Stage start      :   0.000
+                    Stage parse      :   1.770
+                    Stage syntaxcheck:   0.000
+                    Stage ast        :   0.000
+                    Stage optimize   :   0.014
+                    Stage mast       :   0.023
+                    Stage mbc        :   0.004
+                
+                    precomp ../rakudobrew/versions/moar-blead/install/share/perl6/site/sources/CF19CE9A48E29176D1EFE4AE9BFA94177962CB98
+                    Stage start      :   0.000
+                    Stage parse      :   1.857
+                    Stage syntaxcheck:   0.000
+                    Stage ast        :   0.000
+                    Stage optimize   :   0.018
+                    Stage mast       :   0.041
+                    Stage mbc        :   0.004
+                Stage parse      :   5.813
+                Stage syntaxcheck:   0.000
+                Stage ast        :   0.000
+                Stage optimize   :   0.015
+                Stage mast       :   0.035
+                Stage mbc        :   0.005
+            
+                precomp ../rakudobrew/versions/moar-blead/install/share/perl6/site/sources/B79B2AE6CA6520E63C9A8B90CC963BA95D39F6E7
+                Stage start      :   0.000
+                Stage parse      :   0.203
+                Stage syntaxcheck:   0.000
+                Stage ast        :   0.000
+                Stage optimize   :   0.019
+                Stage mast       :   0.044
+                Stage mbc        :   0.003
+            Stage parse      :  10.786
+            Stage syntaxcheck:   0.000
+            Stage ast        :   0.000
+            Stage optimize   :   0.031
+            Stage mast       :   0.060
+            Stage mbc        :   0.007
+        
+            precomp ../rakudobrew/versions/moar-blead/install/share/perl6/site/sources/4E9CB15A4B52F1E60120C810FC08A8F51ADDC8C6
+            Stage start      :   0.000
+            
+                precomp ../rakudobrew/versions/moar-blead/install/share/perl6/site/sources/A2BE1B555504803F167D7F06C43AA54D4727F7C2
+                Stage start      :   0.000
+                Stage parse      :   2.360
+                Stage syntaxcheck:   0.000
+                Stage ast        :   0.000
+                Stage optimize   :   0.097
+                Stage mast       :   0.115
+                Stage mbc        :   0.015
+            
+                precomp ../rakudobrew/versions/moar-blead/install/share/perl6/site/sources/254279CF63B590043FB27F58D58ABD4ED92ABCAE
+                Stage start      :   0.000
+                Stage parse      :   0.286
+                Stage syntaxcheck:   0.000
+                Stage ast        :   0.000
+                Stage optimize   :   0.032
+                Stage mast       :   0.030
+                Stage mbc        :   0.004
+            Stage parse      :   5.212
+            Stage syntaxcheck:   0.000
+            Stage ast        :   0.000
+            Stage optimize   :   0.027
+            Stage mast       :   0.042
+            Stage mbc        :   0.006
+        Stage parse      :  18.340
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.001
+        Stage optimize   :   0.015
+        Stage mast       :   0.035
+        Stage mbc        :   0.004
+    
+        precomp ../rakudobrew/versions/moar-blead/install/share/perl6/site/sources/51B792352D5FD34AEFDF9EB785C1453EB08B7F02
+        Stage start      :   0.000
+        
+            precomp ../rakudobrew/versions/moar-blead/install/share/perl6/site/sources/A1CAF33D1679876C6E30FE0AB594C8652715560E
+            Stage start      :   0.000
+            Stage parse      :   1.627
+            Stage syntaxcheck:   0.000
+            Stage ast        :   0.000
+            Stage optimize   :   0.007
+            Stage mast       :   0.019
+            Stage mbc        :   0.001
+        
+            precomp ../rakudobrew/versions/moar-blead/install/share/perl6/site/sources/C1EF3F0F05F7C43D2C310696C156EC4077FCF806
+            Stage start      :   0.000
+            
+                precomp ../rakudobrew/versions/moar-blead/install/share/perl6/site/sources/6E05746D6AF048B7E7008456119C4155B85A0B1C
+                Stage start      :   0.000
+                Stage parse      :   1.662
+                Stage syntaxcheck:   0.000
+                Stage ast        :   0.000
+                Stage optimize   :   0.018
+                Stage mast       :   0.022
+                Stage mbc        :   0.004
+            Stage parse      :   3.506
+            Stage syntaxcheck:   0.000
+            Stage ast        :   0.000
+            Stage optimize   :   0.022
+            Stage mast       :   0.031
+            Stage mbc        :   0.003
+        
+            precomp ../rakudobrew/versions/moar-blead/install/share/perl6/site/sources/6DB47E0578FEA856A1677AFA01CE18C04104FC25
+            Stage start      :   0.000
+            
+                precomp ../rakudobrew/versions/moar-blead/install/share/perl6/site/sources/BF68F1D3B5B8660FAED5EFB649EE38070530CA36
+                Stage start      :   0.000
+                Stage parse      :   1.921
+                Stage syntaxcheck:   0.000
+                Stage ast        :   0.000
+                Stage optimize   :   0.027
+                Stage mast       :   0.048
+                Stage mbc        :   0.006
+            
+                precomp ../rakudobrew/versions/moar-blead/install/share/perl6/site/sources/FF81D37DB805EB1CCA9C7981262300281B1322E8
+                Stage start      :   0.000
+                Stage parse      :   1.796
+                Stage syntaxcheck:   0.000
+                Stage ast        :   0.000
+                Stage optimize   :   0.010
+                Stage mast       :   0.022
+                Stage mbc        :   0.002
+            Stage parse      :   6.421
+            Stage syntaxcheck:   0.000
+            Stage ast        :   0.000
+            Stage optimize   :   0.048
+            Stage mast       :   0.074
+            Stage mbc        :   0.015
+        Stage parse      :  14.550
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.043
+        Stage mast       :   0.076
+        Stage mbc        :   0.006
+    
+        precomp ../rakudobrew/versions/moar-blead/install/share/perl6/site/sources/23F2877C8FFDE456BAC3130A9A966A22FB050EDF
+        Stage start      :   0.000
+        Stage parse      :   1.710
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.013
+        Stage mast       :   0.020
+        Stage mbc        :   0.002
+    
+        precomp ../rakudobrew/versions/moar-blead/install/share/perl6/site/sources/F62F53F3E39D7851E3C60EDBCE9CA5E404D63F11
+        Stage start      :   0.000
+        Stage parse      :   1.744
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.011
+        Stage mast       :   0.016
+        Stage mbc        :   0.004
+    Stage parse      :  93.507
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.087
+    Stage mast       :   0.128
+    Stage mbc        :   0.012
+R: LibXML::_DomNode
+Stage parse      :  95.410
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.002
+Stage mast       :   0.007
+Stage mbc        :   0.001
+Stage moar       :   0.000
+R: W3C::DOM::Node
+R: W3C::DOM::Attr
+R: LibXML::_CharacterData
+R: W3C::DOM::CDATASection
+R: W3C::DOM::Comment
+R: Associative
+R: W3C::DOM::NamedNodeMap
+R: LibXML::_ParentNode
+R: W3C::DOM::Element
+R: W3C::DOM::DocumentFragment
+R: W3C::DOM::Notation
+R: Iterable
+R: Positional
+R: LibXML::HashMap::Assoc[LibXML::Item]
+R: W3C::DOM::DocumentType
+R: W3C::DOM::ProcessingInstruction
+R: W3C::DOM::Text
+R: W3C::DOM::Document
+ === LibXML::Raw === (29/117)
+Stage start      :   0.000
+Stage parse      :   1.445
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.002
+Stage mast       :   0.007
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === Method::Also === (30/117)
+Stage start      :   0.000
+Stage parse      :   1.319
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.002
+Stage mast       :   0.006
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === NativeCall === (31/117)
+Stage start      :   0.000
+Stage parse      :   1.495
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === SOUP::Raw::Definitions === (32/117)
+Stage start      :   0.000
+Stage parse      :   1.797
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.001
+Stage mast       :   0.002
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === SOUP::Raw::Enums === (33/117)
+Stage start      :   0.000
+Stage parse      :   1.641
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.002
+Stage mast       :   0.003
+Stage mbc        :   0.002
+Stage moar       :   0.000
+ === SOUP::Raw::Exports === (34/117)
+Stage start      :   0.000
+Stage parse      :   1.333
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.002
+Stage mast       :   0.006
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === SOUP::Raw::Subs === (35/117)
+Stage start      :   0.000
+./p6gtkexec: line 63: 163443 Segmentation fault      (core dumped) ${EXEC} --stagestats ${EXTRAS} ${INCLUDES} "$@"
+ === SOUP::Server === (36/117)
+Stage start      :   0.000
+Stage parse      :   2.793
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.001
+Stage mbc        :   0.004
+Stage moar       :   0.000
+ === SOUP::Session === (37/117)
+Stage start      :   0.000
+Stage parse      :   2.837
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.000
+Stage mast       :   0.001
+Stage mbc        :   0.004
+Stage moar       :   0.000
+ === GUPnP::Raw::Definitions === (38/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/Definitions.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.287
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.008
+    Stage mast       :   0.020
+    Stage mbc        :   0.006
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+Required named parameter '2' not passed
+at -e:1
+ === GUPnP::Raw::ACL === (39/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/ACL.pm6
+    Stage start      :   0.000
+    
+        precomp lib/GUPnP/Raw/Definitions.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.354
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.008
+        Stage mast       :   0.019
+        Stage mbc        :   0.019
+    Stage parse      :   4.582
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.005
+    Stage mast       :   0.020
+    Stage mbc        :   0.004
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_iX NYI
+at -e:1
+ === GUPnP::Raw::Enums === (40/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/Enums.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.142
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.016
+    Stage mast       :   0.025
+    Stage mbc        :   0.015
+Stage parse      :   3.700
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.002
+Stage mast       :   0.014
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === GUPnP::Raw::Context === (41/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/Context.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.354
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.009
+    Stage mast       :   0.021
+    Stage mbc        :   0.013
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_iX NYI
+at -e:1
+ === GUPnP::Raw::ContextManager === (42/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/ContextManager.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.058
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.007
+    Stage mast       :   0.018
+    Stage mbc        :   0.007
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_iX NYI
+at -e:1
+ === GUPnP::Raw::ControlPoint === (43/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/ControlPoint.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.082
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.004
+    Stage mast       :   0.015
+    Stage mbc        :   0.005
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_iX NYI
+at -e:1
+ === GUPnP::Raw::DeviceInfo === (44/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DeviceInfo.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.506
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.012
+    Stage mast       :   0.031
+    Stage mbc        :   0.014
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_iX NYI
+at -e:1
+ === GUPnP::Raw::DidlLiteContainer === (45/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DidlLiteContainer.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.257
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.017
+    Stage mast       :   0.021
+    Stage mbc        :   0.011
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_iX NYI
+at -e:1
+ === GUPnP::Raw::DidlLiteContributor === (46/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DidlLiteContributor.pm6
+    Stage start      :   0.000
+    Stage parse      :   1.991
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.004
+    Stage mast       :   0.017
+    Stage mbc        :   0.004
+Stage parse      :   3.663
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.002
+Stage mast       :   0.004
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::Raw::DidlLiteDescriptor === (47/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DidlLiteDescriptor.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.078
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.006
+    Stage mast       :   0.019
+    Stage mbc        :   0.005
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_iX NYI
+at -e:1
+ === GUPnP::Raw::DidlLiteObject === (48/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DidlLiteObject.pm6
+    Stage start      :   0.000
+    Stage parse      :   3.072
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.021
+    Stage mast       :   0.057
+    Stage mbc        :   0.032
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_iX NYI
+at -e:1
+ === GUPnP::Raw::DidlLiteResource === (49/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DidlLiteResource.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.508
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.018
+    Stage mast       :   0.048
+    Stage mbc        :   0.020
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_iX NYI
+at -e:1
+ === GUPnP::Raw::DidlLiteWriter === (50/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DidlLiteWriter.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.036
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.006
+    Stage mast       :   0.020
+    Stage mbc        :   0.009
+./p6gtkexec: line 63: 163860 Segmentation fault      (core dumped) ${EXEC} --stagestats ${EXTRAS} ${INCLUDES} "$@"
+ === GUPnP::Raw::DlnaProfile === (51/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DlnaProfile.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.081
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.005
+    Stage mast       :   0.021
+    Stage mbc        :   0.005
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_iX NYI
+at -e:1
+ === GUPnP::Raw::DlnaProfileGuesser === (52/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DlnaProfileGuesser.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.111
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.006
+    Stage mast       :   0.016
+    Stage mbc        :   0.018
+./p6gtkexec: line 63: 163915 Segmentation fault      (core dumped) ${EXEC} --stagestats ${EXTRAS} ${INCLUDES} "$@"
+ === GUPnP::Raw::DlnaValueList === (53/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DlnaValueList.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.101
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.004
+    Stage mast       :   0.014
+    Stage mbc        :   0.005
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_iX NYI
+at -e:1
+ === GUPnP::Raw::MediaCollection === (54/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/MediaCollection.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.130
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.006
+    Stage mast       :   0.025
+    Stage mbc        :   0.007
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_iX NYI
+at -e:1
+ === GUPnP::Raw::ResourceFactory === (55/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/ResourceFactory.pm6
+    Stage start      :   0.000
+    Stage parse      :   1.898
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.005
+    Stage mast       :   0.015
+    Stage mbc        :   0.004
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_iX NYI
+at -e:1
+ === GUPnP::Raw::RootDevice === (56/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/RootDevice.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.164
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.006
+    Stage mast       :   0.016
+    Stage mbc        :   0.006
+./p6gtkexec: line 63: 164036 Segmentation fault      (core dumped) ${EXEC} --stagestats ${EXTRAS} ${INCLUDES} "$@"
+ === GUPnP::Raw::ServiceInfo === (57/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/ServiceInfo.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.330
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.008
+    Stage mast       :   0.019
+    Stage mbc        :   0.009
+./p6gtkexec: line 63: 164063 Segmentation fault      (core dumped) ${EXEC} --stagestats ${EXTRAS} ${INCLUDES} "$@"
+ === GUPnP::Raw::ServiceProxy === (58/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/ServiceProxy.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.395
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.013
+    Stage mast       :   0.027
+    Stage mbc        :   0.011
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_iX NYI
+at -e:1
+ === GUPnP::Raw::Subs === (59/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/Subs.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.091
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.007
+    Stage mast       :   0.016
+    Stage mbc        :   0.003
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_iX NYI
+at -e:1
+ === GUPnP::Raw::ServiceProxyAction === (60/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/ServiceProxyAction.pm6
+    Stage start      :   0.000
+    
+        precomp lib/GUPnP/Raw/ServiceProxy.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.420
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.017
+        Stage mast       :   0.027
+        Stage mbc        :   0.013
+    
+        precomp lib/GUPnP/Raw/Subs.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.112
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.007
+        Stage mast       :   0.016
+        Stage mbc        :   0.003
+    Stage parse      :   7.044
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.030
+    Stage mast       :   0.049
+    Stage mbc        :   0.004
+Stage parse      :   8.721
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.002
+Stage mast       :   0.004
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::Raw::Structs === (61/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/Structs.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.170
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.033
+    Stage mast       :   0.036
+    Stage mbc        :   0.009
+R: GLib::Roles::Pointers
+./p6gtkexec: line 63: 164202 Segmentation fault      (core dumped) ${EXEC} --stagestats ${EXTRAS} ${INCLUDES} "$@"
+ === GUPnP::Raw::Exports === (62/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/Exports.pm6
+    Stage start      :   0.000
+    Stage parse      :   0.138
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.003
+    Stage mast       :   0.005
+    Stage mbc        :   0.002
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_n32 NYI
+at -e:1
+ === GUPnP::Raw::Types === (63/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/Types.pm6
+    Stage start      :   0.000
+    
+        precomp lib/GUPnP/Raw/Exports.pm6
+        Stage start      :   0.000
+        Stage parse      :   0.138
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.003
+        Stage mast       :   0.005
+        Stage mbc        :   0.002
+    
+        precomp lib/GUPnP/Raw/Structs.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.211
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.033
+        Stage mast       :   0.036
+        Stage mbc        :   0.009
+    Stage parse      :   5.396
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.003
+    Stage mast       :   0.021
+    Stage mbc        :   0.004
+R: GLib::Roles::Pointers
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_n32 NYI
+at -e:1
+ === GUPnP::Raw::WhiteList === (64/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/WhiteList.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.133
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.006
+    Stage mast       :   0.020
+    Stage mbc        :   0.007
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+codes requires a concrete string, but got null
+at -e:1
+ === GUPnP::Raw::XMLDoc === (65/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/XMLDoc.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.134
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.004
+    Stage mast       :   0.015
+    Stage mbc        :   0.003
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_iX NYI
+at -e:1
+ === GUPnP::ResourceFactory === (66/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/ResourceFactory.pm6
+    Stage start      :   0.000
+    
+        precomp lib/GUPnP/Raw/Types.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.861
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.003
+        Stage mast       :   0.017
+        Stage mbc        :   0.004
+    
+        precomp lib/GUPnP/Raw/ResourceFactory.pm6
+        Stage start      :   0.000
+        Stage parse      :   1.876
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.005
+        Stage mast       :   0.014
+        Stage mbc        :   0.003
+    Stage parse      :   7.581
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.020
+    Stage mast       :   0.028
+    Stage mbc        :   0.008
+R: GLib::Roles::Object
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+No lexical found with name '2'
+at -e:1
+ === GUPnP::Roles::ACL === (67/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Roles/ACL.pm6
+    Stage start      :   0.000
+    
+        precomp lib/GUPnP/Raw/ACL.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.133
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.005
+        Stage mast       :   0.015
+        Stage mbc        :   0.005
+    Stage parse      :   5.044
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.029
+    Stage mast       :   0.050
+    Stage mbc        :   0.008
+R: GLib::Roles::Object
+R: GUPnP::Roles::ACL
+Role: Adding alias gupnp-acl-is-allowed to GUPnP::Roles::ACL as is_allowed...
+Role: Adding alias gupnp-acl-is-allowed-async to GUPnP::Roles::ACL as is_allowed_async...
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_iX NYI
+at -e:1
+ === GUPnP::Roles::Signals::ContextManager === (68/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Roles/Signals/ContextManager.pm6
+    Stage start      :   0.000
+    Stage parse      :   1.983
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.020
+    Stage mast       :   0.022
+    Stage mbc        :   0.010
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_iX NYI
+at -e:1
+ === GUPnP::Roles::Signals::ControlPoint === (69/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Roles/Signals/ControlPoint.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.073
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.018
+    Stage mast       :   0.032
+    Stage mbc        :   0.008
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_n32 NYI
+at -e:1
+ === GUPnP::Roles::Signals::SearchCriteriaParser === (70/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Roles/Signals/SearchCriteriaParser.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.374
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.012
+    Stage mast       :   0.040
+    Stage mbc        :   0.009
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+No lexical found with name '2'
+at -e:1
+ === GUPnP::Roles::Signals::ServiceProxy === (71/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Roles/Signals/ServiceProxy.pm6
+    Stage start      :   0.000
+    Stage parse      :   1.988
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.021
+    Stage mast       :   0.021
+    Stage mbc        :   0.006
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_iX NYI
+at -e:1
+ === GUPnP::SearchCriteriaParser === (72/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/SearchCriteriaParser.pm6
+    Stage start      :   0.000
+    
+        precomp lib/GUPnP/Roles/Signals/SearchCriteriaParser.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.393
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.012
+        Stage mast       :   0.042
+        Stage mbc        :   0.009
+    Stage parse      :   5.406
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.020
+    Stage mast       :   0.031
+    Stage mbc        :   0.016
+R: GLib::Roles::Object
+R: GUPnP::Roles::Signals::SearchCriteriaParser
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_iX NYI
+at -e:1
+ === GUPnP::ServiceInfo === (73/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/ServiceInfo.pm6
+    Stage start      :   0.000
+    
+        precomp lib/GUPnP/Raw/ServiceInfo.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.306
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.008
+        Stage mast       :   0.019
+        Stage mbc        :   0.009
+    Stage parse      :   5.218
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.023
+    Stage mast       :   0.056
+    Stage mbc        :   0.019
+R: GLib::Roles::Object
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_iX NYI
+at -e:1
+ === GUPnP::ServiceProxy === (74/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/ServiceProxy.pm6
+    Stage start      :   0.000
+    
+        precomp lib/GUPnP/ServiceInfo.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.743
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.029
+        Stage mast       :   0.047
+        Stage mbc        :   0.008
+    
+        precomp lib/GUPnP/Roles/Signals/ServiceProxy.pm6
+        Stage start      :   0.000
+        Stage parse      :   1.981
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.021
+        Stage mast       :   0.022
+        Stage mbc        :   0.010
+    Stage parse      :   7.357
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.043
+    Stage mast       :   0.075
+    Stage mbc        :   0.007
+R: GLib::Roles::Object
+Stage parse      :   9.195
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.002
+Stage mast       :   0.004
+Stage mbc        :   0.000
+Stage moar       :   0.000
+R: GUPnP::Roles::Signals::ServiceProxy
+ === GUPnP::UUID === (75/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/UUID.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.022
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.002
+    Stage mast       :   0.012
+    Stage mbc        :   0.003
+Stage parse      :   3.596
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.002
+Stage mast       :   0.004
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::WhiteList === (76/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/WhiteList.pm6
+    Stage start      :   0.000
+    
+        precomp lib/GUPnP/Raw/WhiteList.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.143
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.007
+        Stage mast       :   0.025
+        Stage mbc        :   0.007
+    Stage parse      :   5.001
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.017
+    Stage mast       :   0.037
+    Stage mbc        :   0.008
+R: GLib::Roles::Object
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_n32 NYI
+at -e:1
+ === GUPnP::XMLDoc === (77/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/XMLDoc.pm6
+    Stage start      :   0.000
+    
+        precomp lib/GUPnP/Raw/XMLDoc.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.122
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.003
+        Stage mast       :   0.016
+        Stage mbc        :   0.004
+    Stage parse      :   5.013
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.014
+    Stage mast       :   0.039
+    Stage mbc        :   0.008
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_n32 NYI
+at -e:1
+ === GUPnP::Context === (78/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Context.pm6
+    Stage start      :   0.000
+    
+        precomp lib/GUPnP/Raw/Context.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.307
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.009
+        Stage mast       :   0.021
+        Stage mbc        :   0.021
+    
+        precomp lib/GUPnP/Roles/ACL.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.714
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.017
+        Stage mast       :   0.043
+        Stage mbc        :   0.008
+    Stage parse      :  10.424
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.029
+    Stage mast       :   0.101
+    Stage mbc        :   0.026
+R: GLib::Roles::Object
+R: GUPnP::Roles::ACL
+Role: Adding alias gupnp-acl-is-allowed to GUPnP::Roles::ACL as is_allowed...
+Role: Adding alias gupnp-acl-is-allowed-async to GUPnP::Roles::ACL as is_allowed_async...
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_n32 NYI
+at -e:1
+ === GUPnP::ContextManager === (79/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/ContextManager.pm6
+    Stage start      :   0.000
+    
+        precomp lib/GUPnP/Raw/ContextManager.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.011
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.007
+        Stage mast       :   0.018
+        Stage mbc        :   0.007
+    
+        precomp lib/GUPnP/WhiteList.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.654
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.018
+        Stage mast       :   0.038
+        Stage mbc        :   0.008
+    
+        precomp lib/GUPnP/Roles/Signals/ContextManager.pm6
+        Stage start      :   0.000
+        Stage parse      :   1.982
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.021
+        Stage mast       :   0.020
+        Stage mbc        :   0.008
+    Stage parse      :   9.101
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.035
+    Stage mast       :   0.042
+    Stage mbc        :   0.012
+R: GLib::Roles::Object
+./p6gtkexec: line 63: 164998 Segmentation fault      (core dumped) ${EXEC} --stagestats ${EXTRAS} ${INCLUDES} "$@"
+ === GUPnP::ControlPoint === (80/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/ControlPoint.pm6
+    Stage start      :   0.000
+    
+        precomp lib/GUPnP/Raw/ControlPoint.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.062
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.004
+        Stage mast       :   0.014
+        Stage mbc        :   0.005
+    
+        precomp lib/GUPnP/Roles/Signals/ControlPoint.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.077
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.019
+        Stage mast       :   0.034
+        Stage mbc        :   0.012
+    Stage parse      :   7.861
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.023
+    Stage mast       :   0.051
+    Stage mbc        :   0.010
+R: GUPnP::Roles::Signals::ControlPoint
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+No lexical found with name '2'
+at -e:1
+ === GUPnP::DeviceInfo === (81/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DeviceInfo.pm6
+    Stage start      :   0.000
+    
+        precomp lib/GUPnP/Raw/DeviceInfo.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.499
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.012
+        Stage mast       :   0.031
+        Stage mbc        :   0.014
+    Stage parse      :   5.786
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.057
+    Stage mast       :   0.112
+    Stage mbc        :   0.022
+R: GLib::Roles::Object
+Stage parse      :   7.657
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.002
+Stage mast       :   0.004
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::DeviceProxy === (82/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DeviceProxy.pm6
+    Stage start      :   0.000
+    Stage parse      :   1.886
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.017
+    Stage mast       :   0.030
+    Stage mbc        :   0.010
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_iX NYI
+at -e:1
+ === GUPnP::DidlLiteContributor === (83/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DidlLiteContributor.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.686
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.017
+    Stage mast       :   0.041
+    Stage mbc        :   0.008
+R: GLib::Roles::Object
+./p6gtkexec: line 63: 165190 Segmentation fault      (core dumped) ${EXEC} --stagestats ${EXTRAS} ${INCLUDES} "$@"
+ === GUPnP::DidlLiteDescriptor === (84/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DidlLiteDescriptor.pm6
+    Stage start      :   0.000
+    
+        precomp lib/GUPnP/Raw/DidlLiteDescriptor.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.061
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.006
+        Stage mast       :   0.018
+        Stage mbc        :   0.006
+    Stage parse      :   5.041
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.029
+    Stage mast       :   0.069
+    Stage mbc        :   0.008
+R: GLib::Roles::Object
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_iX NYI
+at -e:1
+ === GUPnP::DlnaProfile === (85/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DlnaProfile.pm6
+    Stage start      :   0.000
+    
+        precomp lib/GUPnP/Raw/DlnaProfile.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.103
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.005
+        Stage mast       :   0.028
+        Stage mbc        :   0.005
+    Stage parse      :   4.863
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.016
+    Stage mast       :   0.032
+    Stage mbc        :   0.008
+R: GLib::Roles::Object
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_iX NYI
+at -e:1
+ === GUPnP::DlnaProfileGuesser === (86/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DlnaProfileGuesser.pm6
+    Stage start      :   0.000
+    
+        precomp lib/GUPnP/Raw/DlnaProfileGuesser.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.113
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.006
+        Stage mast       :   0.027
+        Stage mbc        :   0.006
+    Stage parse      :   4.940
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.020
+    Stage mast       :   0.047
+    Stage mbc        :   0.008
+R: GLib::Roles::Object
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_iX NYI
+at -e:1
+ === GUPnP::DlnaValueList === (87/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DlnaValueList.pm6
+    Stage start      :   0.000
+    
+        precomp lib/GUPnP/Raw/DlnaValueList.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.048
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.004
+        Stage mast       :   0.013
+        Stage mbc        :   0.005
+    Stage parse      :   3.921
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.031
+    Stage mast       :   0.021
+    Stage mbc        :   0.010
+./p6gtkexec: line 63: 165341 Segmentation fault      (core dumped) ${EXEC} --stagestats ${EXTRAS} ${INCLUDES} "$@"
+ === GUPnP::Feature === (88/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Feature.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.686
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.016
+    Stage mast       :   0.036
+    Stage mbc        :   0.011
+R: GLib::Roles::Object
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_iX NYI
+at -e:1
+ === GUPnP::FeatureListParser === (89/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/FeatureListParser.pm6
+    Stage start      :   0.000
+    
+        precomp lib/GUPnP/Feature.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.707
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.016
+        Stage mast       :   0.037
+        Stage mbc        :   0.012
+    Stage parse      :   5.012
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.025
+    Stage mast       :   0.029
+    Stage mbc        :   0.008
+R: GLib::Roles::Object
+Stage parse      :   6.742
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.002
+Stage mast       :   0.004
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::LastChangeParser === (90/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/LastChangeParser.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.750
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.015
+    Stage mast       :   0.040
+    Stage mbc        :   0.010
+R: GLib::Roles::Object
+./p6gtkexec: line 63: 165454 Segmentation fault      (core dumped) ${EXEC} --stagestats ${EXTRAS} ${INCLUDES} "$@"
+ === GUPnP::MediaCollection === (91/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/MediaCollection.pm6
+    Stage start      :   0.000
+    
+        precomp lib/GUPnP/Raw/MediaCollection.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.170
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.006
+        Stage mast       :   0.020
+        Stage mbc        :   0.007
+    Stage parse      :   5.005
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.024
+    Stage mast       :   0.039
+    Stage mbc        :   0.009
+R: GLib::Roles::Object
+./p6gtkexec: line 63: 165486 Segmentation fault      (core dumped) ${EXEC} --stagestats ${EXTRAS} ${INCLUDES} "$@"
+ === GUPnP::Raw::CDSLastChangeParser === (92/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/CDSLastChangeParser.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.213
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.006
+    Stage mast       :   0.017
+    Stage mbc        :   0.007
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_iX NYI
+at -e:1
+ === GUPnP::Raw::DidlLiteCreateClass === (93/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DidlLiteCreateClass.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.054
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.005
+    Stage mast       :   0.023
+    Stage mbc        :   0.005
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_iX NYI
+at -e:1
+ === GUPnP::Raw::DlnaAudioInformation === (94/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DlnaAudioInformation.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.128
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.015
+    Stage mast       :   0.020
+    Stage mbc        :   0.011
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_iX NYI
+at -e:1
+ === GUPnP::Raw::DlnaContainerInformation === (95/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DlnaContainerInformation.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.054
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.011
+    Stage mast       :   0.015
+    Stage mbc        :   0.008
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_iX NYI
+at -e:1
+ === GUPnP::Raw::DlnaImageInformation === (96/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DlnaImageInformation.pm6
+    Stage start      :   0.000
+    Stage parse      :   1.986
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.007
+    Stage mast       :   0.015
+    Stage mbc        :   0.006
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+No lexical found with name '2'
+at -e:1
+ === GUPnP::Raw::DlnaInformation === (97/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DlnaInformation.pm6
+    Stage start      :   0.000
+    Stage parse      :   1.948
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.004
+    Stage mast       :   0.014
+    Stage mbc        :   0.003
+Stage parse      :   3.520
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.002
+Stage mast       :   0.004
+Stage mbc        :   0.001
+Stage moar       :   0.000
+ === GUPnP::Raw::DlnaRestriction === (98/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DlnaRestriction.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.165
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.011
+    Stage mast       :   0.019
+    Stage mbc        :   0.006
+./p6gtkexec: line 63: 165694 Segmentation fault      (core dumped) ${EXEC} --stagestats ${EXTRAS} ${INCLUDES} "$@"
+ === GUPnP::Raw::DlnaVideoInformation === (99/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/DlnaVideoInformation.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.030
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.007
+    Stage mast       :   0.022
+    Stage mbc        :   0.006
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_iX NYI
+at -e:1
+ === GUPnP::Raw::ProtocolInfo === (100/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/ProtocolInfo.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.323
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.010
+    Stage mast       :   0.023
+    Stage mbc        :   0.034
+./p6gtkexec: line 63: 165749 Segmentation fault      (core dumped) ${EXEC} --stagestats ${EXTRAS} ${INCLUDES} "$@"
+ === GUPnP::Raw::ServiceIntrospection === (101/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Raw/ServiceIntrospection.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.086
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.004
+    Stage mast       :   0.019
+    Stage mbc        :   0.005
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_iX NYI
+at -e:1
+ === GUPnP::ServiceIntrospection === (102/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/ServiceIntrospection.pm6
+    Stage start      :   0.000
+    
+        precomp lib/GUPnP/Raw/ServiceIntrospection.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.086
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.004
+        Stage mast       :   0.021
+        Stage mbc        :   0.005
+    Stage parse      :   4.882
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.022
+    Stage mast       :   0.055
+    Stage mbc        :   0.008
+R: GLib::Roles::Object
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_iX NYI
+at -e:1
+ === GUPnP::CDSLastChangeParser === (103/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/CDSLastChangeParser.pm6
+    Stage start      :   0.000
+    
+        precomp lib/GUPnP/Raw/CDSLastChangeParser.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.195
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.006
+        Stage mast       :   0.017
+        Stage mbc        :   0.007
+    Stage parse      :   5.124
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.023
+    Stage mast       :   0.036
+    Stage mbc        :   0.017
+R: GLib::Roles::Object
+./p6gtkexec: line 63: 165848 Segmentation fault      (core dumped) ${EXEC} --stagestats ${EXTRAS} ${INCLUDES} "$@"
+ === GUPnP::Device === (104/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/Device.pm6
+    Stage start      :   0.000
+    Stage parse      :   1.860
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.024
+    Stage mast       :   0.043
+    Stage mbc        :   0.009
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_iX NYI
+at -e:1
+ === GUPnP::DidlLiteCreateClass === (105/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DidlLiteCreateClass.pm6
+    Stage start      :   0.000
+    
+        precomp lib/GUPnP/Raw/DidlLiteCreateClass.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.054
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.005
+        Stage mast       :   0.022
+        Stage mbc        :   0.005
+    Stage parse      :   4.883
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.021
+    Stage mast       :   0.030
+    Stage mbc        :   0.031
+R: GLib::Roles::Object
+./p6gtkexec: line 63: 165916 Segmentation fault      (core dumped) ${EXEC} --stagestats ${EXTRAS} ${INCLUDES} "$@"
+ === GUPnP::DlnaAudioInformation === (106/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DlnaAudioInformation.pm6
+    Stage start      :   0.000
+    
+        precomp lib/GUPnP/Raw/DlnaAudioInformation.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.129
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.014
+        Stage mast       :   0.019
+        Stage mbc        :   0.012
+    Stage parse      :   5.194
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.021
+    Stage mast       :   0.051
+    Stage mbc        :   0.019
+R: GLib::Roles::Object
+./p6gtkexec: line 63: 165963 Segmentation fault      (core dumped) ${EXEC} --stagestats ${EXTRAS} ${INCLUDES} "$@"
+ === GUPnP::DlnaContainerInformation === (107/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DlnaContainerInformation.pm6
+    Stage start      :   0.000
+    
+        precomp lib/GUPnP/Raw/DlnaContainerInformation.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.017
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.011
+        Stage mast       :   0.016
+        Stage mbc        :   0.007
+    Stage parse      :   4.882
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.019
+    Stage mast       :   0.028
+    Stage mbc        :   0.012
+R: GLib::Roles::Object
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_iX NYI
+at -e:1
+ === GUPnP::DlnaImageInformation === (108/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DlnaImageInformation.pm6
+    Stage start      :   0.000
+    
+        precomp lib/GUPnP/Raw/DlnaImageInformation.pm6
+        Stage start      :   0.000
+        Stage parse      :   1.969
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.007
+        Stage mast       :   0.014
+        Stage mbc        :   0.006
+    Stage parse      :   4.784
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.014
+    Stage mast       :   0.028
+    Stage mbc        :   0.009
+R: GLib::Roles::Object
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_n32 NYI
+at -e:1
+ === GUPnP::DlnaVideoInformation === (109/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DlnaVideoInformation.pm6
+    Stage start      :   0.000
+    
+        precomp lib/GUPnP/Raw/DlnaVideoInformation.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.008
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.006
+        Stage mast       :   0.023
+        Stage mbc        :   0.007
+    Stage parse      :   4.759
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.017
+    Stage mast       :   0.032
+    Stage mbc        :   0.008
+R: GLib::Roles::Object
+./p6gtkexec: line 63: 166096 Segmentation fault      (core dumped) ${EXEC} --stagestats ${EXTRAS} ${INCLUDES} "$@"
+ === GUPnP::ProtocolInfo === (110/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/ProtocolInfo.pm6
+    Stage start      :   0.000
+    
+        precomp lib/GUPnP/Raw/ProtocolInfo.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.345
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.010
+        Stage mast       :   0.084
+        Stage mbc        :   0.013
+    Stage parse      :   5.366
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.034
+    Stage mast       :   0.057
+    Stage mbc        :   0.095
+R: GLib::Roles::Object
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_iX NYI
+at -e:1
+ === GUPnP::RootDevice === (111/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/RootDevice.pm6
+    Stage start      :   0.000
+    
+        precomp lib/GUPnP/Raw/RootDevice.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.138
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.006
+        Stage mast       :   0.016
+        Stage mbc        :   0.005
+    
+        precomp lib/GUPnP/Device.pm6
+        Stage start      :   0.000
+        Stage parse      :   1.854
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.023
+        Stage mast       :   0.040
+        Stage mbc        :   0.007
+    Stage parse      :   6.419
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.030
+    Stage mast       :   0.043
+    Stage mbc        :   0.011
+Stage parse      :   8.172
+Stage syntaxcheck:   0.000
+Stage ast        :   0.000
+Stage optimize   :   0.002
+Stage mast       :   0.004
+Stage mbc        :   0.000
+Stage moar       :   0.000
+ === GUPnP::DidlLiteResource === (112/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DidlLiteResource.pm6
+    Stage start      :   0.000
+    
+        precomp lib/GUPnP/Raw/DidlLiteResource.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.503
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.018
+        Stage mast       :   0.050
+        Stage mbc        :   0.019
+    
+        precomp lib/GUPnP/ProtocolInfo.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.874
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.035
+        Stage mast       :   0.058
+        Stage mbc        :   0.009
+    Stage parse      :   8.027
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.088
+    Stage mast       :   0.131
+    Stage mbc        :   0.012
+R: GLib::Roles::Object
+./p6gtkexec: line 63: 166235 Segmentation fault      (core dumped) ${EXEC} --stagestats ${EXTRAS} ${INCLUDES} "$@"
+ === GUPnP::DlnaInformation === (113/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DlnaInformation.pm6
+    Stage start      :   0.000
+    
+        precomp lib/GUPnP/DlnaAudioInformation.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.943
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.022
+        Stage mast       :   0.029
+        Stage mbc        :   0.037
+    
+        precomp lib/GUPnP/DlnaContainerInformation.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.674
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.019
+        Stage mast       :   0.025
+        Stage mbc        :   0.012
+    
+        precomp lib/GUPnP/DlnaImageInformation.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.618
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.018
+        Stage mast       :   0.026
+        Stage mbc        :   0.011
+    
+        precomp lib/GUPnP/DlnaVideoInformation.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.519
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.022
+        Stage mast       :   0.027
+        Stage mbc        :   0.030
+    Stage parse      :  13.804
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.033
+    Stage mast       :   0.043
+    Stage mbc        :   0.010
+R: GLib::Roles::Object
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_iX NYI
+at -e:1
+ === GUPnP::DidlLiteObject === (114/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DidlLiteObject.pm6
+    Stage start      :   0.000
+    
+        precomp lib/GUPnP/Raw/DidlLiteObject.pm6
+        Stage start      :   0.000
+        Stage parse      :   3.085
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.021
+        Stage mast       :   0.054
+        Stage mbc        :   0.100
+    
+        precomp lib/GUPnP/DidlLiteContributor.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.694
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.017
+        Stage mast       :   0.041
+        Stage mbc        :   0.008
+    
+        precomp lib/GUPnP/DidlLiteDescriptor.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.755
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.025
+        Stage mast       :   0.046
+        Stage mbc        :   0.008
+    
+        precomp lib/GUPnP/DidlLiteResource.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.303
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.060
+        Stage mast       :   0.119
+        Stage mbc        :   0.010
+    Stage parse      :  14.731
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.104
+    Stage mast       :   0.150
+    Stage mbc        :   0.106
+R: GLib::Roles::Object
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_iX NYI
+at -e:1
+ === GUPnP::DidlLiteContainer === (115/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DidlLiteContainer.pm6
+    Stage start      :   0.000
+    
+        precomp lib/GUPnP/Raw/DidlLiteContainer.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.257
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.010
+        Stage mast       :   0.022
+        Stage mbc        :   0.011
+    
+        precomp lib/GUPnP/DidlLiteCreateClass.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.574
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.015
+        Stage mast       :   0.035
+        Stage mbc        :   0.008
+    
+        precomp lib/GUPnP/DidlLiteObject.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.827
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.108
+        Stage mast       :   0.166
+        Stage mbc        :   0.013
+    Stage parse      :  10.499
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.045
+    Stage mast       :   0.091
+    Stage mbc        :   0.010
+R: GLib::Roles::Object
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_iX NYI
+at -e:1
+ === GUPnP::DidlLiteItem === (116/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DidlLiteItem.pm6
+    Stage start      :   0.000
+    Stage parse      :   2.277
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.029
+    Stage mast       :   0.036
+    Stage mbc        :   0.008
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_iX NYI
+at -e:1
+ === GUPnP::DidlLiteWriter === (117/117)
+Stage start      :   0.000
+
+    precomp lib/GUPnP/DidlLiteWriter.pm6
+    Stage start      :   0.000
+    
+        precomp lib/GUPnP/Raw/DidlLiteWriter.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.014
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.006
+        Stage mast       :   0.019
+        Stage mbc        :   0.028
+    
+        precomp lib/GUPnP/DidlLiteContainer.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.210
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.045
+        Stage mast       :   0.084
+        Stage mbc        :   0.011
+    
+        precomp lib/GUPnP/DidlLiteItem.pm6
+        Stage start      :   0.000
+        Stage parse      :   2.318
+        Stage syntaxcheck:   0.000
+        Stage ast        :   0.000
+        Stage optimize   :   0.029
+        Stage mast       :   0.036
+        Stage mbc        :   0.010
+    Stage parse      :   9.250
+    Stage syntaxcheck:   0.000
+    Stage ast        :   0.000
+    Stage optimize   :   0.035
+    Stage mast       :   0.055
+    Stage mbc        :   0.010
+R: GLib::Roles::Object
+[31m===[0mSORRY![31m===[0m Error while compiling -e
+const_iX NYI
+at -e:1
+
+real 604.84
+user 756.06
+sys 45.97
