@@ -78,9 +78,9 @@ class GUPnP::Context is GSSDP::Client {
     $o;
   }
   multi method new (
-    CArray[Pointer[GError]] $error = gerror,
+    CArray[Pointer[GError]]  $error  = gerror,
     Str()                   :$iface = Str,
-    Int()                   :$port,
+    Int()                   :$port  = 0,
   ) {
     samewith($iface, $port, $error);
   }
