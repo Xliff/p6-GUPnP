@@ -16,7 +16,7 @@ use GLib::Roles::Pointers;
 unit package GUPnP::Raw::Definitions;
 
 # Forced compilation counter;
-constant forced = 1;
+constant forced = 45;
 
 class GUPnPAcl                      is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPContext                  is repr<CPointer> is export does GLib::Roles::Pointers { }
@@ -60,9 +60,9 @@ class GUPnPDLNARestriction          is repr<CPointer> is export does GLib::Roles
 class GUPnPDLNAValueList            is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPDLNAVideoInformation     is repr<CPointer> is export does GLib::Roles::Pointers { }
 
-constant gupnp        is export = 'gupnp-1.2',v0;
-constant gupnp-av     is export = 'gupnp-av-1.0',v2;
-constant gupnp-dlna   is export = 'gupnp-dlna-2.0',v3;
+constant gupnp        is export = 'gupnp-1.2',v1;
+constant gupnp-av     is export = 'gupnp-av-1.0',v3;
+constant gupnp-dlna   is export = 'gupnp-dlna-2.0',v4;
 
 BEGIN {
   constant gupnp-helper is export = do {
