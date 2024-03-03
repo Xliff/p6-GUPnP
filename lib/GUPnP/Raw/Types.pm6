@@ -8,6 +8,7 @@ use GUPnP::Raw::Exports;
 
 unit package GUPnP::Raw::Types;
 
+need GLib::Raw::Debug;
 need GLib::Raw::Definitions;
 need GLib::Raw::Enums;
 need GLib::Raw::Exceptions;

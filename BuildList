@@ -6,15 +6,16 @@ GIO::Raw::Quarks
 GIO::Raw::Structs
 GIO::Raw::Subs
 GLib::GList
+GLib::Raw::Debug
 GLib::Raw::Definitions
 GLib::Raw::Enums
 GLib::Raw::Exceptions
 GLib::Raw::Exports
 GLib::Raw::Object
 GLib::Raw::ReturnedValue
-GLib::Raw::Struct_Subs
 GLib::Raw::Structs
 GLib::Raw::Subs
+GLib::Roles::Implementor
 GLib::Roles::ListData
 GLib::Roles::Object
 GLib::Roles::Pointers
@@ -28,6 +29,7 @@ GSSDP::ResourceBrowser
 LibXML::Document
 LibXML::Raw
 Method::Also
+NativeCall
 SOUP::Raw::Definitions
 SOUP::Raw::Enums
 SOUP::Raw::Exports

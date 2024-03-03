@@ -16,7 +16,7 @@ use GLib::Roles::Pointers;
 unit package GUPnP::Raw::Definitions;
 
 # Forced compilation counter;
-constant forced = 126;
+constant forced = 197;
 
 class GUPnPAcl                      is repr<CPointer> is export does GLib::Roles::Pointers { }
 class GUPnPContext                  is repr<CPointer> is export does GLib::Roles::Pointers { }
